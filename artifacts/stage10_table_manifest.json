@@ -1,0 +1,109 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "List tables available now and pending real-data tables.",
+  "tables_now_possible": [
+    {
+      "id": "T1",
+      "title": "Frozen experimental configuration",
+      "source": "artifacts/final_experiment_config.json",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "T2",
+      "title": "Cleaning rule summary (R1-R11)",
+      "source": "artifacts/cleaning_rules.json",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "T3",
+      "title": "QUBO sizes for tested instance families",
+      "source": "artifacts/scaling_profile.json (Stage 8)",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "T4",
+      "title": "Robust-QUBO exhaustive validation K=4,8,16",
+      "source": "artifacts/robust_qubo_revalidation.json (Stage 6/8)",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "T5",
+      "title": "Synthetic recovery S1/S2/S3 results",
+      "source": "artifacts/synthetic_recovery_tests.json (Stage 7)",
+      "status": "AVAILABLE -- PLACEHOLDER label required"
+    },
+    {
+      "id": "T6",
+      "title": "Directionality tests",
+      "source": "artifacts/directionality_tests.json (Stage 7)",
+      "status": "AVAILABLE -- PLACEHOLDER label required"
+    },
+    {
+      "id": "T7",
+      "title": "ADOPT alpha sensitivity",
+      "source": "artifacts/adopt_sensitivity.json (Stage 8)",
+      "status": "AVAILABLE -- sensitivity (official=1.0)"
+    },
+    {
+      "id": "T8",
+      "title": "Capacity formulation comparison (one-sided vs two-sided)",
+      "source": "artifacts/capacity_formulation_comparison.json (Stage 8)",
+      "status": "AVAILABLE -- audit"
+    },
+    {
+      "id": "T9",
+      "title": "QAOA extended-seed results (10 seeds on F0)",
+      "source": "artifacts/qaoa_extended_seed_results.json (Stage 8)",
+      "status": "AVAILABLE -- infrastructure validation"
+    },
+    {
+      "id": "T10",
+      "title": "Stage 8 reproducibility comparison (3 fresh-process runs)",
+      "source": "artifacts/reproducibility_runs.json (Stage 8)",
+      "status": "AVAILABLE"
+    }
+  ],
+  "tables_pending_real_data": [
+    {
+      "id": "R-T1",
+      "title": "Real dataset statistics (raw, cleaned, calibration, held-out)",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T2",
+      "title": "Real empirical uncertainty (DeltaE, Delta d) statistics",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T3",
+      "title": "Real K=4/8/16 scenario statistics",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T4",
+      "title": "Real QUBO sizes (calibration-determined)",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T5",
+      "title": "Real exact optimization results (F0/F1/F2/F3)",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T6",
+      "title": "Real QAOA results (AR, P(opt), P(feas) by seed)",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T7",
+      "title": "Real held-out performance",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R-T8",
+      "title": "Real statistical comparisons (paired bootstrap)",
+      "status": "PENDING ACN_API_TOKEN"
+    }
+  ]
+}

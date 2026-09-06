@@ -1,0 +1,59 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Plan the bibliography without fabricating details.",
+  "categories": {
+    "QAOA foundational": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Farhi, Goldstone, Gutmann 2014 (arXiv:1411.4028)"
+      }
+    ],
+    "Risk-aware QAOA": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Barkoutsos et al. 2020, Quantum 4, 256"
+      }
+    ],
+    "ACN-Data": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Lee, Li, Low 2019, e-Energy '19"
+      }
+    ],
+    "EV charging scheduling": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Mohsenian-Rad et al. IEEE TSG 2010; Clement-Nyns et al. 2010"
+      }
+    ],
+    "QUBO formulations for EV": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Calearo et al. 2014; Mansour-Saatlo et al. 2016"
+      }
+    ],
+    "Adaptive penalty ideas": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "Glover (Lagrangian relaxation); ADMM-QL references"
+      }
+    ],
+    "PG&E EV2-A tariff": [
+      {
+        "status": "REQUIRED",
+        "candidate_key": "PG&E Electric Schedule EV, current effective filing"
+      }
+    ],
+    "Qiskit / Aer": [
+      {
+        "status": "OPTIONAL",
+        "candidate_key": "Qiskit documentation; Tomesh et al. 2022 (arXiv:2207.06400)"
+      }
+    ]
+  },
+  "no_fabricated_DOI": true,
+  "no_fabricated_titles": true,
+  "no_fabricated_years": true,
+  "policy": "Every bibliography entry is verified from a real source before final submission."
+}

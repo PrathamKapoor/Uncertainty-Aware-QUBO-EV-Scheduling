@@ -1,0 +1,20 @@
+{
+  "gamma": 4.131309360685936,
+  "rho_d_robust": 4.131309360685936,
+  "alpha": 1.0,
+  "M_window": 1000000.0,
+  "n_calibration_samples": 20799,
+  "frozen_at_utc": "2026-09-05T05:27:13.746797+00:00",
+  "freeze_rule": "gamma is frozen on the calibration joint and is NOT recomputed on held-out data.",
+  "adopt_stats": {
+    "alpha": 1.0,
+    "mean_sigma": 0.513111287676455,
+    "mean_Rbar": 0.17200000000000001,
+    "mean_ratio_sigma_over_Rbar": 3.1313093606859366,
+    "gamma": 4.131309360685936,
+    "rho_d_robust": 4.131309360685936,
+    "n_observations_in_sigma_i_estimate": 1500,
+    "n_evs_with_positive_Rbar": 3,
+    "note": "sigma_i is the cross-sectional std of R_i over the empirical (Delta_d, Delta_e) samples; R_bar_i is the corresponding mean."
+  }
+}

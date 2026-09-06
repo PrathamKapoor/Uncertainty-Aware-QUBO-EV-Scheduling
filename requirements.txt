@@ -1,0 +1,32 @@
+# Python dependencies for the uncertainty-aware QUBO EV scheduling project.
+#
+# These are MINIMUM version pins (>=). The exact versions that produced the
+# authoritative Stage 9 artifacts are listed in the comments; reproducibility
+# does not require identical versions, but these are the versions under which
+# the project was last successfully executed.
+#
+# The canonical Jupyter notebook (notebooks/FINAL_REPRODUCIBLE_EXPERIMENT.ipynb)
+# in default "artifact reproduction" mode only needs: numpy, jupyter, ipykernel.
+# The other packages (scipy, qiskit, qiskit-aer, matplotlib) are required for
+# Mode B (full source reproduction) and for running the underlying pipeline
+# code directly.
+
+# --- Core scientific stack (required for Mode B and underlying pipeline) ---
+numpy>=1.24               # tested with 2.5.2
+scipy>=1.10               # tested with 1.17.1 (COBYLA optimizer in stage4.qaoa)
+
+# --- Quantum stack (required for QAOA in Mode B) ---
+qiskit>=1.0               # tested with 2.5.1
+qiskit-aer>=0.13          # tested with 0.17.2 (AerSampler local simulator)
+
+# --- Plotting ---
+matplotlib>=3.5          # tested with 3.10.3
+
+# --- Jupyter / IPython (required to run the canonical notebook) ---
+jupyter>=1.0             # tested with notebook 7.3.2
+notebook>=6.5            # tested with notebook 7.3.2 (Jupyter notebook app)
+ipykernel>=6.0           # tested with 6.29.5
+ipython>=8.0             # required for IPython.display.Image and display()
+
+# --- Python version ---
+# Python 3.10+ recommended. Tested on Python 3.13.14.

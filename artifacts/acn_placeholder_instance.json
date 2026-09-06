@@ -1,0 +1,54 @@
+{
+  "instance": "acn_placeholder_3x4",
+  "N": 3,
+  "T": 4,
+  "n_vars": 6,
+  "n_qubits": 6,
+  "evs": [
+    {
+      "ev_id": "ts_caltech_California_Garage_01_2-39-139-28-2018-12-19T16-23-59-737413.csv.gz",
+      "a_slot": 0,
+      "d_slot": 1,
+      "P_max_kW": 3.3,
+      "E_req_kWh_placeholder": 12.3457619444,
+      "E_req_source": "PLACEHOLDER: kWhDelivered, not kWhRequested (token-gated)",
+      "R_i_slots": 15
+    },
+    {
+      "ev_id": "ts_caltech_California_Garage_01_2-39-92-436-2018-12-09T15-55-54-984571.csv.gz",
+      "a_slot": 2,
+      "d_slot": 3,
+      "P_max_kW": 3.3,
+      "E_req_kWh_placeholder": 33.560038888899996,
+      "E_req_source": "PLACEHOLDER: kWhDelivered, not kWhRequested (token-gated)",
+      "R_i_slots": 41
+    },
+    {
+      "ev_id": "ts_caltech_California_Garage_02_2-6-3-1356-2019-04-09T21-29-51-050674.csv.gz",
+      "a_slot": 0,
+      "d_slot": 1,
+      "P_max_kW": 3.3,
+      "E_req_kWh_placeholder": 0.659838262192,
+      "E_req_source": "PLACEHOLDER: kWhDelivered, not kWhRequested (token-gated)",
+      "R_i_slots": 1
+    }
+  ],
+  "P_site_max_kW": 20.0,
+  "P_target_kW": 10.0,
+  "c_per_slot": [
+    0.15,
+    0.25,
+    0.45,
+    0.25
+  ],
+  "Delta_min": 15,
+  "description": "ACN-derived deterministic instance. E_req_kWh is a TOKEN-GATED PLACEHOLDER (taken from kWhDelivered of the source session), NOT the Stage 1 kWhRequested from userInputs[*]. DO NOT interpret results as final uncertainty experiments.",
+  "validation": {
+    "qubo_vs_original_passes": true,
+    "qubo_vs_original_max_dev": 4.760636329592671e-13,
+    "enum_optimum": 2165.69,
+    "feasible_at_optimum": false
+  },
+  "stage3_status": "Infrastructure validated. NOT a final uncertainty experiment. E_req_kWh is a TOKEN-GATED PLACEHOLDER (kWhDelivered of the source session).",
+  "blocker": "Stage 1 kWhRequested from userInputs[*] requires ACN API token. See STAGE_2_DATA_AUDIT.md \u00a7H."
+}

@@ -1,0 +1,57 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Identify citation claims that need fresh verification before final submission.",
+  "claims_requiring_verification": [
+    {
+      "claim": "QAOA (Farhi, Goldstone, Gutmann 2014) is the standard variational quantum optimizer.",
+      "current_evidence": "Stage 4 doc + widely-known result. No PDF on disk.",
+      "verification_required": "Cite arXiv:1411.4028 (or published version).",
+      "priority": "high"
+    },
+    {
+      "claim": "CVaR-QAOA (Barkoutsos et al. 2020) and other risk-aware QAOA variants have prior art.",
+      "current_evidence": "Stage 4 doc only.",
+      "verification_required": "Cite Barkoutsos et al. 'Improving Variational Quantum Optimization using CVaR', Quantum 4, 256 (2020).",
+      "priority": "high"
+    },
+    {
+      "claim": "ACN-Data (Lee, Li, Low 2019) is the standard public EV charging dataset.",
+      "current_evidence": "Stage 2 doc.",
+      "verification_required": "Cite Lee, Li, Low 'ACN-Data: Analysis and Applications of an EV Charging Dataset', e-Energy 2019.",
+      "priority": "high"
+    },
+    {
+      "claim": "Adaptive penalty ideas (Lagrangian relaxation, ALUgQ) have prior art.",
+      "current_evidence": "Stage 5 doc references ALUgQ qualitatively.",
+      "verification_required": "Cite Glover, G. 'A class of linear programming models for quadratic programming', or ANL-7978; also 'ParametricLINGO' (Glover) and ADMM-QL approaches.",
+      "priority": "medium"
+    },
+    {
+      "claim": "PG&E EV2-A tariff period boundaries (peak 14:00-21:00, off-peak 09:00-14:00 and 21:00-24:00, super off-peak 00:00-09:00).",
+      "current_evidence": "docs/tou_tariff_decision.md.",
+      "verification_required": "Cite PG&E Electric Schedule EV (residential time-of-use service for EVs), current effective filing.",
+      "priority": "medium"
+    },
+    {
+      "claim": "EV charging scheduling under uncertainty has prior art (robust, stochastic, scenario-based).",
+      "current_evidence": "Stage 1 sec 8 and Stage 2.",
+      "verification_required": "Cite at least 3-4 representative papers: e.g. Yao et al. (electric vehicle charging station scheduling), Mohsenian-Rad et al. (IEEE Trans. Smart Grid 2010, 2012), Clement-Nyns et al. (2010).",
+      "priority": "medium"
+    },
+    {
+      "claim": "QUBO formulation of EV charging scheduling has prior art (e.g. Calearo et al., Mansour-Saatlo et al.).",
+      "current_evidence": "Stage 1 sec 8.2.",
+      "verification_required": "Cite Calearo, L. et al. (2014) and Mansour-Saatlo, A. et al. (2016) for QUBO EV charging formulations.",
+      "priority": "medium"
+    },
+    {
+      "claim": "Qiskit Aer statevector simulator and the SamplerV2 primitive are the standard statevector simulation path.",
+      "current_evidence": "Stage 4 doc.",
+      "verification_required": "Cite Qiskit documentation (Qiskit 0.45+) and the qiskit-aer paper (Tomesh et al. 2022, arXiv:2207.06400).",
+      "priority": "low"
+    }
+  ],
+  "no_known_issue_evidence_fabricated": true,
+  "policy": "No citation is fabricated. Every required citation must be verified by the research team before submission."
+}

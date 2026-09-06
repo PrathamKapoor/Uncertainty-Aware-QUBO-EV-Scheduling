@@ -1,0 +1,358 @@
+{
+  "S1": {
+    "scenario_name": "S1_no_uncertainty",
+    "deltas_d": [
+      0
+    ],
+    "deltas_e": [
+      0
+    ],
+    "scenarios": [
+      {
+        "cluster": 0,
+        "n_observations": 1,
+        "weight": 1.0,
+        "centroid_delta_d_minutes": 0.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": 0.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      }
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 30.84299999999996,
+    "F2_exact_optimum": 36.248399999999975,
+    "F0_schedule": {
+      "0,0": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F1_schedule": {
+      "0,0": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F2_schedule": {
+      "0,0": 1,
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 10,
+    "F2_charging_slots": 8,
+    "F0_unmet_on_scenarios": [
+      0.0
+    ],
+    "F1_unmet_on_scenarios": [
+      0.0
+    ],
+    "F2_unmet_on_scenarios": [
+      0.0
+    ]
+  },
+  "S2": {
+    "scenario_name": "S2_mild_uncertainty",
+    "deltas_d": [
+      10,
+      -5,
+      0,
+      5,
+      -2
+    ],
+    "deltas_e": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scenarios": [
+      {
+        "cluster": 0,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 10.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": 10.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 1,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": -5.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": -5.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 2,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 0.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": 0.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 3,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 5.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": 5.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 4,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": -2.0,
+        "centroid_delta_e_kwh": 0.0,
+        "mean_delta_d": -2.0,
+        "mean_delta_e": 0.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      }
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 30.84299999999999,
+    "F2_exact_optimum": 36.248399999999975,
+    "F0_schedule": {
+      "0,0": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F1_schedule": {
+      "0,0": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F2_schedule": {
+      "0,0": 1,
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 0,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 10,
+    "F2_charging_slots": 8,
+    "F0_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F1_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F2_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "S3": {
+    "scenario_name": "S3_severe_uncertainty",
+    "deltas_d": [
+      60,
+      30,
+      90,
+      45,
+      15
+    ],
+    "deltas_e": [
+      -3,
+      -1,
+      -4,
+      -2,
+      -0.5
+    ],
+    "scenarios": [
+      {
+        "cluster": 0,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 60.0,
+        "centroid_delta_e_kwh": -3.0,
+        "mean_delta_d": 60.0,
+        "mean_delta_e": -3.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 1,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 30.0,
+        "centroid_delta_e_kwh": -1.0,
+        "mean_delta_d": 30.0,
+        "mean_delta_e": -1.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 2,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 90.0,
+        "centroid_delta_e_kwh": -4.0,
+        "mean_delta_d": 90.0,
+        "mean_delta_e": -4.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 3,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 45.0,
+        "centroid_delta_e_kwh": -2.0,
+        "mean_delta_d": 45.0,
+        "mean_delta_e": -2.0,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      },
+      {
+        "cluster": 4,
+        "n_observations": 1,
+        "weight": 0.2,
+        "centroid_delta_d_minutes": 15.0,
+        "centroid_delta_e_kwh": -0.5,
+        "mean_delta_d": 15.0,
+        "mean_delta_e": -0.5,
+        "std_delta_d": 0.0,
+        "std_delta_e": 0.0
+      }
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 138.591,
+    "F2_exact_optimum": 140.13036,
+    "F0_schedule": {
+      "0,0": 1,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1
+    },
+    "F1_schedule": {
+      "0,0": 1,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 0,
+      "2,3": 0
+    },
+    "F2_schedule": {
+      "0,0": 1,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "1,0": 1,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "2,1": 1,
+      "2,2": 0,
+      "2,3": 0
+    },
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 3,
+    "F2_charging_slots": 3,
+    "F0_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F1_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32499999999999996
+    ],
+    "F2_unmet_on_scenarios": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32499999999999996
+    ]
+  }
+}

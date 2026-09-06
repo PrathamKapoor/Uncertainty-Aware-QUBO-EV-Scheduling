@@ -1,0 +1,13 @@
+{
+  "n_total": 25656,
+  "n_missing_kwh_requested": 14088,
+  "n_missing_requested_departure": 14088,
+  "n_missing_delta_e_after_R9": 14088,
+  "n_missing_delta_d_after_R10": 14088,
+  "rules_applied": [
+    "R9_kwh_requested",
+    "R10_requested_departure",
+    "R11_minutes_available"
+  ],
+  "note": "R1-R8 (filename/body/timestamp checks) are upstream of the live API. Only R9-R11 (per-uncertainty-variable) apply here. Sessions are kept in samples; per-field values are set to None where missing, preserving the per-uncertainty-variable split."
+}

@@ -1,0 +1,40 @@
+{
+  "audit": "stage5_real_data_loading",
+  "behavioral_availability": {
+    "userInputs_empty": 0,
+    "userInputs_nonempty": 11568,
+    "userInputs_null": 14088,
+    "valid_kWhRequested": 11568,
+    "valid_requestedDeparture": 11568
+  },
+  "date_utc": "2026-09-04T18:51:33.354890+00:00",
+  "final_usable_observations": {
+    "calibration_joint_count": 7492,
+    "held_out_joint_count": 4076,
+    "valid_DeltaE": 11568,
+    "valid_Deltad": 11568,
+    "valid_joint_DeltaE_Deltad": 11568
+  },
+  "frozen_config_sha256": "4a08e1e65587cc904521ff1bfc955b30671a5cb3485664d8b75f1ad93d9013b3",
+  "frozen_config_sha256_verified": true,
+  "retrieval": {
+    "http_status_distribution": {
+      "200": 259
+    },
+    "pages_visited": 259,
+    "pagination_termination_reason": "empty_page_after_held_out_last_page (filter_idx advanced past len(_WHERE_FILTERS))",
+    "records_received": 25656
+  },
+  "sanitization": {
+    "authorization_header_in_status_block": false,
+    "individual_behavioral_values_in_status_block": false,
+    "raw_records_in_status_block": false,
+    "request_url_with_credentials_in_status_block": false,
+    "token_in_status_block": false
+  },
+  "temporal_coverage": {
+    "calibration_window_records": 20799,
+    "held_out_window_records": 4857,
+    "outside_frozen_windows_records": 0
+  }
+}

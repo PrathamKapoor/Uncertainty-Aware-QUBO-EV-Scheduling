@@ -1,0 +1,206 @@
+{
+  "A_same": {
+    "cal_scenarios": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cal_e": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "test_scenarios": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 30.84299999999999,
+    "F2_exact_optimum": 36.248399999999975,
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 10,
+    "F2_charging_slots": 8,
+    "F0_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F1_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F2_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F0_mean_unmet": 0.0,
+    "F1_mean_unmet": 0.0,
+    "F2_mean_unmet": 0.0
+  },
+  "B_mild": {
+    "cal_scenarios": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cal_e": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "test_scenarios": [
+      [
+        10,
+        -0.5
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        -5,
+        -0.3
+      ],
+      [
+        15,
+        -0.2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 30.84299999999999,
+    "F2_exact_optimum": 36.248399999999975,
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 10,
+    "F2_charging_slots": 8,
+    "F0_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F1_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F2_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "F0_mean_unmet": 0.0,
+    "F1_mean_unmet": 0.0,
+    "F2_mean_unmet": 0.0
+  },
+  "C_severe": {
+    "cal_scenarios": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cal_e": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "test_scenarios": [
+      [
+        60,
+        -3
+      ],
+      [
+        30,
+        -1
+      ],
+      [
+        -10,
+        -2
+      ],
+      [
+        90,
+        -4
+      ],
+      [
+        45,
+        -0.5
+      ]
+    ],
+    "F0_exact_optimum": 30.843,
+    "F1_exact_optimum": 30.84299999999999,
+    "F2_exact_optimum": 36.248399999999975,
+    "F0_charging_slots": 10,
+    "F1_charging_slots": 10,
+    "F2_charging_slots": 8,
+    "F0_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32499999999999996
+    ],
+    "F1_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32499999999999996
+    ],
+    "F2_unmet_per_scenario": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32499999999999996
+    ],
+    "F0_mean_unmet": 0.06499999999999999,
+    "F1_mean_unmet": 0.06499999999999999,
+    "F2_mean_unmet": 0.06499999999999999
+  }
+}

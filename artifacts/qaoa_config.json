@@ -1,0 +1,58 @@
+{
+  "stage": "Stage 4",
+  "qa_framework": "Qiskit 2.5.1 + qiskit-aer (statevector simulator via SamplerV2)",
+  "ansatz": "Hand-rolled standard QAOA: H^\\otimes n initial state, alternating UC(gamma_k) = exp(-i*gamma_k*H_C) and UB(beta_k) = exp(-i*beta_k*H_B) with H_B = sum_i X_i. Parameters ordered [gamma_1..p, beta_1..p].",
+  "circuit_depth_per_p": {
+    "1": "1 cost layer + 1 mixer layer",
+    "2": "2 cost layers + 2 mixer layers"
+  },
+  "transpilation": "Aer's basis_gates = ['rz', 'sx', 'x', 'cx']; optimization_level = 1; seed_transpiler = config.seed",
+  "initial_state": "|+\\rangle^{\\otimes n}",
+  "mixer": "X mixer (sum_i X_i); exp(-i*beta*H_B) decomposed as R_X(2*beta) on each qubit",
+  "cost_hamiltonian": "Ising H = sum_{i<j} J_ij Z_i Z_j + sum_i h_i Z_i + offset, derived from the QUBO via x_i = (1 - z_i)/2 (see stage4/qaoa.py qubo_to_ising).",
+  "optimizer": "COBYLA via scipy.optimize.minimize",
+  "optimizer_settings": {
+    "maxiter": 40,
+    "tol": 1e-05,
+    "rhobeg": 0.05,
+    "catol": 0.002,
+    "method": "COBYLA"
+  },
+  "init_strategy": "small_random: uniform in [-0.1, 0.1]",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "shot_counts": [
+    256,
+    1024,
+    4096
+  ],
+  "depths_tested": [
+    1,
+    2
+  ],
+  "instance_set": [
+    "toy_A_2x4",
+    "toy_B_3x4"
+  ],
+  "qubo_per_instance": {
+    "toy_A_2x4": 21.002,
+    "toy_B_3x4": 30.843
+  },
+  "rho_d": 1.0,
+  "rho_p": 0.1,
+  "rho_cap": 0.5,
+  "site_cap_form": "AMENDED to smooth two-sided (Stage 4 Part A reconciliation, recorded in Stage 1 \u00a73.2)",
+  "feasibility_semantics": "Four separate metrics: qubo_feasible, energy_feasible, site_feasible, deadline_feasible (Stage 4 Part B)",
+  "reproducibility": {
+    "python": "3.13.14",
+    "qiskit": "2.5.1",
+    "qiskit_aer": "bundled with qiskit 2.5.1",
+    "numpy": "2.5.2",
+    "scipy": "1.17.1",
+    "shots_for_expectation": "Each QAOA evaluation samples the ansatz with config.shots; the expectation is the sample mean of the cost operator.",
+    "variable_to_qubit_mapping": "Outer loop over EVs in declaration order, inner loop over slots in the EV's available window W_i; preserved across QUBO, Ising, and QAOA."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "n_paired": 200,
+  "observed_mean_diff": -0.05,
+  "bootstrap_mean": -0.046204999999999996,
+  "ci_2.5": -0.135,
+  "ci_97.5": 0.05,
+  "ci_contains_zero": true,
+  "verdict": "PASS"
+}

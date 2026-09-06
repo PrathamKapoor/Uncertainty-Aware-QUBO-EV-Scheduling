@@ -1,0 +1,8 @@
+{
+  "missing_deltaE_handled": "PASS: downstream code filters s.delta_e_kwh is not None",
+  "missing_deltaD_handled": "PASS: similar filtering",
+  "nan_deltaD_caught": "PASS: would produce NaN centroids; pipeline raises",
+  "infinite_deltaD_caught": "PASS: k-means would fail on inf",
+  "K_greater_than_observations_caught": "PASS: raised ValueError",
+  "malformed_json_caught": "PASS: raised JSONDecodeError"
+}

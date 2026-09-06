@@ -1,0 +1,105 @@
+{
+  "title": "Empirically Calibrated Uncertainty-Aware Adaptive QUBO for Robust EV Charging Scheduling: A Real-Data ACN-Study",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Abstract",
+      "status": "AWAITING REAL ACN-DATA EXPERIMENT"
+    },
+    {
+      "id": 2,
+      "title": "Problem Definition",
+      "status": "complete (Stage 1)"
+    },
+    {
+      "id": 3,
+      "title": "Dataset (ACN-Data)",
+      "status": "partial (public static; real token-gated)"
+    },
+    {
+      "id": 4,
+      "title": "Data Preprocessing",
+      "status": "complete (Stage 2 cleaning)"
+    },
+    {
+      "id": 5,
+      "title": "Temporal Split (Calibration / Held-out)",
+      "status": "frozen (Stage 1+2)"
+    },
+    {
+      "id": 6,
+      "title": "Uncertainty Definition",
+      "status": "frozen (Stage 1+6+7)"
+    },
+    {
+      "id": 7,
+      "title": "Scenario Generation (K=8)",
+      "status": "frozen (Stage 1+5+7)"
+    },
+    {
+      "id": 8,
+      "title": "Deterministic QUBO (F0)",
+      "status": "complete (Stage 3)"
+    },
+    {
+      "id": 9,
+      "title": "Robust QUBO (F1)",
+      "status": "complete (Stage 5+6)"
+    },
+    {
+      "id": 10,
+      "title": "ADOPT (F2)",
+      "status": "frozen \u03b1=1.0, \u03b3 from calibration (Stage 5)"
+    },
+    {
+      "id": 11,
+      "title": "QAOA Implementation",
+      "status": "frozen (Stage 4)"
+    },
+    {
+      "id": 12,
+      "title": "Baselines",
+      "status": "F0, F1, F2, F3 (oracle); F0=F1 on no-uncertainty synthetic"
+    },
+    {
+      "id": 13,
+      "title": "Evaluation Protocol",
+      "status": "frozen (Stage 7)"
+    },
+    {
+      "id": 14,
+      "title": "Leakage Controls",
+      "status": "frozen (Stage 1+2+8)"
+    },
+    {
+      "id": 15,
+      "title": "Results (real ACN-Data)",
+      "status": "AWAITING REAL DATA"
+    },
+    {
+      "id": 16,
+      "title": "Statistical Analysis (paired bootstrap, Bonferroni)",
+      "status": "ready (Stage 8 Parts AC/AD/AE)"
+    },
+    {
+      "id": 17,
+      "title": "Ablations (F0/F1/F2/F3, \u03b1 sweep, M_window audit, capacity form audit)",
+      "status": "complete (Stage 6+7+8)"
+    },
+    {
+      "id": 18,
+      "title": "Limitations",
+      "status": "documented (Stage 7+8)"
+    },
+    {
+      "id": 19,
+      "title": "Discussion",
+      "status": "partial (Stage 6+7 placeholder findings)"
+    },
+    {
+      "id": 20,
+      "title": "Conclusion",
+      "status": "AWAITING REAL DATA"
+    }
+  ]
+}

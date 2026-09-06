@@ -1,0 +1,3431 @@
+[
+ {
+  "rows": 257,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-23T21:07:50+00:00",
+  "last_ts": "2018-06-23T21:24:31+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 254,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1677,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-27T17:25:25+00:00",
+  "last_ts": "2018-06-27T19:09:18+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1675,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 9837,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-29T18:11:56+00:00",
+  "last_ts": "2018-06-30T04:42:54+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1136,
+   "IDLE": 1,
+   "NOT CHARGING": 8698,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 3008,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-14T23:49:18+00:00",
+  "last_ts": "2018-07-15T03:05:01+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1823,
+   "READY": 1,
+   "ADAPTIVE": 1168,
+   "IDLE": 15,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 5405,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-25T17:44:52+00:00",
+  "last_ts": "2019-07-25T23:38:45+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1043,
+   "NOT CHARGING": 4360,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 1902,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-07T22:54:50+00:00",
+  "last_ts": "2019-09-08T00:59:21+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1447,
+   "IDLE": 16,
+   "NOT CHARGING": 437,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 7594,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-02T16:18:46+00:00",
+  "last_ts": "2019-10-03T00:30:42+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1054,
+   "NOT CHARGING": 6538,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "123",
+  "evse": "23",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 305,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-30T00:38:03+00:00",
+  "last_ts": "2018-09-30T00:55:55+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2,
+   "READY": 1,
+   "ADAPTIVE": 301,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "124",
+  "evse": "22",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 175,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-05T21:22:46+00:00",
+  "last_ts": "2019-11-05T21:34:00+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 172,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "124",
+  "evse": "22",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 1428,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-05T20:41:35+00:00",
+  "last_ts": "2018-10-05T22:12:49+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 1414,
+   "IDLE": 9,
+   "NOT CHARGING": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "124",
+  "evse": "558",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 2352,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-24T00:48:06+00:00",
+  "last_ts": "2018-06-24T03:19:53+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2350,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "125",
+  "evse": "21",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 2531,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-29T01:42:16+00:00",
+  "last_ts": "2018-10-29T04:22:39+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1219,
+   "NOT CHARGING": 1310,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "125",
+  "evse": "21",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 8144,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-05T13:50:50+00:00",
+  "last_ts": "2019-02-05T22:38:53+00:00",
+  "state_counter": {
+   "ADAPTIVE": 8123,
+   "NOT CHARGING": 20,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "125",
+  "evse": "21",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 4,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-24T20:31:25+00:00",
+  "last_ts": "2018-09-24T20:31:36+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2,
+   "READY": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "125",
+  "evse": "559",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 3432,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-27T22:34:58+00:00",
+  "last_ts": "2018-08-28T02:15:59+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 2717,
+   "IDLE": 47,
+   "NOT CHARGING": 665,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "126",
+  "evse": "20",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 1972,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-04T01:48:48+00:00",
+  "last_ts": "2018-10-04T03:49:41+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1165,
+   "NOT CHARGING": 806,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "126",
+  "evse": "20",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 9617,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-09T17:07:12+00:00",
+  "last_ts": "2019-05-10T03:35:45+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1555,
+   "NOT CHARGING": 8060,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "126",
+  "evse": "20",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 1957,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-27T01:53:47+00:00",
+  "last_ts": "2019-06-27T04:01:59+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1537,
+   "IDLE": 1,
+   "NOT CHARGING": 417,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "126",
+  "evse": "20",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1400,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-04T06:30:25+00:00",
+  "last_ts": "2018-08-04T08:01:27+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1,
+   "READY": 4,
+   "ADAPTIVE": 1394,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "126",
+  "evse": "560",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 3,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-29T20:55:27+00:00",
+  "last_ts": "2018-05-29T20:55:35+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1,
+   "NOT CHARGING": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "127",
+  "evse": "19",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 4602,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-04T00:16:05+00:00",
+  "last_ts": "2018-08-04T05:16:42+00:00",
+  "state_counter": {
+   "NOT CHARGING": 928,
+   "ADAPTIVE": 3657,
+   "IDLE": 13,
+   "READY": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "127",
+  "evse": "19",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 8954,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-28T15:34:52+00:00",
+  "last_ts": "2018-09-29T01:04:24+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 1421,
+   "NOT CHARGING": 7530,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "127",
+  "evse": "19",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 2276,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-06T03:56:04+00:00",
+  "last_ts": "2019-02-06T06:27:08+00:00",
+  "state_counter": {
+   "NOT CHARGING": 3,
+   "READY": 2,
+   "ADAPTIVE": 2270,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "127",
+  "evse": "19",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 18744,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-23T02:26:18+00:00",
+  "last_ts": "2019-02-23T22:48:43+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 6808,
+   "NOT CHARGING": 11933,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "127",
+  "evse": "19",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 27,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-12T21:47:38+00:00",
+  "last_ts": "2018-05-12T21:49:20+00:00",
+  "state_counter": {
+   "READY": 4,
+   "ADAPTIVE": 22,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "128",
+  "evse": "18",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 4026,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-16T19:40:02+00:00",
+  "last_ts": "2018-06-16T23:54:44+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1260,
+   "ADAPTIVE": 2765,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "128",
+  "evse": "18",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 680,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-01T04:49:46+00:00",
+  "last_ts": "2018-11-01T05:33:38+00:00",
+  "state_counter": {
+   "ADAPTIVE": 679,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "128",
+  "evse": "18",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 2216,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-16T17:13:20+00:00",
+  "last_ts": "2018-12-16T19:39:20+00:00",
+  "state_counter": {
+   "READY": 177,
+   "ADAPTIVE": 472,
+   "IDLE": 1178,
+   "NOT CHARGING": 388,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "128",
+  "evse": "18",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 18,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-08T16:17:49+00:00",
+  "last_ts": "2018-05-08T16:18:56+00:00",
+  "state_counter": {
+   "READY": 10,
+   "NOT CHARGING": 7,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "128",
+  "evse": "562",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 153,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-04T19:26:43+00:00",
+  "last_ts": "2018-06-04T19:36:34+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 150,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "129",
+  "evse": "17",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 3779,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-12T15:18:22+00:00",
+  "last_ts": "2018-06-12T19:22:18+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1822,
+   "NOT CHARGING": 1955,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "129",
+  "evse": "17",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 3764,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-04T23:24:49+00:00",
+  "last_ts": "2018-08-05T03:28:40+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 3190,
+   "IDLE": 1,
+   "NOT CHARGING": 571,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "129",
+  "evse": "17",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 1283,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-09T03:04:30+00:00",
+  "last_ts": "2019-05-09T04:27:58+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1280,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "129",
+  "evse": "17",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 5146,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-01T19:55:38+00:00",
+  "last_ts": "2019-12-02T01:29:40+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4537,
+   "IDLE": 2,
+   "NOT CHARGING": 606,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "129",
+  "evse": "17",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 1276,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-05T21:01:21+00:00",
+  "last_ts": "2018-05-05T22:21:37+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1011,
+   "NOT CHARGING": 263,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 2,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-28T03:24:56+00:00",
+  "last_ts": "2018-07-28T03:25:03+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 5221,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-11T15:30:25+00:00",
+  "last_ts": "2018-10-11T21:02:10+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2146,
+   "READY": 1,
+   "ADAPTIVE": 2819,
+   "IDLE": 254,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 17,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-25T23:04:13+00:00",
+  "last_ts": "2018-11-25T23:05:16+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2,
+   "READY": 2,
+   "ADAPTIVE": 12,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 4187,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-20T15:03:01+00:00",
+  "last_ts": "2019-06-20T19:43:20+00:00",
+  "state_counter": {
+   "ADAPTIVE": 3374,
+   "IDLE": 2,
+   "NOT CHARGING": 809,
+   "READY": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 926,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-10T17:49:39+00:00",
+  "last_ts": "2019-12-10T18:50:25+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 765,
+   "NOT CHARGING": 159,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "130",
+  "evse": "31",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 2856,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-17T22:01:06+00:00",
+  "last_ts": "2018-08-18T01:04:02+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 2854,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 8857,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-15T14:37:46+00:00",
+  "last_ts": "2018-10-16T00:06:33+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 1251,
+   "NOT CHARGING": 7603,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 3667,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-21T17:16:21+00:00",
+  "last_ts": "2018-10-21T21:11:25+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1938,
+   "NOT CHARGING": 1727,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 1358,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-20T02:07:15+00:00",
+  "last_ts": "2019-03-20T03:35:58+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1357,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 8226,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-14T04:59:52+00:00",
+  "last_ts": "2019-07-14T13:59:45+00:00",
+  "state_counter": {
+   "ADAPTIVE": 6659,
+   "NOT CHARGING": 1565,
+   "READY": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 8623,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-27T15:55:44+00:00",
+  "last_ts": "2019-08-28T01:18:24+00:00",
+  "state_counter": {
+   "NOT CHARGING": 5244,
+   "ADAPTIVE": 3375,
+   "IDLE": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 3600,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-06T17:17:55+00:00",
+  "last_ts": "2019-12-06T21:10:45+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1416,
+   "NOT CHARGING": 2182,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 3394,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-15T18:08:02+00:00",
+  "last_ts": "2019-12-15T21:53:51+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 2165,
+   "IDLE": 1,
+   "NOT CHARGING": 1226,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "131",
+  "evse": "30",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 9361,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-25T14:35:46+00:00",
+  "last_ts": "2018-09-26T00:48:33+00:00",
+  "state_counter": {
+   "NOT CHARGING": 7001,
+   "READY": 3,
+   "ADAPTIVE": 2328,
+   "IDLE": 28,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "138",
+  "evse": "29",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 7402,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-20T16:32:59+00:00",
+  "last_ts": "2018-11-21T01:26:46+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2900,
+   "IDLE": 1261,
+   "READY": 96,
+   "NOT CHARGING": 3144,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "138",
+  "evse": "29",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 724,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-26T23:36:09+00:00",
+  "last_ts": "2019-04-27T00:23:34+00:00",
+  "state_counter": {
+   "NOT CHARGING": 413,
+   "READY": 1,
+   "ADAPTIVE": 305,
+   "IDLE": 4,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "138",
+  "evse": "29",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 17446,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-05T03:07:25+00:00",
+  "last_ts": "2019-05-05T22:11:20+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 4151,
+   "NOT CHARGING": 13292,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "138",
+  "evse": "29",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 843,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-01T17:41:48+00:00",
+  "last_ts": "2019-01-01T18:39:20+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 465,
+   "IDLE": 282,
+   "NOT CHARGING": 93,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "138",
+  "evse": "566",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 1592,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-18T01:05:13+00:00",
+  "last_ts": "2018-05-18T02:48:35+00:00",
+  "state_counter": {
+   "READY": 4,
+   "ADAPTIVE": 1587,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 3442,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-21T17:20:44+00:00",
+  "last_ts": "2018-07-21T21:03:55+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 3424,
+   "IDLE": 15,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 1230,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-14T22:39:08+00:00",
+  "last_ts": "2018-09-14T23:58:24+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 603,
+   "IDLE": 1,
+   "NOT CHARGING": 623,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 2668,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-18T16:25:15+00:00",
+  "last_ts": "2018-10-18T19:25:23+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 2666,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 7895,
+  "energy_kwh": 12.3457619444,
+  "first_ts": "2018-12-19T16:24:03+00:00",
+  "last_ts": "2018-12-20T01:25:50+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 2442,
+   "IDLE": 200,
+   "NOT CHARGING": 5252
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 3641,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-08T14:58:06+00:00",
+  "last_ts": "2019-06-08T18:55:59+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 2788,
+   "NOT CHARGING": 850,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 3532,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-14T15:35:02+00:00",
+  "last_ts": "2019-06-14T19:23:04+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1306,
+   "IDLE": 1,
+   "NOT CHARGING": 2223,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 541,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-19T16:26:26+00:00",
+  "last_ts": "2019-11-19T17:01:46+00:00",
+  "state_counter": {
+   "ADAPTIVE": 478,
+   "IDLE": 2,
+   "NOT CHARGING": 58,
+   "READY": 2,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "139",
+  "evse": "28",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 8,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-10T21:22:10+00:00",
+  "last_ts": "2018-05-10T21:22:28+00:00",
+  "state_counter": {
+   "ADAPTIVE": 7,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "360",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 989,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-22T20:50:51+00:00",
+  "last_ts": "2019-03-22T21:50:03+00:00",
+  "state_counter": {
+   "NOT CHARGING": 691,
+   "READY": 17,
+   "ADAPTIVE": 273,
+   "IDLE": 7,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "360",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 10932,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-13T15:55:35+00:00",
+  "last_ts": "2019-02-14T01:17:10+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1516,
+   "NOT CHARGING": 9415,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "362",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 238,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-17T23:58:01+00:00",
+  "last_ts": "2018-05-18T00:09:05+00:00",
+  "state_counter": {
+   "NOT CHARGING": 6,
+   "ADAPTIVE": 231,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "363",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 10627,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-12T16:04:43+00:00",
+  "last_ts": "2018-06-13T00:59:49+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2091,
+   "READY": 12,
+   "ADAPTIVE": 8523,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "363",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1517,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-19T20:41:18+00:00",
+  "last_ts": "2018-08-19T21:56:17+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 1514,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "363",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 1884,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-31T05:26:45+00:00",
+  "last_ts": "2018-08-31T07:04:32+00:00",
+  "state_counter": {
+   "READY": 4,
+   "ADAPTIVE": 1879,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "363",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 16972,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-21T17:49:40+00:00",
+  "last_ts": "2019-05-22T05:03:30+00:00",
+  "state_counter": {
+   "NOT CHARGING": 5521,
+   "ADAPTIVE": 11450,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "363",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 3720,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-15T04:22:45+00:00",
+  "last_ts": "2018-07-15T07:41:32+00:00",
+  "state_counter": {
+   "NOT CHARGING": 3117,
+   "ADAPTIVE": 602,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 3878,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-15T20:47:47+00:00",
+  "last_ts": "2018-07-16T00:07:19+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 965,
+   "NOT CHARGING": 2909,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 509,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-12T03:35:32+00:00",
+  "last_ts": "2018-10-12T04:01:22+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 507,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 6286,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-02T21:53:01+00:00",
+  "last_ts": "2019-01-03T03:15:31+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4523,
+   "INITIALIZING": 5,
+   "NOT CHARGING": 1757,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 10501,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-08T16:30:51+00:00",
+  "last_ts": "2019-02-09T01:53:04+00:00",
+  "state_counter": {
+   "ADAPTIVE": 5242,
+   "NOT CHARGING": 5248,
+   "IDLE": 10,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 4,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-21T16:56:04+00:00",
+  "last_ts": "2019-10-21T16:56:09+00:00",
+  "state_counter": {
+   "ADAPTIVE": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "364",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 10504,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-09T16:24:27+00:00",
+  "last_ts": "2018-08-10T01:22:05+00:00",
+  "state_counter": {
+   "ADAPTIVE": 5065,
+   "NOT CHARGING": 5438,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "365",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 11238,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-29T16:58:40+00:00",
+  "last_ts": "2019-04-30T00:28:33+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1428,
+   "NOT CHARGING": 9809,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "365",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 12139,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-07T15:20:22+00:00",
+  "last_ts": "2018-06-08T01:49:56+00:00",
+  "state_counter": {
+   "ADAPTIVE": 836,
+   "NOT CHARGING": 11276,
+   "READY": 26,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 8620,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-16T16:14:32+00:00",
+  "last_ts": "2018-08-16T23:41:59+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2267,
+   "NOT CHARGING": 6352,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 11237,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-08T15:23:57+00:00",
+  "last_ts": "2018-11-09T00:38:14+00:00",
+  "state_counter": {
+   "ADAPTIVE": 8177,
+   "NOT CHARGING": 3057,
+   "READY": 2,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 7932,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-30T15:17:22+00:00",
+  "last_ts": "2018-11-30T21:55:44+00:00",
+  "state_counter": {
+   "READY": 15,
+   "ADAPTIVE": 660,
+   "NOT CHARGING": 7255,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 10030,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-15T15:14:18+00:00",
+  "last_ts": "2019-01-16T00:15:57+00:00",
+  "state_counter": {
+   "ADAPTIVE": 9543,
+   "NOT CHARGING": 483,
+   "READY": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 1111,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-27T16:30:12+00:00",
+  "last_ts": "2019-02-27T17:58:34+00:00",
+  "state_counter": {
+   "ADAPTIVE": 429,
+   "NOT CHARGING": 675,
+   "READY": 6,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 10834,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-26T16:02:01+00:00",
+  "last_ts": "2019-04-26T23:19:40+00:00",
+  "state_counter": {
+   "NOT CHARGING": 8176,
+   "ADAPTIVE": 2657,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "366",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 3938,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-13T16:03:08+00:00",
+  "last_ts": "2018-11-13T19:28:39+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1677,
+   "NOT CHARGING": 2260,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "367",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 10939,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-04T15:13:52+00:00",
+  "last_ts": "2019-04-05T00:56:21+00:00",
+  "state_counter": {
+   "NOT CHARGING": 9361,
+   "ADAPTIVE": 1536,
+   "READY": 41,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "367",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 10072,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-22T16:23:22+00:00",
+  "last_ts": "2019-07-22T23:15:48+00:00",
+  "state_counter": {
+   "NOT CHARGING": 9296,
+   "UNPLUGGED": 3,
+   "ADAPTIVE": 773
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "78",
+  "evse": "367",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 9544,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-06-12T15:20:43+00:00",
+  "last_ts": "2018-06-13T01:35:33+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1324,
+   "NOT CHARGING": 8218,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "376",
+  "conn_year": "2018",
+  "conn_month": "06"
+ },
+ {
+  "rows": 8758,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-08T15:50:21+00:00",
+  "last_ts": "2018-11-09T00:48:58+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 4982,
+   "NOT CHARGING": 3773,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "376",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 117,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-31T00:50:37+00:00",
+  "last_ts": "2019-08-31T00:58:02+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1,
+   "READY": 1,
+   "ADAPTIVE": 113,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "376",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 8152,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-09T14:56:25+00:00",
+  "last_ts": "2018-07-09T23:48:01+00:00",
+  "state_counter": {
+   "READY": 4,
+   "ADAPTIVE": 3090,
+   "IDLE": 19,
+   "NOT CHARGING": 5038,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "377",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 6168,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-11T16:16:05+00:00",
+  "last_ts": "2019-03-11T22:53:33+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4856,
+   "IDLE": 13,
+   "NOT CHARGING": 1292,
+   "READY": 6,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "377",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 7466,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-03T15:53:20+00:00",
+  "last_ts": "2019-09-03T23:58:06+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 1230,
+   "IDLE": 20,
+   "NOT CHARGING": 6212,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "377",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 7754,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-03T16:51:45+00:00",
+  "last_ts": "2018-09-04T00:49:51+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 3614,
+   "IDLE": 4,
+   "NOT CHARGING": 4134,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "378",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 6198,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-22T18:03:30+00:00",
+  "last_ts": "2019-02-23T00:48:52+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 2565,
+   "IDLE": 13,
+   "NOT CHARGING": 3617,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "378",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 7946,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-27T16:11:11+00:00",
+  "last_ts": "2018-11-28T02:08:36+00:00",
+  "state_counter": {
+   "NOT CHARGING": 4682,
+   "READY": 184,
+   "ADAPTIVE": 2192,
+   "IDLE": 887,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "379",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 10463,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-12T16:28:08+00:00",
+  "last_ts": "2019-02-13T01:49:44+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4259,
+   "NOT CHARGING": 6146,
+   "READY": 57,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "379",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 8829,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-01T15:12:04+00:00",
+  "last_ts": "2019-08-02T00:47:24+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1677,
+   "NOT CHARGING": 7123,
+   "READY": 26,
+   "IDLE": 2,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "379",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 8397,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-21T16:09:17+00:00",
+  "last_ts": "2019-10-22T00:44:43+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 3481,
+   "NOT CHARGING": 4914,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "379",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 7652,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-21T16:06:16+00:00",
+  "last_ts": "2019-10-22T00:28:43+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 5863,
+   "NOT CHARGING": 1787,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "380",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 678,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-30T21:28:21+00:00",
+  "last_ts": "2019-12-30T22:13:36+00:00",
+  "state_counter": {
+   "NOT CHARGING": 677,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "380",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 2443,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-05T18:18:17+00:00",
+  "last_ts": "2019-12-05T20:47:26+00:00",
+  "state_counter": {
+   "ADAPTIVE": 526,
+   "NOT CHARGING": 1916,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "381",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 8414,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-15T14:43:47+00:00",
+  "last_ts": "2018-05-15T23:52:28+00:00",
+  "state_counter": {
+   "NOT CHARGING": 7394,
+   "READY": 1,
+   "ADAPTIVE": 1010,
+   "IDLE": 8,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 962,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-12T21:42:47+00:00",
+  "last_ts": "2018-07-12T22:45:07+00:00",
+  "state_counter": {
+   "ADAPTIVE": 950,
+   "IDLE": 11,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 8266,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-20T11:46:33+00:00",
+  "last_ts": "2018-07-20T20:27:35+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 3790,
+   "IDLE": 16,
+   "NOT CHARGING": 4457,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 3623,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-21T22:10:56+00:00",
+  "last_ts": "2019-01-22T02:05:56+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 3238,
+   "IDLE": 1,
+   "NOT CHARGING": 382,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 391,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-26T22:44:31+00:00",
+  "last_ts": "2019-03-26T23:09:16+00:00",
+  "state_counter": {
+   "ADAPTIVE": 390,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 6115,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-15T03:20:50+00:00",
+  "last_ts": "2019-05-15T09:59:14+00:00",
+  "state_counter": {
+   "READY": 5,
+   "ADAPTIVE": 2013,
+   "IDLE": 20,
+   "NOT CHARGING": 4076,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 13,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-16T16:24:31+00:00",
+  "last_ts": "2019-08-16T16:25:18+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 9,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 9,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-25T16:05:44+00:00",
+  "last_ts": "2019-10-25T16:05:56+00:00",
+  "state_counter": {
+   "ADAPTIVE": 8,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "79",
+  "evse": "383",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 4002,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-24T17:13:00+00:00",
+  "last_ts": "2018-09-24T22:22:58+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 2050,
+   "IDLE": 245,
+   "NOT CHARGING": 1703,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "83",
+  "evse": "387",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 921,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-27T18:58:17+00:00",
+  "last_ts": "2019-02-27T19:58:50+00:00",
+  "state_counter": {
+   "NOT CHARGING": 4,
+   "READY": 2,
+   "ADAPTIVE": 914,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "88",
+  "evse": "24",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 5780,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-13T16:59:49+00:00",
+  "last_ts": "2018-07-13T23:12:00+00:00",
+  "state_counter": {
+   "NOT CHARGING": 3209,
+   "ADAPTIVE": 2570,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "88",
+  "evse": "438",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 2759,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-02T21:06:58+00:00",
+  "last_ts": "2018-09-03T00:06:13+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 2016,
+   "NOT CHARGING": 740,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "88",
+  "evse": "438",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 6278,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-24T16:12:06+00:00",
+  "last_ts": "2019-05-24T23:02:43+00:00",
+  "state_counter": {
+   "READY": 3,
+   "ADAPTIVE": 472,
+   "IDLE": 1,
+   "NOT CHARGING": 5801,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "88",
+  "evse": "438",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 1299,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-12T13:06:25+00:00",
+  "last_ts": "2019-04-12T14:31:32+00:00",
+  "state_counter": {
+   "NOT CHARGING": 143,
+   "READY": 2,
+   "ADAPTIVE": 1144,
+   "IDLE": 9,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "89",
+  "evse": "25",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 2092,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-28T03:31:54+00:00",
+  "last_ts": "2019-06-28T05:48:51+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1334,
+   "IDLE": 20,
+   "NOT CHARGING": 736,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "89",
+  "evse": "25",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1337,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-24T16:22:46+00:00",
+  "last_ts": "2019-10-24T17:50:00+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1335,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "89",
+  "evse": "25",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 1811,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-07T23:59:04+00:00",
+  "last_ts": "2019-11-08T01:57:33+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1187,
+   "IDLE": 1,
+   "NOT CHARGING": 622,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "89",
+  "evse": "25",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 8057,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-28T18:03:29+00:00",
+  "last_ts": "2018-10-29T02:11:44+00:00",
+  "state_counter": {
+   "READY": 33,
+   "ADAPTIVE": 2090,
+   "IDLE": 1,
+   "NOT CHARGING": 5932,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "90",
+  "evse": "26",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 8646,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-17T18:47:19+00:00",
+  "last_ts": "2019-07-18T04:19:19+00:00",
+  "state_counter": {
+   "NOT CHARGING": 7645,
+   "READY": 1,
+   "ADAPTIVE": 992,
+   "IDLE": 7,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "90",
+  "evse": "26",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 4624,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-11-26T22:02:55+00:00",
+  "last_ts": "2018-11-27T02:51:18+00:00",
+  "state_counter": {
+   "READY": 87,
+   "ADAPTIVE": 639,
+   "IDLE": 3,
+   "NOT CHARGING": 3894,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "90",
+  "evse": "440",
+  "conn_year": "2018",
+  "conn_month": "11"
+ },
+ {
+  "rows": 7786,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-08-26T19:42:40+00:00",
+  "last_ts": "2018-08-27T03:57:41+00:00",
+  "state_counter": {
+   "NOT CHARGING": 5663,
+   "READY": 1,
+   "ADAPTIVE": 2120,
+   "IDLE": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2018",
+  "conn_month": "08"
+ },
+ {
+  "rows": 10470,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-17T17:12:29+00:00",
+  "last_ts": "2019-01-18T04:49:42+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1714,
+   "NOT CHARGING": 8755,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 5,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-03T16:11:48+00:00",
+  "last_ts": "2019-03-03T16:12:04+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 10645,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-23T04:40:59+00:00",
+  "last_ts": "2019-06-23T16:15:59+00:00",
+  "state_counter": {
+   "NOT CHARGING": 9256,
+   "READY": 2,
+   "ADAPTIVE": 1379,
+   "IDLE": 7,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 5991,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-07T18:35:03+00:00",
+  "last_ts": "2019-11-08T00:57:58+00:00",
+  "state_counter": {
+   "READY": 8,
+   "ADAPTIVE": 2357,
+   "NOT CHARGING": 3625,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 7878,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-11T16:15:49+00:00",
+  "last_ts": "2019-12-12T00:50:41+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 469,
+   "NOT CHARGING": 7407,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "91",
+  "evse": "437",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 3609,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-09-02T19:36:47+00:00",
+  "last_ts": "2018-09-02T23:30:48+00:00",
+  "state_counter": {
+   "NOT CHARGING": 4,
+   "READY": 2,
+   "ADAPTIVE": 3597,
+   "IDLE": 5,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "436",
+  "conn_year": "2018",
+  "conn_month": "09"
+ },
+ {
+  "rows": 4690,
+  "energy_kwh": 33.560038888899996,
+  "first_ts": "2018-12-09T15:55:55+00:00",
+  "last_ts": "2018-12-09T21:01:15+00:00",
+  "state_counter": {
+   "NOT CHARGING": 122,
+   "READY": 2,
+   "ADAPTIVE": 4565,
+   "IDLE": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "436",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 7589,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-05-21T15:28:48+00:00",
+  "last_ts": "2018-05-21T23:57:21+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2030,
+   "READY": 2,
+   "ADAPTIVE": 5550,
+   "IDLE": 6,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "442",
+  "conn_year": "2018",
+  "conn_month": "05"
+ },
+ {
+  "rows": 8252,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-10-02T15:46:00+00:00",
+  "last_ts": "2018-10-03T00:23:33+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 1296,
+   "NOT CHARGING": 6954,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "442",
+  "conn_year": "2018",
+  "conn_month": "10"
+ },
+ {
+  "rows": 9643,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-21T18:56:44+00:00",
+  "last_ts": "2019-05-22T05:25:24+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 7702,
+   "NOT CHARGING": 1939,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "442",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 6761,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-20T16:08:53+00:00",
+  "last_ts": "2019-09-20T23:26:53+00:00",
+  "state_counter": {
+   "ADAPTIVE": 5018,
+   "NOT CHARGING": 1742,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "92",
+  "evse": "442",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 2174,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-07-30T22:21:21+00:00",
+  "last_ts": "2018-07-31T00:39:30+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1,
+   "READY": 1,
+   "ADAPTIVE": 2167,
+   "IDLE": 4,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "95",
+  "evse": "27",
+  "conn_year": "2018",
+  "conn_month": "07"
+ },
+ {
+  "rows": 4865,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-05T19:09:52+00:00",
+  "last_ts": "2019-03-06T00:20:47+00:00",
+  "state_counter": {
+   "READY": 54,
+   "ADAPTIVE": 1420,
+   "IDLE": 17,
+   "NOT CHARGING": 3373,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "95",
+  "evse": "27",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 1758,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-19T15:26:33+00:00",
+  "last_ts": "2019-05-19T17:20:54+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 1261,
+   "IDLE": 8,
+   "NOT CHARGING": 486,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "95",
+  "evse": "27",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 4433,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-16T16:55:50+00:00",
+  "last_ts": "2019-09-16T21:44:57+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4282,
+   "IDLE": 3,
+   "NOT CHARGING": 147,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_01_2",
+  "station": "39",
+  "cluster": "95",
+  "evse": "444",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 48,
+  "energy_kwh": 0.659838262192,
+  "first_ts": "2019-04-09T21:30:00+00:00",
+  "last_ts": "2019-04-09T21:38:03+00:00",
+  "state_counter": {
+   "ADAPTIVE": 45,
+   "NOT CHARGING": 2,
+   "READY": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1356",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 3258,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-04-19T13:37:30+00:00",
+  "last_ts": "2019-04-19T21:16:33+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1689,
+   "NOT CHARGING": 1567,
+   "READY": 1,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1357",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 3022,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-18T20:28:36+00:00",
+  "last_ts": "2019-01-18T22:56:58+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 891,
+   "IDLE": 321,
+   "NOT CHARGING": 1808,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1358",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 19719,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-14T15:41:37+00:00",
+  "last_ts": "2019-03-15T04:49:32+00:00",
+  "state_counter": {
+   "NOT CHARGING": 18092,
+   "ADAPTIVE": 1607,
+   "IDLE": 19,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1358",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 2727,
+  "energy_kwh": 2.48321140002,
+  "first_ts": "2019-07-13T14:25:55+00:00",
+  "last_ts": "2019-07-13T19:09:31+00:00",
+  "state_counter": {
+   "NOT CHARGING": 1955,
+   "ADAPTIVE": 764,
+   "IDLE": 8
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1359",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 1111,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-16T14:05:57+00:00",
+  "last_ts": "2019-09-16T14:49:59+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1062,
+   "NOT CHARGING": 45,
+   "READY": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1359",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 767,
+  "energy_kwh": 1.3153136526599998,
+  "first_ts": "2019-04-01T20:41:46+00:00",
+  "last_ts": "2019-04-01T22:50:33+00:00",
+  "state_counter": {
+   "ADAPTIVE": 197,
+   "NOT CHARGING": 569,
+   "READY": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1360",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 9362,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-15T16:33:16+00:00",
+  "last_ts": "2019-11-16T01:26:31+00:00",
+  "state_counter": {
+   "READY": 10,
+   "ADAPTIVE": 2468,
+   "IDLE": 1375,
+   "NOT CHARGING": 5508,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1360",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 467,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-01T22:58:14+00:00",
+  "last_ts": "2018-12-01T23:21:50+00:00",
+  "state_counter": {
+   "ADAPTIVE": 466,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1361",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 1032,
+  "energy_kwh": 2.0320535939999997,
+  "first_ts": "2019-05-10T01:30:23+00:00",
+  "last_ts": "2019-05-10T03:15:22+00:00",
+  "state_counter": {
+   "NOT CHARGING": 461,
+   "READY": 2,
+   "ADAPTIVE": 564,
+   "IDLE": 5
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1361",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 17025,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-08T15:27:35+00:00",
+  "last_ts": "2019-08-09T02:41:16+00:00",
+  "state_counter": {
+   "READY": 60,
+   "ADAPTIVE": 5855,
+   "NOT CHARGING": 11109,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1361",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 5415,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-16T22:48:32+00:00",
+  "last_ts": "2019-10-17T03:11:37+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4015,
+   "NOT CHARGING": 987,
+   "READY": 19,
+   "IDLE": 393,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1361",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 55,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-14T16:42:07+00:00",
+  "last_ts": "2018-12-14T16:45:01+00:00",
+  "state_counter": {
+   "ADAPTIVE": 52,
+   "NOT CHARGING": 2,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1362",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 4458,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-17T20:25:05+00:00",
+  "last_ts": "2019-01-18T00:05:08+00:00",
+  "state_counter": {
+   "READY": 5,
+   "ADAPTIVE": 230,
+   "NOT CHARGING": 4222,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1362",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 1353,
+  "energy_kwh": 5.40926331704,
+  "first_ts": "2019-03-21T10:37:49+00:00",
+  "last_ts": "2019-03-21T12:53:54+00:00",
+  "state_counter": {
+   "NOT CHARGING": 214,
+   "READY": 33,
+   "ADAPTIVE": 1100,
+   "IDLE": 6
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1362",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 266,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-16T23:08:30+00:00",
+  "last_ts": "2018-12-16T23:22:13+00:00",
+  "state_counter": {
+   "ADAPTIVE": 220,
+   "NOT CHARGING": 45,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1363",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 15469,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-03-15T16:39:13+00:00",
+  "last_ts": "2019-03-16T03:04:46+00:00",
+  "state_counter": {
+   "NOT CHARGING": 14544,
+   "READY": 21,
+   "ADAPTIVE": 893,
+   "IDLE": 10,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1363",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 1752,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-12T16:31:14+00:00",
+  "last_ts": "2018-12-12T17:58:52+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1206,
+   "IDLE": 9,
+   "NOT CHARGING": 536,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1365",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 4312,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-17T08:52:47+00:00",
+  "last_ts": "2019-01-17T12:33:02+00:00",
+  "state_counter": {
+   "NOT CHARGING": 3481,
+   "READY": 3,
+   "ADAPTIVE": 823,
+   "IDLE": 4,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1365",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 1224,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-06-18T23:46:51+00:00",
+  "last_ts": "2019-06-19T01:46:13+00:00",
+  "state_counter": {
+   "READY": 4,
+   "ADAPTIVE": 1152,
+   "IDLE": 13,
+   "NOT CHARGING": 54,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1365",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 7737,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-19T16:26:57+00:00",
+  "last_ts": "2018-12-19T22:37:52+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 2848,
+   "NOT CHARGING": 4887,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1366",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 2282,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-16T17:54:25+00:00",
+  "last_ts": "2019-11-16T19:33:00+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2130,
+   "NOT CHARGING": 151,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1366",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 5667,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-02-25T17:41:01+00:00",
+  "last_ts": "2019-02-25T21:48:09+00:00",
+  "state_counter": {
+   "NOT CHARGING": 28,
+   "ADAPTIVE": 5638,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1367",
+  "conn_year": "2019",
+  "conn_month": "02"
+ },
+ {
+  "rows": 99,
+  "energy_kwh": 0.124889462366,
+  "first_ts": "2019-03-29T04:42:22+00:00",
+  "last_ts": "2019-03-29T04:56:08+00:00",
+  "state_counter": {
+   "NOT CHARGING": 82,
+   "ADAPTIVE": 17
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1367",
+  "conn_year": "2019",
+  "conn_month": "03"
+ },
+ {
+  "rows": 74,
+  "energy_kwh": 0.322270550668,
+  "first_ts": "2019-06-25T03:42:10+00:00",
+  "last_ts": "2019-06-25T03:48:49+00:00",
+  "state_counter": {
+   "READY": 2,
+   "ADAPTIVE": 72
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1367",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1006,
+  "energy_kwh": 5.054974276089999,
+  "first_ts": "2019-07-12T19:40:05+00:00",
+  "last_ts": "2019-07-12T21:13:57+00:00",
+  "state_counter": {
+   "READY": 1,
+   "ADAPTIVE": 998,
+   "IDLE": 7
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1367",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 4072,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-13T05:08:12+00:00",
+  "last_ts": "2019-08-13T07:53:10+00:00",
+  "state_counter": {
+   "READY": 9,
+   "ADAPTIVE": 3470,
+   "IDLE": 21,
+   "NOT CHARGING": 571,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1367",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 10937,
+  "energy_kwh": 0.0,
+  "first_ts": "2018-12-07T16:23:42+00:00",
+  "last_ts": "2018-12-08T01:30:56+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1327,
+   "NOT CHARGING": 9609,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1368",
+  "conn_year": "2018",
+  "conn_month": "12"
+ },
+ {
+  "rows": 10036,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-01-09T16:19:35+00:00",
+  "last_ts": "2019-01-10T00:49:07+00:00",
+  "state_counter": {
+   "READY": 356,
+   "ADAPTIVE": 5279,
+   "IDLE": 22,
+   "NOT CHARGING": 4378,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1368",
+  "conn_year": "2019",
+  "conn_month": "01"
+ },
+ {
+  "rows": 990,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-15T07:27:56+00:00",
+  "last_ts": "2019-10-15T08:07:08+00:00",
+  "state_counter": {
+   "ADAPTIVE": 989,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1368",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 6629,
+  "energy_kwh": 15.676007767999998,
+  "first_ts": "2019-04-25T16:08:58+00:00",
+  "last_ts": "2019-04-26T02:53:12+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1941,
+   "NOT CHARGING": 4510,
+   "READY": 12,
+   "IDLE": 166
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1369",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 265,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-20T23:57:16+00:00",
+  "last_ts": "2019-08-21T00:07:31+00:00",
+  "state_counter": {
+   "READY": 6,
+   "ADAPTIVE": 248,
+   "NOT CHARGING": 10,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1369",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 1414,
+  "energy_kwh": 26.863003353,
+  "first_ts": "2019-04-02T19:30:47+00:00",
+  "last_ts": "2019-04-03T00:53:53+00:00",
+  "state_counter": {
+   "ADAPTIVE": 438,
+   "IDLE": 6,
+   "DISABLED CHARGER": 970
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1623",
+  "conn_year": "2019",
+  "conn_month": "04"
+ },
+ {
+  "rows": 455,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-28T20:11:12+00:00",
+  "last_ts": "2019-09-28T20:28:30+00:00",
+  "state_counter": {
+   "NOT CHARGING": 358,
+   "ADAPTIVE": 93,
+   "IDLE": 2,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1623",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 2237,
+  "energy_kwh": 25.8967268923,
+  "first_ts": "2019-09-29T03:37:37+00:00",
+  "last_ts": "2019-09-29T05:13:45+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2211,
+   "IDLE": 25,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1623",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 11535,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-04T16:38:36+00:00",
+  "last_ts": "2019-12-05T00:48:02+00:00",
+  "state_counter": {
+   "ADAPTIVE": 3033,
+   "IDLE": 2,
+   "NOT CHARGING": 8499,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1623",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 1161,
+  "energy_kwh": 24.405399199399998,
+  "first_ts": "2019-06-08T20:13:01+00:00",
+  "last_ts": "2019-06-08T22:30:36+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1158,
+   "IDLE": 2,
+   "NOT CHARGING": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1624",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 1658,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-08T21:33:35+00:00",
+  "last_ts": "2019-07-09T00:38:25+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1654,
+   "IDLE": 3,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1624",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 3642,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-05-28T15:08:46+00:00",
+  "last_ts": "2019-05-28T21:18:22+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1617,
+   "NOT CHARGING": 2024,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1625",
+  "conn_year": "2019",
+  "conn_month": "05"
+ },
+ {
+  "rows": 2379,
+  "energy_kwh": 10.0730566927,
+  "first_ts": "2019-08-10T18:02:12+00:00",
+  "last_ts": "2019-08-10T19:38:48+00:00",
+  "state_counter": {
+   "NOT CHARGING": 259,
+   "READY": 26,
+   "ADAPTIVE": 2091,
+   "IDLE": 3
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1625",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 5107,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-05T00:26:16+00:00",
+  "last_ts": "2019-12-05T04:26:24+00:00",
+  "state_counter": {
+   "ADAPTIVE": 4252,
+   "IDLE": 855
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1625",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 4517,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-12-24T15:53:45+00:00",
+  "last_ts": "2019-12-24T20:06:53+00:00",
+  "state_counter": {
+   "READY": 9,
+   "ADAPTIVE": 1713,
+   "IDLE": 18,
+   "NOT CHARGING": 2776,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1626",
+  "conn_year": "2019",
+  "conn_month": "12"
+ },
+ {
+  "rows": 2200,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-06T02:02:36+00:00",
+  "last_ts": "2019-11-06T03:35:59+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2196,
+   "IDLE": 2,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1628",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 2678,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-26T00:54:59+00:00",
+  "last_ts": "2019-11-26T03:14:57+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2674,
+   "IDLE": 2,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1628",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 4,
+  "energy_kwh": 0.0340597057154,
+  "first_ts": "2019-06-27T13:48:07+00:00",
+  "last_ts": "2019-06-27T13:48:38+00:00",
+  "state_counter": {
+   "ADAPTIVE": 3,
+   "IDLE": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1629",
+  "conn_year": "2019",
+  "conn_month": "06"
+ },
+ {
+  "rows": 4810,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-07-12T14:51:54+00:00",
+  "last_ts": "2019-07-13T00:18:07+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2059,
+   "IDLE": 5,
+   "NOT CHARGING": 2731,
+   "READY": 14,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1629",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 430,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-20T04:37:54+00:00",
+  "last_ts": "2019-09-20T04:55:34+00:00",
+  "state_counter": {
+   "ADAPTIVE": 422,
+   "IDLE": 2,
+   "NOT CHARGING": 4,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1629",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 2362,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-08-15T02:18:24+00:00",
+  "last_ts": "2019-08-15T03:53:46+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2358,
+   "IDLE": 2,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1630",
+  "conn_year": "2019",
+  "conn_month": "08"
+ },
+ {
+  "rows": 220,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-15T02:57:11+00:00",
+  "last_ts": "2019-10-15T03:08:41+00:00",
+  "state_counter": {
+   "ADAPTIVE": 214,
+   "IDLE": 4,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1631",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 1345,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-11-02T19:39:30+00:00",
+  "last_ts": "2019-11-02T20:45:49+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1342,
+   "IDLE": 2,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1631",
+  "conn_year": "2019",
+  "conn_month": "11"
+ },
+ {
+  "rows": 91,
+  "energy_kwh": 1.23964482786,
+  "first_ts": "2019-07-12T23:20:27+00:00",
+  "last_ts": "2019-07-12T23:31:09+00:00",
+  "state_counter": {
+   "NOT CHARGING": 2,
+   "READY": 2,
+   "ADAPTIVE": 87
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1632",
+  "conn_year": "2019",
+  "conn_month": "07"
+ },
+ {
+  "rows": 5567,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-09-13T20:09:25+00:00",
+  "last_ts": "2019-09-14T00:35:56+00:00",
+  "state_counter": {
+   "ADAPTIVE": 982,
+   "IDLE": 23,
+   "NOT CHARGING": 4543,
+   "READY": 18,
+   "UNPLUGGED": 1
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1632",
+  "conn_year": "2019",
+  "conn_month": "09"
+ },
+ {
+  "rows": 1285,
+  "energy_kwh": 0.0,
+  "first_ts": "2019-10-27T15:46:07+00:00",
+  "last_ts": "2019-10-27T16:46:19+00:00",
+  "state_counter": {
+   "ADAPTIVE": 1278,
+   "IDLE": 5,
+   "UNPLUGGED": 2
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1632",
+  "conn_year": "2019",
+  "conn_month": "10"
+ },
+ {
+  "rows": 2783,
+  "energy_kwh": 14.4933859218,
+  "first_ts": "2019-11-30T22:23:04+00:00",
+  "last_ts": "2019-12-01T00:23:57+00:00",
+  "state_counter": {
+   "ADAPTIVE": 2769,
+   "IDLE": 8,
+   "NOT CHARGING": 6
+  },
+  "site": "ts_caltech_California_Garage_02_2",
+  "station": "6",
+  "cluster": "3",
+  "evse": "1632",
+  "conn_year": "2019",
+  "conn_month": "11"
+ }
+]

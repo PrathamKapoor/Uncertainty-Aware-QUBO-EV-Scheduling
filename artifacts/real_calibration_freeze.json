@@ -1,0 +1,9 @@
+{
+  "gamma": 4.131309360685936,
+  "frozen_at_utc": "2026-09-05T05:27:13.746797+00:00",
+  "frozen_before": [
+    "real_heldout_results.json",
+    "real_paired_statistics.json",
+    "real_distribution_shift.json"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Trace every numerical claim to its source artifact / configuration / equation.",
+  "claims": [
+    {
+      "claim": "K=8 (default scenarios)",
+      "value": 8,
+      "source": "docs/STAGE_1_SPEC.md sec 1.2; artifacts/final_experiment_config.json (K:8)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "alpha=1.0 (ADOPT pre-registration)",
+      "value": 1.0,
+      "source": "docs/STAGE_5_UNCERTAINTY.md sec 4.4; artifacts/final_experiment_config.json (alpha:1.0)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "rho_d=1.0",
+      "value": 1.0,
+      "source": "docs/STAGE_3_DETERMINISTIC.md; artifacts/final_experiment_config.json",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "rho_p=0.1",
+      "value": 0.1,
+      "source": "docs/STAGE_3_DETERMINISTIC.md; artifacts/final_experiment_config.json",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "rho_cap=0.5",
+      "value": 0.5,
+      "source": "docs/STAGE_3_DETERMINISTIC.md; artifacts/final_experiment_config.json",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "M_window=1e6",
+      "value": 1000000.0,
+      "source": "docs/STAGE_6_ROBUST_QAOA.md Part D; artifacts/final_experiment_config.json (M_window:1000000.0)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "P_target=6.6 kW",
+      "value": 6.6,
+      "source": "docs/STAGE_3_DETERMINISTIC.md; artifacts/final_experiment_config.json (P_target_kW:6.6)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "P_site_max=9.9 kW",
+      "value": 9.9,
+      "source": "docs/STAGE_3_DETERMINISTIC.md; artifacts/final_experiment_config.json (P_site_max_kW:9.9)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "QAOA depth p=1 (default), p=2 (sensitivity)",
+      "value": 1,
+      "source": "docs/STAGE_4_QAOA.md; artifacts/final_experiment_config.json (QAOA_p:1)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "QAOA seeds = [0,1,2]",
+      "value": [
+        0,
+        1,
+        2
+      ],
+      "source": "docs/STAGE_4_QAOA.md; artifacts/final_experiment_config.json (QAOA_seeds:[0,1,2])",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "QAOA shots = 1024",
+      "value": 1024,
+      "source": "docs/STAGE_4_QAOA.md; artifacts/final_experiment_config.json (QAOA_shots:1024)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "headline toy_B_3x4: 11 logical qubits (after availability pruning)",
+      "value": 11,
+      "source": "docs/STAGE_3_DETERMINISTIC.md sec 9.4; stage3/ev_scheduling.py",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "calibration window 2018-05-01 to 2019-07-01 UTC",
+      "value": "2018-05-01..2019-07-01",
+      "source": "docs/STAGE_2_DATA_AUDIT.md; artifacts/final_experiment_config.json (calibration_window_UTC)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "held-out window 2019-07-01 to 2020-01-01 UTC",
+      "value": "2019-07-01..2020-01-01",
+      "source": "docs/STAGE_2_DATA_AUDIT.md; artifacts/final_experiment_config.json (held_out_window_UTC)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "PG&E EV2-A peak 14:00-21:00 (local)",
+      "value": "14:00-21:00",
+      "source": "docs/tou_tariff_decision.md",
+      "status": "TRACE_OK (period boundaries)"
+    },
+    {
+      "claim": "ADOPT gamma (placeholder) = 1.6414",
+      "value": 1.6414,
+      "source": "artifacts/adopt_calibration.json; docs/STAGE_7_STRESS_TEST.md sec 8",
+      "status": "PLACEHOLDER ONLY -- not a real-data value"
+    },
+    {
+      "claim": "F0 placeholder held-out P(feasible) = 0.9483",
+      "value": 0.9483,
+      "source": "artifacts/heldout_robustness.json",
+      "status": "PLACEHOLDER ONLY -- explicitly NOT a real-data result"
+    },
+    {
+      "claim": "F1/F2 placeholder held-out P(feasible) = 0.1106",
+      "value": 0.1106,
+      "source": "artifacts/heldout_robustness.json",
+      "status": "PLACEHOLDER ONLY -- explicitly NOT a real-data result"
+    },
+    {
+      "claim": "robust QUBO K=4 max dev = 5.21e-14",
+      "value": "5.21e-14",
+      "source": "artifacts/robust_qubo_revalidation.json (K4)",
+      "status": "TRACE_OK (Stage 6 algebraic identity test)"
+    },
+    {
+      "claim": "robust QUBO K=8 max dev = 4.24e-10",
+      "value": "4.24e-10",
+      "source": "artifacts/robust_qubo_revalidation.json (K8)",
+      "status": "TRACE_OK (k-means rounding noise; algebraic identity holds)"
+    },
+    {
+      "claim": "robust QUBO K=16 max dev = 2.35e-10",
+      "value": "2.35e-10",
+      "source": "artifacts/robust_qubo_revalidation.json (K16)",
+      "status": "TRACE_OK"
+    },
+    {
+      "claim": "F1 placeholder E[capacity_penalty] / E[total] = 125.2/141.2 = 88.7%",
+      "value": "88.7%",
+      "source": "artifacts/stage7_run.json (part_b_objective_decomposition F1)",
+      "status": "PLACEHOLDER ONLY"
+    },
+    {
+      "claim": "F1 placeholder F_B optimum == F_A optimum == 149.388 (Part C test)",
+      "value": 149.388,
+      "source": "artifacts/stage6_run.json (part_c_test)",
+      "status": "PLACEHOLDER ONLY (Stage 6 Part C test result)"
+    }
+  ],
+  "fabricated_values": [],
+  "pending_real_data_values": [
+    "real ACN-Data empirical DeltaE distribution (mean, std, quantiles)",
+    "real ACN-Data empirical Delta d distribution (mean, std, quantiles)",
+    "real K=8 scenario centroids and weights",
+    "real gamma (calibration-derived)",
+    "real held-out P(feasible) for F0/F1/F2/F3",
+    "real held-out mean unmet, mean cost, peak load",
+    "real bootstrap CI for F2 vs F0",
+    "real distribution-shift diagnostic"
+  ],
+  "verdict": "All cited numbers trace to frozen configuration or synthetic/placeholder artifacts. No real-data number is cited."
+}

@@ -1,0 +1,49 @@
+{
+  "T1_window_mask": {
+    "omega": [
+      30.0,
+      0.0
+    ],
+    "diag_diffs_F_scenario_minus_F_base": [
+      0.0,
+      0.0,
+      1000000.0,
+      1000000.0,
+      0.0,
+      0.0,
+      1000000.0,
+      1000000.0,
+      0.0,
+      1000000.0,
+      1000000.0
+    ],
+    "M_window_appears_on_out_of_window_slots": true
+  },
+  "T2_R_i_modification": {
+    "de=0.0": [
+      2,
+      1,
+      1
+    ],
+    "de=-1.0": [
+      1,
+      0,
+      0
+    ],
+    "de=1.0": [
+      4,
+      3,
+      3
+    ]
+  },
+  "T3_variable_set_preserved": {
+    "base_n_vars": 11,
+    "scenario_neg_dd_n_vars": 11,
+    "scenario_pos_dd_n_vars": 11,
+    "preserved": true
+  },
+  "T4_window_penalty_finite": {
+    "M_window": 1000000.0,
+    "is_finite": true
+  }
+}

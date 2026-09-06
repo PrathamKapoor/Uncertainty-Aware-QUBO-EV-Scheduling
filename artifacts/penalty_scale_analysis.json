@@ -1,0 +1,21 @@
+{
+  "M_window": 1000000.0,
+  "rho_d": 1.0,
+  "rho_p": 0.1,
+  "rho_cap": 0.5,
+  "gamma": 1.6414,
+  "cost_diag_max": 0.825,
+  "peak_diag_max": 4.356,
+  "cap_diag_max": 32.67,
+  "deadline_diag_max_F1": 4.0,
+  "deadline_diag_max_F2": 6.5656,
+  "M_window_diag_sum_F1": 869230.4850124333,
+  "F1_diag_max_abs": 108612.91677738307,
+  "F2_diag_max_abs": 108611.90056281825,
+  "c_F1": 225.05264416814686,
+  "c_F2": 232.49842853759623,
+  "ratio_M_window_over_cost_diag": 1212121.2121212122,
+  "ratio_M_window_over_deadline_F1": 250000.0,
+  "ratio_M_window_over_deadline_F2": 152309.00450834652,
+  "verdict": "M_window = 1e6 is 5-6 orders of magnitude larger than ordinary objective terms. It is not a tuned hyperparameter; it is a structural constant chosen to be effectively infinite for any feasible operating regime. The verifier in Part C checks that M_window is large enough to force out-of-window slots to 0 at the optimum."
+}

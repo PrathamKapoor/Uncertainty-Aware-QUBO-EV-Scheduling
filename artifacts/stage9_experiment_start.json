@@ -1,0 +1,81 @@
+{
+  "stage": "Stage 9",
+  "data_mode": "BLOCKED",
+  "blocker": "ACN_API_TOKEN not present in environment; ACNPORTAL_TOKEN not present; live API returns HTTP 401. No fabrication, no bypass, no proxy substitution.",
+  "scanned_at_utc": "2026-08-30T00:00:00+00:00",
+  "python_version": "3.13.14",
+  "frozen_configuration_status": {
+    "frozen_config_file": "artifacts/final_experiment_config.json",
+    "frozen_config_version": "stage7.v1",
+    "immutability_rule": "No parameter in this file may be modified based on held-out results. Any change must be recorded as a new versioned configuration (stage7.v2, etc.) with explicit documentation of the reason and the data state at the time of the change.",
+    "frozen_values_expected": {
+      "K": 8,
+      "alpha": 1.0,
+      "rho_d": 1.0,
+      "rho_p": 0.1,
+      "rho_cap": 0.5,
+      "M_window": 1000000.0,
+      "P_target_kW": 6.6,
+      "P_site_max_kW": 9.9,
+      "QAOA_p": 1,
+      "QAOA_seeds": [0, 1, 2],
+      "QAOA_shots": 1024
+    },
+    "frozen_values_actual_in_config": {
+      "K": 8,
+      "alpha": 1.0,
+      "rho_d": 1.0,
+      "rho_p": 0.1,
+      "rho_cap": 0.5,
+      "M_window": 1000000.0,
+      "P_target_kW": 6.6,
+      "P_site_max_kW": 9.9,
+      "QAOA_p": 1,
+      "QAOA_seeds": [0, 1, 2],
+      "QAOA_shots": 1024
+    },
+    "all_match": true,
+    "delta_E_sign_frozen": "DeltaE = E_delivered - E_requested. DeltaE < 0 = unmet demand; DeltaE = 0 = demand met; DeltaE > 0 = over-delivery. (Stage 6 Part A correction; Stage 5 prose flipped was patched.)",
+    "delta_d_sign_frozen": "Delta d = d_requested - d_actual. Positive = early departure; zero = on time; negative = late.",
+    "delta_d_transformation_frozen": "Variable set fixed; per-scenario diagonal penalty M_window on out-of-window slots; R_i = ceil((E_req + DeltaE) / (P_max * Delta)); no auxiliary variables; pure QUBO.",
+    "feasibility_definition_frozen": "Four separate metrics: qubo_feasible, energy_feasible, site_feasible, deadline_feasible. Aggregate = AND. (Stage 4 Part B.)",
+    "QAOA_config_frozen": "p=1, COBYLA via scipy.optimize.minimize, maxiter=40, tol=1e-5, small_random init, seeds [0,1,2], shots=1024.",
+    "calibration_window_utc": "2018-05-01T00:00:00+00:00 to 2019-07-01T00:00:00+00:00 (exclusive end)",
+    "held_out_window_utc": "2019-07-01T00:00:00+00:00 to 2020-01-01T00:00:00+00:00 (exclusive end)"
+  },
+  "configuration_hash_status": {
+    "stored_fingerprint_sha256": "74cefc009dab8c535bb13e6e7bbe5c279c2793147c4f042a2595fa9510988c94",
+    "recomputed_fingerprint_method": "SHA-256 of artifacts/final_experiment_config.json as written (raw file)",
+    "recomputed_fingerprint_sha256_raw_file": "4a08e1e65587cc904521ff1bfc955b30671a5cb3485664d8b75f1ad93d9013b3",
+    "note": ("The stored hash in artifacts/final_config_hash.json was computed in Stage 8 Part Y from a fingerprint string that "
+              "concatenated the final config content with a QUBO/Ising fingerprint. The Stage 9 spec's recomputation method "
+              "(SHA-256 of the raw file) gives a different value, but this reflects a difference in the recomputation method, "
+              "NOT a methodology change. The methodology is unchanged: K=8, alpha=1.0, M_window=1e6, etc. all match. The raw config file "
+              "was written once at the end of Stage 7 (with the immutability rule) and has not been edited since.")
+  },
+  "token_status": {
+    "ACN_API_TOKEN_in_env": false,
+    "ACNPORTAL_TOKEN_in_env": false,
+    "api_endpoint_tested": "https://ev.caltech.edu/api/v1/sessions/caltech?page=1",
+    "http_status": 401,
+    "verdict": "BLOCKED"
+  },
+  "raw_real_data_acquired": false,
+  "raw_real_data_path": null,
+  "real_cleaning_results": null,
+  "real_uncertainty_statistics": null,
+  "real_calibration_parameters": null,
+  "real_heldout_results": null,
+  "verdict": "Stage 9 cannot proceed to the real-data experiment. The API token remains unavailable after all 8 prior stages. Per Stage 9 directive: \"If the token is unavailable, STOP and report the blocker rather than pretending the real experiment was executed.\" and \"Do not fill missing real-data results with the synthetic Stage 7/8 results.\"",
+  "what_will_NOT_be_done": [
+    "No fabrication of kWhRequested or requestedDeparture from static time-series data.",
+    "No substitution of placeholder results for real-data results.",
+    "No re-tuning of alpha, gamma, K, M_window, rho_d, rho_p, rho_cap, or any frozen parameter.",
+    "No bypassing of authentication.",
+    "No scraping around authentication.",
+    "No redefinition of feasibility to favor one method.",
+    "No selective removal of difficult sessions.",
+    "No re-derivation of the methodology based on real-data observations."
+  ],
+  "blocking_decision": "Hard STOP. Stage 9 real-data experiment is NOT executed. Synthetic Stage 7/8 results are NOT substituted for real-data results."
+}

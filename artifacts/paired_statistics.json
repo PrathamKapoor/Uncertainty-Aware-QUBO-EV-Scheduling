@@ -1,0 +1,35 @@
+{
+  "F0_vs_F1": {
+    "P_feasible_a_mean": 0.9483260553129549,
+    "P_feasible_b_mean": 0.11062590975254731,
+    "P_feasible_diff_a_minus_b": 0.8377001455604076,
+    "mean_unmet_a": 0.15628327864496047,
+    "mean_unmet_b": 1.3045830722887666,
+    "mean_unmet_diff_a_minus_b": -1.1482997936438062,
+    "mean_cost_a": 5.774999999999999,
+    "mean_cost_b": 1.1549999999999998,
+    "mean_cost_diff_a_minus_b": 4.619999999999999
+  },
+  "F0_vs_F2": {
+    "P_feasible_a_mean": 0.9483260553129549,
+    "P_feasible_b_mean": 0.11062590975254731,
+    "P_feasible_diff_a_minus_b": 0.8377001455604076,
+    "mean_unmet_a": 0.15628327864496047,
+    "mean_unmet_b": 1.3045830722887666,
+    "mean_unmet_diff_a_minus_b": -1.1482997936438062,
+    "mean_cost_a": 5.774999999999999,
+    "mean_cost_b": 1.1549999999999998,
+    "mean_cost_diff_a_minus_b": 4.619999999999999
+  },
+  "F1_vs_F2": {
+    "P_feasible_a_mean": 0.11062590975254731,
+    "P_feasible_b_mean": 0.11062590975254731,
+    "P_feasible_diff_a_minus_b": 0.0,
+    "mean_unmet_a": 1.3045830722887666,
+    "mean_unmet_b": 1.3045830722887666,
+    "mean_unmet_diff_a_minus_b": 0.0,
+    "mean_cost_a": 1.1549999999999998,
+    "mean_cost_b": 1.1549999999999998,
+    "mean_cost_diff_a_minus_b": 0.0
+  }
+}

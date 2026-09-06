@@ -1,0 +1,50 @@
+{
+  "K": 4,
+  "seed": 20260833,
+  "scenarios": [
+    {
+      "cluster": 0,
+      "n_observations": 5535,
+      "weight": 0.7387880405766151,
+      "centroid_delta_d_minutes": -17.41275218307746,
+      "centroid_delta_e_kwh": -6.282331661339438,
+      "mean_delta_d": -17.412752183077384,
+      "mean_delta_e": -6.282331661339434,
+      "std_delta_d": 113.99215395472396,
+      "std_delta_e": 5.934091114459998
+    },
+    {
+      "cluster": 1,
+      "n_observations": 20,
+      "weight": 0.0026695141484249867,
+      "centroid_delta_d_minutes": -4710.1866666666665,
+      "centroid_delta_e_kwh": -8.300899999999999,
+      "mean_delta_d": -4710.1866666666665,
+      "mean_delta_e": -8.3009,
+      "std_delta_d": 2522.2388533172934,
+      "std_delta_e": 15.52722947244614
+    },
+    {
+      "cluster": 2,
+      "n_observations": 1285,
+      "weight": 0.1715162840363054,
+      "centroid_delta_d_minutes": -451.2059922178983,
+      "centroid_delta_e_kwh": -6.764979474824404,
+      "mean_delta_d": -451.2059922178988,
+      "mean_delta_e": -6.764979474824407,
+      "std_delta_d": 278.32306578446645,
+      "std_delta_e": 6.6729118691000044
+    },
+    {
+      "cluster": 3,
+      "n_observations": 652,
+      "weight": 0.08702616123865456,
+      "centroid_delta_d_minutes": 47.120449897750674,
+      "centroid_delta_e_kwh": -40.82425315498309,
+      "mean_delta_d": 47.12044989775051,
+      "mean_delta_e": -40.82425315498311,
+      "std_delta_d": 238.16673680701945,
+      "std_delta_e": 20.413883995355594
+    }
+  ]
+}

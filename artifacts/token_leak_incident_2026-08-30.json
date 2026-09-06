@@ -1,0 +1,35 @@
+{
+  "incident": "token disclosed via chat",
+  "detected_at_utc": "2026-08-30T00:00:00+00:00",
+  "channel": "user chat message to the AI agent",
+  "token_value_present_in_artifacts": false,
+  "token_value_present_in_logs": false,
+  "token_value_present_in_chat_transcript": true,
+  "token_redaction_policy": ("The token string itself is NOT recorded anywhere in the repository, "
+                             "in this artifact, in stdout/stderr, in any future log, or in any "
+                             "file written by the agent. The token may still exist in the chat "
+                             "transcript on the user's machine; the user is advised to revoke it "
+                             "via https://ev.caltech.edu/register and re-issue."),
+  "response": ("The agent REFUSED to use the chat-supplied token. Per docs/TOKEN_HANDOFF.md \u00a78 "
+               "and docs/STAGE_9_REAL_EXPERIMENT.md \u00a73.1, the token must be supplied only via "
+               "the ACN_API_TOKEN or ACNPORTAL_TOKEN environment variable, set by the user on "
+               "their own machine, never via the conversation channel. Using a chat-supplied "
+               "token would normalize the leak and would violate the protocol that the project "
+               "explicitly designed to keep the token out of any non-environment location."),
+  "required_user_action": [
+    "1. Treat the disclosed token as compromised.",
+    "2. Revoke it at https://ev.caltech.edu/register (or via the Caltech ACN portal).",
+    "3. Re-issue a new token.",
+    "4. Set the new token ONLY in the environment: `export ACN_API_TOKEN=<new-token>` (or ACNPORTAL_TOKEN).",
+    "5. Do NOT paste the new token into any chat, file, log, exception, artifact, or git-tracked file.",
+    "6. Once the env var is set, run `python -m stage9.real_experiment` from the repo root."
+  ],
+  "agent_actions_taken": [
+    "Did NOT use the chat-supplied token to authenticate any request.",
+    "Did NOT echo the token string in any artifact or log.",
+    "Did NOT write the token to any file in the repository.",
+    "Re-ran the token-security audit on all artifacts in artifacts/ and the new source files in stage5/, stage9/, and handoff.md; no token-shaped string other than SHA-256 hashes was found.",
+    "Verified the Stage 9 driver still refuses to run (no env var present in this session)."
+  ],
+  "frozen_config_status": "unchanged; raw SHA-256 = 4a08e1e65587cc904521ff1bfc955b30671a5cb3485664d8b75f1ad93d9013b3"
+}

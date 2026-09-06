@@ -1,0 +1,36 @@
+{
+  "stage": "Final Experiment Freeze (Stage 7 Part J)",
+  "instance": "toy_B_3x4",
+  "uncertainty_definitions": {
+    "Delta_d": "requested_departure - actual_disconnect (positive = early departure)",
+    "Delta_E": "E_delivered - E_requested (positive = over-delivery, negative = unmet demand)",
+    "stress_model_scenario": "E_req_scenario = E_req + Delta_E (Delta_E < 0 lowers the per-scenario R_i; this is the correct sign per Stage 1 \u00a74.2 and Stage 6 Part A)"
+  },
+  "Delta_d_transformation": "Corrected model: variable set fixed; per-scenario diagonal penalty M_window applied to out-of-window slots; R_i = ceil((E_req + Delta_E) / (P_max * Delta)) (no auxiliary variables, pure QUBO)",
+  "K": 8,
+  "alpha": 1.0,
+  "gamma_pre_registration_locked": true,
+  "scenario_weighting": "uniform p_s = 1/K",
+  "M_window": 1000000.0,
+  "rho_d": 1.0,
+  "rho_p": 0.1,
+  "rho_cap": 0.5,
+  "P_target_kW": 6.6,
+  "P_site_max_kW": 9.9,
+  "feasibility_definition": "Four separate metrics: qubo_feasible, energy_feasible, site_feasible, deadline_feasible. Aggregate = AND. Frozen at Stage 4.",
+  "QAOA_p": 1,
+  "QAOA_optimizer": "COBYLA (scipy.optimize.minimize)",
+  "QAOA_seeds": [
+    0,
+    1,
+    2
+  ],
+  "QAOA_shots": 1024,
+  "instance_generation": "toy_B_3x4: 3 EVs, 4 slots, Delta = 15 min, 11 logical qubits after availability pruning",
+  "calibration_window_UTC": "2018-05-01T00:00:00+00:00 to 2019-07-01T00:00:00+00:00 (exclusive end)",
+  "held_out_window_UTC": "2019-07-01T00:00:00+00:00 to 2020-01-01T00:00:00+00:00 (exclusive end)",
+  "DATA_MODE_current": "SYNTHETIC (ACN_API_TOKEN unavailable)",
+  "DATA_MODE_target": "REAL (requires ACN_API_TOKEN environment variable)",
+  "immutability_rule": "No parameter in this file may be modified based on held-out results. Any change must be recorded as a new versioned configuration (stage7.v2, etc.) with explicit documentation of the reason and the data state at the time of the change.",
+  "version": "stage7.v1"
+}

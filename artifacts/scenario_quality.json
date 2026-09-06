@@ -1,0 +1,42 @@
+{
+  "comparison": {
+    "K4": {
+      "K": 4,
+      "n_observations": 3378,
+      "reconstruction_sse": 2090.715757835774,
+      "reconstruction_sse_per_point": 0.6189211834919403,
+      "tail_coverage_fraction": 0.2507396449704142,
+      "wasserstein1_dd": 0.04846062759029011,
+      "wasserstein1_de": 0.02085257548845471,
+      "empirical_pearson": -0.013807687644745109,
+      "marginal_pearson_preserved": -0.015054485289545599
+    },
+    "K8": {
+      "K": 8,
+      "n_observations": 3378,
+      "reconstruction_sse": 962.1743655702621,
+      "reconstruction_sse_per_point": 0.28483551378634164,
+      "tail_coverage_fraction": 0.2440828402366864,
+      "wasserstein1_dd": 0.024477501480165777,
+      "wasserstein1_de": 0.012890763765541742,
+      "empirical_pearson": -0.013807687644745109,
+      "marginal_pearson_preserved": -0.012687097259285355
+    },
+    "K16": {
+      "K": 16,
+      "n_observations": 3378,
+      "reconstruction_sse": 514.1642586551226,
+      "reconstruction_sse_per_point": 0.1522096680447373,
+      "tail_coverage_fraction": 0.3779585798816568,
+      "wasserstein1_dd": 0.016782119597394906,
+      "wasserstein1_de": 0.00782563647128479,
+      "empirical_pearson": -0.013807687644745109,
+      "marginal_pearson_preserved": -0.00928635504983631
+    }
+  },
+  "empirical_pearson_calibration": -0.013807687644745109,
+  "recommendation": {
+    "K": "K8",
+    "rationale": "K=8 is the Stage 2 recommended default. Reconstruction SSE per point is reported; the K with the lowest reconstruction error and acceptable tail coverage is retained."
+  }
+}

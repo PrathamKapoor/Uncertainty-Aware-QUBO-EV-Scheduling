@@ -1,0 +1,306 @@
+{
+  "toy_A_2x4": {
+    "n_vars": 7,
+    "n_qubits": 7,
+    "enumeration": {
+      "n_bitstrings": 128,
+      "n_global_optima": 1,
+      "best_objective_original": 21.002
+    },
+    "qubo": {
+      "n": 7,
+      "constant": 96.476,
+      "best_objective": 21.00200000000001
+    },
+    "qubo_vs_original_equivalence": {
+      "n_bitstrings": 128,
+      "mean_offset": 1.2406742300186124e-14,
+      "std_offset": 5.2544610866156065e-15,
+      "max_abs_deviation_from_mean": 1.6014967130217883e-14,
+      "tolerance": 1e-07,
+      "passes": true,
+      "diffs_sample_first5": [
+        1.4210854715202004e-14,
+        2.842170943040401e-14,
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        0.0
+      ],
+      "diffs_sample_last5": [
+        1.4210854715202004e-14,
+        1.4210854715202004e-14,
+        7.105427357601002e-15,
+        1.4210854715202004e-14,
+        1.0658141036401503e-14
+      ]
+    },
+    "optimality_agreement": {
+      "diff_qubo_minus_enum": 1.0658141036401503e-14,
+      "expected_offset": 1.2406742300186124e-14,
+      "passes": true
+    },
+    "milp_linearized": {
+      "status": "Optimal",
+      "objective": 1.32,
+      "runtime_s": 0.040261268615722656,
+      "note": "MILP uses linear penalty proxy; not directly comparable to QUBO objective."
+    },
+    "feasibility_of_enum_optimum": {
+      "cost": 4.29,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        3.3,
+        6.6,
+        6.6,
+        6.6
+      ]
+    },
+    "feasibility_of_qubo_optimum": {
+      "cost": 4.29,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        3.3,
+        6.6,
+        6.6,
+        6.6
+      ]
+    }
+  },
+  "toy_B_3x4": {
+    "n_vars": 11,
+    "n_qubits": 11,
+    "enumeration": {
+      "n_bitstrings": 2048,
+      "n_global_optima": 1,
+      "best_objective_original": 30.843
+    },
+    "qubo": {
+      "n": 11,
+      "constant": 219.444,
+      "best_objective": 30.84299999999996
+    },
+    "qubo_vs_original_equivalence": {
+      "n_bitstrings": 2048,
+      "mean_offset": -3.385312863368739e-14,
+      "std_offset": 1.4245139262736855e-14,
+      "max_abs_deviation_from_mean": 5.141199965752463e-14,
+      "tolerance": 1e-07,
+      "passes": true,
+      "diffs_sample_first5": [
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "diffs_sample_last5": [
+        -2.842170943040401e-14,
+        -4.973799150320701e-14,
+        -4.973799150320701e-14,
+        -4.263256414560601e-14,
+        -7.815970093361102e-14
+      ]
+    },
+    "optimality_agreement": {
+      "diff_qubo_minus_enum": -3.907985046680551e-14,
+      "expected_offset": -3.385312863368739e-14,
+      "passes": true
+    },
+    "milp_linearized": {
+      "status": "Optimal",
+      "objective": 1.6500000000000001,
+      "runtime_s": 0.035645484924316406,
+      "note": "MILP uses linear penalty proxy; not directly comparable to QUBO objective."
+    },
+    "feasibility_of_enum_optimum": {
+      "cost": 5.775,
+      "peak_kW": 9.899999999999999,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        6.6,
+        9.899999999999999,
+        9.899999999999999,
+        6.6
+      ]
+    },
+    "feasibility_of_qubo_optimum": {
+      "cost": 5.775,
+      "peak_kW": 9.899999999999999,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        6.6,
+        9.899999999999999,
+        9.899999999999999,
+        6.6
+      ]
+    }
+  },
+  "toy_C_3x6": {
+    "n_vars": 16,
+    "n_qubits": 16,
+    "enumeration": {
+      "n_bitstrings": 65536,
+      "n_global_optima": 12,
+      "best_objective_original": 53.58000000000001
+    },
+    "qubo": {
+      "n": 16,
+      "constant": 334.166,
+      "best_objective": 53.579999999999984
+    },
+    "qubo_vs_original_equivalence": {
+      "n_bitstrings": 65536,
+      "mean_offset": -4.082042863451374e-14,
+      "std_offset": 1.8311725779292418e-14,
+      "max_abs_deviation_from_mean": 5.865555437190029e-14,
+      "tolerance": 1e-07,
+      "passes": true,
+      "diffs_sample_first5": [
+        -5.684341886080802e-14,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "diffs_sample_last5": [
+        -5.684341886080802e-14,
+        7.105427357601002e-15,
+        -1.4210854715202004e-14,
+        -3.552713678800501e-14,
+        -5.684341886080802e-14
+      ]
+    },
+    "optimality_agreement": {
+      "diff_qubo_minus_enum": -2.842170943040401e-14,
+      "expected_offset": -4.082042863451374e-14,
+      "passes": true
+    },
+    "milp_linearized": {
+      "status": "Optimal",
+      "objective": 2.97,
+      "runtime_s": 0.038837432861328125,
+      "note": "MILP uses linear penalty proxy; not directly comparable to QUBO objective."
+    },
+    "feasibility_of_enum_optimum": {
+      "cost": 8.91,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        6.6,
+        6.6,
+        6.6,
+        6.6,
+        6.6,
+        6.6
+      ]
+    },
+    "feasibility_of_qubo_optimum": {
+      "cost": 8.91,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        6.6,
+        6.6,
+        6.6,
+        6.6,
+        6.6,
+        6.6
+      ]
+    }
+  },
+  "toy_D_4x4": {
+    "n_vars": 15,
+    "n_qubits": 15,
+    "enumeration": {
+      "n_bitstrings": 32768,
+      "n_global_optima": 18,
+      "best_objective_original": 24.285999999999998
+    },
+    "qubo": {
+      "n": 15,
+      "constant": 220.444,
+      "best_objective": 24.285999999999916
+    },
+    "qubo_vs_original_equivalence": {
+      "n_bitstrings": 32768,
+      "mean_offset": -3.6254419605308286e-14,
+      "std_offset": 1.766455188659146e-14,
+      "max_abs_deviation_from_mean": 6.322156340110574e-14,
+      "tolerance": 1e-07,
+      "passes": true,
+      "diffs_sample_first5": [
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        -2.842170943040401e-14,
+        0.0
+      ],
+      "diffs_sample_last5": [
+        -2.842170943040401e-14,
+        -5.684341886080802e-14,
+        -4.973799150320701e-14,
+        -7.105427357601002e-14,
+        -8.526512829121202e-14
+      ]
+    },
+    "optimality_agreement": {
+      "diff_qubo_minus_enum": -8.171241461241152e-14,
+      "expected_offset": -3.6254419605308286e-14,
+      "passes": true
+    },
+    "milp_linearized": {
+      "status": "Optimal",
+      "objective": 1.9800000000000002,
+      "runtime_s": 0.0392460823059082,
+      "note": "MILP uses linear penalty proxy; not directly comparable to QUBO objective."
+    },
+    "feasibility_of_enum_optimum": {
+      "cost": 6.93,
+      "peak_kW": 9.899999999999999,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        9.899999999999999,
+        9.899999999999999,
+        9.899999999999999,
+        9.899999999999999
+      ]
+    },
+    "feasibility_of_qubo_optimum": {
+      "cost": 6.93,
+      "peak_kW": 9.899999999999999,
+      "unmet_kWh": 0.0,
+      "deadline_violations": [],
+      "site_cap_violations": [],
+      "feasible": true,
+      "load_per_slot_kW": [
+        9.899999999999999,
+        9.899999999999999,
+        9.899999999999999,
+        9.899999999999999
+      ]
+    }
+  }
+}

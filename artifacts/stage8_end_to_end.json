@@ -1,0 +1,38 @@
+{
+  "clean_env_check": {
+    "status": "OK",
+    "runtime_s": 0.7664549350738525,
+    "F0_exact": 30.843,
+    "F1_exact": 141.22001124925995,
+    "F2_exact": 144.44547280578524,
+    "n_calibration": 3378,
+    "n_scenarios": 8
+  },
+  "robust_qubo_revalidation": {
+    "K4": {
+      "n_bitstrings": 2048,
+      "n_vars": 11,
+      "mean_offset": -4.4960563050366886e-14,
+      "max_abs_deviation_from_mean": 5.206599040796789e-14,
+      "tolerance": 1e-07,
+      "passes": true
+    },
+    "K8": {
+      "n_bitstrings": 2048,
+      "n_vars": 11,
+      "mean_offset": -4.1580891507742024e-11,
+      "max_abs_deviation_from_mean": 4.2408039579999723e-10,
+      "tolerance": 1e-07,
+      "passes": true
+    },
+    "K16": {
+      "n_bitstrings": 2048,
+      "n_vars": 11,
+      "mean_offset": 2.1227186675076837e-12,
+      "max_abs_deviation_from_mean": 2.349533623213773e-10,
+      "tolerance": 1e-07,
+      "passes": true
+    }
+  },
+  "elapsed_s_total": 426.0223867893219
+}

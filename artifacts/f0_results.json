@@ -1,0 +1,66 @@
+{
+  "formulation": {},
+  "qaoa": {
+    "method": "F0_deterministic",
+    "n_qubits": 11,
+    "p": 1,
+    "shots": 1024,
+    "n_seeds": 3,
+    "classical_optimum": 30.843,
+    "per_seed": [
+      {
+        "seed": 0,
+        "runtime_s": 56.980146169662476,
+        "best_qubo_energy": 30.84299999999996,
+        "qubo_optimum": 30.843,
+        "approximation_ratio": 0.9999999999999988,
+        "absolute_gap": -3.907985046680551e-14,
+        "n_shots_total": 1024,
+        "n_optimum_samples": 1,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.4853515625,
+        "P_qubo_feasible": 0.4853515625,
+        "P_energy_feasible": 0.4853515625,
+        "P_site_feasible": 0.599609375,
+        "P_deadline_feasible": 0.4853515625
+      },
+      {
+        "seed": 1,
+        "runtime_s": 23.594379663467407,
+        "best_qubo_energy": 30.84299999999996,
+        "qubo_optimum": 30.843,
+        "approximation_ratio": 0.9999999999999988,
+        "absolute_gap": -3.907985046680551e-14,
+        "n_shots_total": 1024,
+        "n_optimum_samples": 1,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.509765625,
+        "P_qubo_feasible": 0.509765625,
+        "P_energy_feasible": 0.509765625,
+        "P_site_feasible": 0.6943359375,
+        "P_deadline_feasible": 0.509765625
+      },
+      {
+        "seed": 2,
+        "runtime_s": 25.06074810028076,
+        "best_qubo_energy": 30.84299999999996,
+        "qubo_optimum": 30.843,
+        "approximation_ratio": 0.9999999999999988,
+        "absolute_gap": -3.907985046680551e-14,
+        "n_shots_total": 1024,
+        "n_optimum_samples": 1,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.5244140625,
+        "P_qubo_feasible": 0.5244140625,
+        "P_energy_feasible": 0.5244140625,
+        "P_site_feasible": 0.728515625,
+        "P_deadline_feasible": 0.5244140625
+      }
+    ],
+    "AR_median": 0.9999999999999988,
+    "AR_mean": 0.9999999999999988,
+    "P_feasible_mean": 0.5065104166666666,
+    "P_feasible_std": 0.016112459206724716
+  },
+  "method": "F0"
+}

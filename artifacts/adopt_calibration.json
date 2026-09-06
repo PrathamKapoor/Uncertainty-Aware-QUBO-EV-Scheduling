@@ -1,0 +1,27 @@
+{
+  "alpha": 1.0,
+  "alpha_rationale": "STRUCTURAL DEFAULT: alpha = 1.0 (one full mean-ratio inflation). Pre-registered. NOT tuned on held-out data.",
+  "n_calibration_observations": 3546,
+  "n_mc_samples_per_ev": 500,
+  "calibration_set_used": "calibration window (2018-05-01 .. 2019-07-01 UTC)",
+  "adopt_stats": {
+    "alpha": 1.0,
+    "mean_sigma": 0.7778391008103607,
+    "mean_Rbar": 1.28,
+    "mean_ratio_sigma_over_Rbar": 0.6413709169968486,
+    "gamma": 1.6413709169968485,
+    "rho_d_robust": 1.6413709169968485,
+    "n_observations_in_sigma_i_estimate": 1500,
+    "n_evs_with_positive_Rbar": 3,
+    "note": "sigma_i is the cross-sectional std of R_i over the empirical (Delta_d, Delta_e) samples; R_bar_i is the corresponding mean."
+  },
+  "gamma_statistics": {
+    "gamma": 1.6413709169968485,
+    "rho_d_deterministic": 1.0,
+    "rho_d_robust_adopt": 1.6413709169968485,
+    "fractional_increase": 0.6413709169968485,
+    "mean_ratio_sigma_over_Rbar": 0.6413709169968486,
+    "n_evs_with_positive_Rbar": 3
+  },
+  "leakage_check": "ADOPT parameters were fitted on the calibration set only. The held-out set has not been touched."
+}

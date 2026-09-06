@@ -1,0 +1,24 @@
+{
+  "stochastic_components": [
+    {
+      "module": "stage5.uncertainty",
+      "function": "placeholder_uncertainty",
+      "rng": "numpy.random.default_rng",
+      "seed_source": "fixed seed=20260829"
+    },
+    {
+      "module": "stage5.uncertainty",
+      "function": "kmeans_joint",
+      "rng": "numpy.random.default_rng",
+      "seed_source": "seed=20260829+K parameter"
+    },
+    {
+      "module": "stage4.qaoa",
+      "function": "run_qaoa",
+      "rng": "qiskit_algorithms.utils.algorithm_globals + AerSampler(seed)",
+      "seed_source": "config.seed parameter"
+    }
+  ],
+  "global_rng_violations": [],
+  "verdict": "PASS"
+}

@@ -1,0 +1,129 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "List figures available now (synthetic) and pending figures (real data).",
+  "figures_now_possible": [
+    {
+      "id": 1,
+      "title": "Overall methodology pipeline",
+      "source": "static diagram; no data dependency"
+    },
+    {
+      "id": 2,
+      "title": "QUBO variable mapping for toy_B_3x4",
+      "source": "artifacts/instance_manifest.json + stage3/ev_scheduling.py::Instance.var_index()"
+    },
+    {
+      "id": 3,
+      "title": "Robust-QUBO transformation diagram",
+      "source": "static diagram; no data dependency"
+    },
+    {
+      "id": 4,
+      "title": "ADOPT pipeline diagram",
+      "source": "static diagram; no data dependency"
+    },
+    {
+      "id": 5,
+      "title": "QAOA circuit diagram (p=1, X mixer, cost evolution via PauliEvolutionGate)",
+      "source": "static diagram from stage4/qa.py::run_qaoa"
+    },
+    {
+      "id": 6,
+      "title": "Placeholder Stage 5 DeltaE distribution (calibration + held-out)",
+      "source": "artifacts/uncertainty_distributions.json (Stage 5/6 -- PLACEHOLDER, not real ACN)"
+    },
+    {
+      "id": 7,
+      "title": "Placeholder Stage 5 Delta d distribution",
+      "source": "artifacts/uncertainty_distributions.json (Stage 5/6 -- PLACEHOLDER)"
+    },
+    {
+      "id": 8,
+      "title": "Placeholder K=8 scenario centroids",
+      "source": "artifacts/scenarios_K8.json (PLACEHOLDER)"
+    },
+    {
+      "id": 9,
+      "title": "Placeholder objective decomposition (F1)",
+      "source": "artifacts/stage7_run.json (PLACEHOLDER)"
+    },
+    {
+      "id": 10,
+      "title": "Synthetic recovery S1/S2/S3 F0/F1/F2 optima",
+      "source": "artifacts/synthetic_recovery_tests.json (Stage 7)"
+    },
+    {
+      "id": 11,
+      "title": "Directionality tests (early-departure, unmet, magnitude)",
+      "source": "artifacts/directionality_tests.json (Stage 7)"
+    },
+    {
+      "id": 12,
+      "title": "Distribution-shift A/B/C F0/F1/F2",
+      "source": "artifacts/distribution_shift_tests.json (Stage 7)"
+    },
+    {
+      "id": 13,
+      "title": "ADOPT sensitivity (alpha sweep)",
+      "source": "artifacts/adopt_sensitivity.json (Stage 8)"
+    },
+    {
+      "id": 14,
+      "title": "QAOA exact-vs-QAOA gap (Stage 7)",
+      "source": "artifacts/qaoa_gap_decomposition.json"
+    },
+    {
+      "id": 15,
+      "title": "Robust-QUBO exhaustive algebraic validation K=4,8,16",
+      "source": "artifacts/robust_qubo_revalidation.json (Stage 8)"
+    },
+    {
+      "id": 16,
+      "title": "Scaling profile",
+      "source": "artifacts/scaling_profile.json (Stage 8)"
+    }
+  ],
+  "figures_pending_real_data": [
+    {
+      "id": "R1",
+      "title": "Real ACN-Data DeltaE distribution",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R2",
+      "title": "Real ACN-Data Delta d distribution",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R3",
+      "title": "Real ACN-Data joint DeltaE-Delta d",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R4",
+      "title": "Real K=8 scenario centroids (calibration)",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R5",
+      "title": "Real held-out P(feasible) by formulation",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R6",
+      "title": "Real held-out unmet energy by formulation",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R7",
+      "title": "Real cost vs reliability trade-off",
+      "status": "PENDING ACN_API_TOKEN"
+    },
+    {
+      "id": "R8",
+      "title": "Real calibration vs held-out distribution shift",
+      "status": "PENDING ACN_API_TOKEN"
+    }
+  ]
+}

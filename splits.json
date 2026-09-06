@@ -1,0 +1,40 @@
+{
+  "_status": "Stage 2 STAGED — token-dependent uncertainty (DeltaE) BLOCKED. Splits are policy-only; no held-out data has been touched.",
+  "_stage1_spec": "docs/STAGE_1_SPEC.md",
+  "_stage2_audit": "docs/STAGE_2_DATA_AUDIT.md",
+  "acquisition": {
+    "primary_source": "https://ev.caltech.edu/api/v1/",
+    "primary_status": "HTTP 401 — token required, registration is human-mediated",
+    "secondary_source": "https://github.com/tongxin-li/ACN-Data-Static",
+    "secondary_status": "available, time-series only, caltech_sessions.json is 2 bytes (empty)",
+    "audit_timestamp": "2026-08-29",
+    "audit_method": "HTTP GET via urllib; sample of 200 Caltech time-series files via Git Trees API + raw.githubusercontent.com"
+  },
+  "temporal_split": {
+    "site": "caltech",
+    "calibration": {
+      "start_local": "2018-05-01T00:00:00-08:00",
+      "end_local_exclusive": "2019-07-01T00:00:00-07:00",
+      "rationale": "Encloses the historical behavior we use to fit f_hat(omega). Starts at first Caltech data; ends at the 2019-07-01 boundary so the held-out window is 6 full months."
+    },
+    "held_out": {
+      "start_local": "2019-07-01T00:00:00-07:00",
+      "end_local_exclusive": "2020-01-01T00:00:00-08:00",
+      "rationale": "6 calendar months of held-out data, temporally disjoint from calibration."
+    },
+    "enforcement": "By filename connectionTime AND file first_ts (both confirmed UTC by audit; see STAGE_2 §6). Sessions are assigned by connTime-in-UTC, which is the same instant the scheduler would observe at decision time. DST-aware local conversion is applied only for slot indexing, never for the calibration/held-out split boundary itself."
+  },
+  "leakage_rules": {
+    "1": "No session ID (or filename) may appear in both sets.",
+    "2": "No parameter (penalty weights, gamma(omega), scenario weights, TOU tariff, cleaning thresholds) may be learned from held-out data.",
+    "3": "No realized omega from held-out data may be exposed during schedule construction.",
+    "4": "All preprocessing that depends on data statistics (outlier detection, normalization, scenario generation) is fitted only on calibration data."
+  },
+  "blocker": {
+    "field": "userInputs[*].kWhRequested",
+    "needed_for": "Stage 1 uncertainty variable DeltaE = kWhDelivered - kWhRequested",
+    "status": "NOT ACCESSIBLE without an ACN-Data API token. The static snapshot does not contain userInputs. Until the token arrives, the uncertainty model cannot be finalized and Stage 3 must not begin.",
+    "owner": "project owner (registration at https://ev.caltech.edu/register is human-mediated)",
+    "fallback": "If the token does not arrive within 2 business days, Stage 1 must be amended per the project rules: either drop DeltaE (substantial paper reframing) or STOP the project."
+  }
+}

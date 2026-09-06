@@ -1,0 +1,38 @@
+[
+  {
+    "instance": "toy_A_2x4",
+    "n_qubits": 7,
+    "statevector_memory_bytes": 2048,
+    "statevector_memory_GB": 2.048e-06,
+    "qubo_construction_time_s": 0.0001747608184814453,
+    "ising_construction_time_s": 7.843971252441406e-05,
+    "qaoa_feasible_under_64GB_statevector": true
+  },
+  {
+    "instance": "toy_B_3x4",
+    "n_qubits": 11,
+    "statevector_memory_bytes": 32768,
+    "statevector_memory_GB": 3.2768e-05,
+    "qubo_construction_time_s": 0.00018310546875,
+    "ising_construction_time_s": 8.058547973632812e-05,
+    "qaoa_feasible_under_64GB_statevector": true
+  },
+  {
+    "instance": "toy_C_3x6",
+    "n_qubits": 16,
+    "statevector_memory_bytes": 1048576,
+    "statevector_memory_GB": 0.001048576,
+    "qubo_construction_time_s": 0.0002562999725341797,
+    "ising_construction_time_s": 0.00011897087097167969,
+    "qaoa_feasible_under_64GB_statevector": true
+  },
+  {
+    "instance": "toy_D_4x4",
+    "n_qubits": 15,
+    "statevector_memory_bytes": 524288,
+    "statevector_memory_GB": 0.000524288,
+    "qubo_construction_time_s": 0.00020956993103027344,
+    "ising_construction_time_s": 0.00010848045349121094,
+    "qaoa_feasible_under_64GB_statevector": true
+  }
+]

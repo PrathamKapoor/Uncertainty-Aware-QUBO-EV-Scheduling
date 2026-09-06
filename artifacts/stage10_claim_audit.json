@@ -1,0 +1,30 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Search manuscript draft for overclaim words. Classify each by evidence.",
+  "searched_words": [
+    "proves",
+    "demonstrates",
+    "guarantees",
+    "outperforms",
+    "superior",
+    "advantage",
+    "novel",
+    "first",
+    "state-of-the-art"
+  ],
+  "occurrences_in_manuscript": [],
+  "verdict": "Paper draft forbids all quantum-advantage claims. Overclaim words are replaced with calibrated language: 'demonstrated for placeholder' / 'remains pending on real data' / 'conservatively not claimed'.",
+  "real_data_blockers": [
+    "real DeltaE distribution",
+    "real Delta d distribution",
+    "real K=8 scenario centroids",
+    "real gamma",
+    "real held-out P(feasible)",
+    "real held-out mean unmet",
+    "real held-out cost",
+    "real bootstrap CI",
+    "real distribution-shift diagnostic"
+  ],
+  "conclusion_is_conditional": true
+}

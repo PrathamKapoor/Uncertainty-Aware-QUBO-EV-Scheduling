@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "applies_to": "Caltech ACN-Data static time-series files",
+  "rules": [
+    {
+      "id": "R1_filename_parse",
+      "description": "Filename matches the documented pattern: {station}-{cluster}-{evse}-{YYYY-MM-DDTHH-MM-SS}-{microsec}.csv.gz",
+      "regex": "^\\d+-\\d+-\\d+-\\d{4}-\\d{2}-\\d{2}T\\d{2}-\\d{2}-\\d{2}-\\d+$",
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R2_nonempty_body",
+      "description": "Time-series body has at least 2 rows (first and last sample).",
+      "min_rows": 2,
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R3_timestamp_parse",
+      "description": "First-sample timestamp is parseable as ISO 8601.",
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R4_energy_column_present",
+      "description": "At least one row has a parseable Energy Delivered (kWh) value.",
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R5_filename_file_agreement",
+      "description": "Absolute difference between file first_ts (UTC) and filename connTime (UTC) must be <= 1800 seconds (30 minutes).",
+      "max_offset_seconds": 1800,
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R6_duration_sanity",
+      "description": "Session duration (last_ts - first_ts) must satisfy 0 < duration <= 7 days.",
+      "max_duration_seconds": 604800,
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R7_monotonic_timestamps",
+      "description": "last_ts >= first_ts (subsumed by R6 but kept for diagnostic clarity).",
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R8_evse_id_valid",
+      "description": "EVSE ID parses as a positive integer < 1000 (Caltech uses 1-56 per acnportal Caltech site config).",
+      "on_fail": "exclude",
+      "deterministic": true
+    },
+    {
+      "id": "R9_kwhRequested_present",
+      "description": "(TOKEN-REQUIRED) The last userInputs.modifiedAt entry has a non-null kWhRequested value.",
+      "applies_to": "DeltaE distribution only",
+      "on_fail": "exclude from DeltaE distribution; retain for DeltaD",
+      "deterministic": true,
+      "token_required": true
+    },
+    {
+      "id": "R10_requestedDeparture_present",
+      "description": "(TOKEN-REQUIRED) The last userInputs.modifiedAt entry has a non-null requestedDeparture value.",
+      "applies_to": "DeltaD distribution only",
+      "on_fail": "exclude from DeltaD distribution; retain for DeltaE",
+      "deterministic": true,
+      "token_required": true
+    },
+    {
+      "id": "R11_minutesAvailable_present",
+      "description": "(TOKEN-REQUIRED) The last userInputs.modifiedAt entry has a non-null minutesAvailable value.",
+      "applies_to": "duration-baseline fit only",
+      "on_fail": "exclude from baseline fit; retain for distribution fits",
+      "deterministic": true,
+      "token_required": true
+    }
+  ],
+  "explicitly_not_excluded": [
+    "zero-energy sessions (energy_kwh < 0.001)",
+    "sessions never reaching ADAPTIVE state",
+    "extreme energy values (>50 kWh)",
+    "short sessions (<5 min)",
+    "long sessions (>24h, subject to R6 cap at 7 days)"
+  ],
+  "audit_sample_effect": {
+    "n_files": 200,
+    "excluded": 8,
+    "exclusion_rate": 0.04,
+    "exclusion_reasons_in_sample": {
+      "R4_energy_column": 8,
+      "R5_filename_file_agreement": 1,
+      "overlap_of_reasons": "1 file excluded by both R4 and R5 (one 3.9h outlier also had empty energy cells); 8 unique files"
+    }
+  }
+}

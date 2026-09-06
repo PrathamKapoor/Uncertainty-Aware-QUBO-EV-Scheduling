@@ -1,0 +1,64 @@
+{
+  "K": 4,
+  "n_observations": 3378,
+  "seed": 20260833,
+  "standardization": {
+    "mu_dd": -18.273481768610154,
+    "sigma_dd": 60.43314560656547,
+    "mu_de": -0.25104321399869994,
+    "sigma_de": 1.6398985910288666
+  },
+  "reconstruction_sse": 2090.715757835774,
+  "reconstruction_sse_per_point": 0.6189211834919403,
+  "tail_coverage_fraction": 0.2507396449704142,
+  "wasserstein1_dd": 0.04846062759029011,
+  "wasserstein1_de": 0.02085257548845471,
+  "marginal_pearson_preserved": -0.015054485289545599,
+  "empirical_pearson": -0.013807687644745109,
+  "clusters": [
+    {
+      "cluster": 0,
+      "n_observations": 2497,
+      "weight": 0.7391947898164595,
+      "centroid_delta_d_minutes": 2.4385041721229364,
+      "centroid_delta_e_kwh": -0.10881193198171452,
+      "mean_delta_d": 2.4385041721226086,
+      "mean_delta_e": -0.10881193198170992,
+      "std_delta_d": 32.583778081823276,
+      "std_delta_e": 0.5233880813136715
+    },
+    {
+      "cluster": 1,
+      "n_observations": 480,
+      "weight": 0.14209591474245115,
+      "centroid_delta_d_minutes": -134.7722775748761,
+      "centroid_delta_e_kwh": -0.09361363365723005,
+      "mean_delta_d": -134.77227757487634,
+      "mean_delta_e": -0.09361363365722881,
+      "std_delta_d": 51.554212459250415,
+      "std_delta_e": 0.909816002633608
+    },
+    {
+      "cluster": 2,
+      "n_observations": 206,
+      "weight": 0.06098283007696862,
+      "centroid_delta_d_minutes": -6.479443063742275,
+      "centroid_delta_e_kwh": 2.562475850836639,
+      "mean_delta_d": -6.47944306374227,
+      "mean_delta_e": 2.5624758508366403,
+      "std_delta_d": 36.32657703704009,
+      "std_delta_e": 1.0857250815989525
+    },
+    {
+      "cluster": 3,
+      "n_observations": 195,
+      "weight": 0.05772646536412078,
+      "centroid_delta_d_minutes": -9.186193974788262,
+      "centroid_delta_e_kwh": -5.432082378698243,
+      "mean_delta_d": -9.186193974788253,
+      "mean_delta_e": -5.432082378698246,
+      "std_delta_d": 51.03328493425702,
+      "std_delta_e": 2.0664210254957083
+    }
+  ]
+}

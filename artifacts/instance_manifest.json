@@ -1,0 +1,194 @@
+{
+  "instances": [
+    {
+      "name": "toy_A_2x4",
+      "N": 2,
+      "T": 4,
+      "n_vars": 7,
+      "n_qubits": 7,
+      "evs": [
+        {
+          "ev_id": "E1",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 1.65,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 2
+        },
+        {
+          "ev_id": "E2",
+          "a_slot": 1,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        }
+      ],
+      "P_site_max_kW": 6.6,
+      "P_target_kW": 3.3,
+      "c_per_slot": [
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25
+      ],
+      "TOU_periods": "PG&E EV2-A 2018-vintage: super-off-peak 00-09, off-peak 09-14/21-24, peak 14-21",
+      "Delta_min": 15,
+      "description": "Toy 2x4 scenario=easy. All EVs at 3.3 kW; R_i in slot counts."
+    },
+    {
+      "name": "toy_B_3x4",
+      "N": 3,
+      "T": 4,
+      "n_vars": 11,
+      "n_qubits": 11,
+      "evs": [
+        {
+          "ev_id": "E1",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 1.65,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 2
+        },
+        {
+          "ev_id": "E2",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        },
+        {
+          "ev_id": "E3",
+          "a_slot": 1,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        }
+      ],
+      "P_site_max_kW": 9.9,
+      "P_target_kW": 6.6,
+      "c_per_slot": [
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25
+      ],
+      "TOU_periods": "PG&E EV2-A 2018-vintage: super-off-peak 00-09, off-peak 09-14/21-24, peak 14-21",
+      "Delta_min": 15,
+      "description": "Toy 3x4 scenario=easy. All EVs at 3.3 kW; R_i in slot counts."
+    },
+    {
+      "name": "toy_C_3x6",
+      "N": 3,
+      "T": 6,
+      "n_vars": 16,
+      "n_qubits": 16,
+      "evs": [
+        {
+          "ev_id": "E1",
+          "a_slot": 0,
+          "d_slot": 5,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 2.4749999999999996,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 3
+        },
+        {
+          "ev_id": "E2",
+          "a_slot": 0,
+          "d_slot": 5,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 1.65,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 2
+        },
+        {
+          "ev_id": "E3",
+          "a_slot": 2,
+          "d_slot": 5,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        }
+      ],
+      "P_site_max_kW": 9.9,
+      "P_target_kW": 6.6,
+      "c_per_slot": [
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25,
+        0.30000000000000004,
+        0.35
+      ],
+      "TOU_periods": "PG&E EV2-A 2018-vintage: super-off-peak 00-09, off-peak 09-14/21-24, peak 14-21",
+      "Delta_min": 15,
+      "description": "Toy 3x6 scenario=easy. All EVs at 3.3 kW; R_i in slot counts."
+    },
+    {
+      "name": "toy_D_4x4",
+      "N": 4,
+      "T": 4,
+      "n_vars": 15,
+      "n_qubits": 15,
+      "evs": [
+        {
+          "ev_id": "E1",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 1.65,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 2
+        },
+        {
+          "ev_id": "E2",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        },
+        {
+          "ev_id": "E3",
+          "a_slot": 1,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        },
+        {
+          "ev_id": "E4",
+          "a_slot": 0,
+          "d_slot": 3,
+          "P_max_kW": 3.3,
+          "E_req_kWh": 0.825,
+          "E_req_source": "TOKEN-GATED PLACEHOLDER",
+          "R_i_slots": 1
+        }
+      ],
+      "P_site_max_kW": 9.9,
+      "P_target_kW": 6.6,
+      "c_per_slot": [
+        0.1,
+        0.15000000000000002,
+        0.2,
+        0.25
+      ],
+      "TOU_periods": "PG&E EV2-A 2018-vintage: super-off-peak 00-09, off-peak 09-14/21-24, peak 14-21",
+      "Delta_min": 15,
+      "description": "Toy 4x4 scenario=easy. All EVs at 3.3 kW; R_i in slot counts."
+    }
+  ]
+}

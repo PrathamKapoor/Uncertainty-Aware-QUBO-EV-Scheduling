@@ -1,0 +1,57 @@
+{
+  "per_formulation": {
+    "F0": [
+      {
+        "seed": 0,
+        "AR": 0.9999999999999988,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.486328125
+      },
+      {
+        "seed": 1,
+        "AR": 0.9999999999999988,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.509765625
+      },
+      {
+        "seed": 2,
+        "AR": 0.9999999999999988,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.5244140625
+      },
+      {
+        "seed": 3,
+        "AR": 0.9999999999999988,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.509765625
+      },
+      {
+        "seed": 4,
+        "AR": 0.9999999999999988,
+        "P_opt": 0.0009765625,
+        "P_feasible": 0.4990234375
+      },
+      {
+        "seed": 5,
+        "skipped": "time budget"
+      },
+      {
+        "seed": 6,
+        "skipped": "time budget"
+      },
+      {
+        "seed": 7,
+        "skipped": "time budget"
+      },
+      {
+        "seed": 8,
+        "skipped": "time budget"
+      },
+      {
+        "seed": 9,
+        "skipped": "time budget"
+      }
+    ]
+  },
+  "elapsed_s": 88.47728419303894
+}

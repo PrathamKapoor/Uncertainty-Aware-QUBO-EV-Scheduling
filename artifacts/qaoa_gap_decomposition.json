@@ -1,0 +1,8 @@
+{
+  "exact_optimum": 30.843,
+  "best_sample_objective": 30.84299999999996,
+  "sample_expectation": 57.61661035156247,
+  "sampling_error_best_minus_optimum": -3.907985046680551e-14,
+  "n_distinct_sampled_bitstrings": 622,
+  "total_shots": 1024
+}

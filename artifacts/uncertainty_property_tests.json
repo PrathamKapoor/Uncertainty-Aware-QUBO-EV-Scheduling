@@ -1,0 +1,25 @@
+{
+  "tests": {
+    "T1_zero": true,
+    "T2_neg": true,
+    "T3_pos": true,
+    "T4_early": true,
+    "T5_ontime": true,
+    "T6_late": true
+  },
+  "all_pass": true,
+  "deltaE_formula": "deltaE = E_delivered - E_requested",
+  "delta_d_formula": "delta_d = d_requested - d_actual",
+  "interpretation": {
+    "deltaE_sign": {
+      "< 0": "unmet demand",
+      "= 0": "demand met",
+      "> 0": "over-delivery"
+    },
+    "delta_d_sign": {
+      "< 0": "left later",
+      "= 0": "on time",
+      "> 0": "left earlier"
+    }
+  }
+}

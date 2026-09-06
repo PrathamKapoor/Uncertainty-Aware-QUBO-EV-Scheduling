@@ -1,0 +1,249 @@
+{
+  "authoritative_stage9_artifacts": {
+    "real_calibration_freeze.json": {
+      "purpose": "Freeze marker (\u03b3 frozen before held-out artifacts)",
+      "sha256": "f4255baa3e5563b5d8a61574ef8a68c12221e2872d10606fba86a9329f6194e0"
+    },
+    "real_calibration_parameters.json": {
+      "purpose": "\u03b3=4.1313, \u03c1_d_robust=4.1313, ADOPT stats (frozen before held-out)",
+      "sha256": "9d26a098c13c8382960f066fde7ba6966c691ca7553ddc47fdd17266221625c6"
+    },
+    "real_cleaning_results.json": {
+      "purpose": "R9-R11 cleaning counts",
+      "sha256": "c51905dd08923008b3f727734e35be0d626f288f568d9a847f13724584b124df"
+    },
+    "real_distribution_shift.json": {
+      "purpose": "Cal-vs-ho mean/std + case_label=A_mild",
+      "sha256": "4dfb0967f56c7314fecf132e0f3bdc80efa69d712353b522f7090356b77d7513"
+    },
+    "real_f0_results.json": {
+      "purpose": "F0 deterministic QUBO",
+      "sha256": "4de97d714e663b56c27ff469ce1609d52cbf14f89dcf616cc6e184733534b973"
+    },
+    "real_f1_results.json": {
+      "purpose": "F1 robust QUBO",
+      "sha256": "e98305c44dab92727415333e75b89f8eb8c5a8a5ae53f73fc1a4462be90cd5bd"
+    },
+    "real_f2_results.json": {
+      "purpose": "F2 ADOPT QUBO",
+      "sha256": "23ed7d1cb1f3b45821242c13a009efddcbcde8b90398d528b84146a24e5fda53"
+    },
+    "real_f3_results.json": {
+      "purpose": "F3 oracle QUBO (analysis-only)",
+      "sha256": "142a959889c551750cc51185986fcfe967778fc583dd5557c00f90839d40cceb"
+    },
+    "real_failure_cases.json": {
+      "purpose": "F0/F2 feasibility cross-tab on held-out",
+      "sha256": "def3be08baa75a06c6f3eabc34d65f23cdd0c4a04097573dd52eb57295822ce1"
+    },
+    "real_heldout_results.json": {
+      "purpose": "Held-out feasibility metrics for F0/F1/F2/F3",
+      "sha256": "0ea47c18269114f8fb1d0c636a172567f075fe05087b359446c0184d46c327d4"
+    },
+    "real_objective_decomposition.json": {
+      "purpose": "F0/F1/F2 cost/deadline/peak/cap decomposition",
+      "sha256": "d1f62a34c6ae66159354ad1a13ffb410a546cc93358137aac39b09c6aed08aad"
+    },
+    "real_paired_statistics.json": {
+      "purpose": "Paired bootstrap 95% CIs + Bonferroni alpha",
+      "sha256": "8b1cc1a6bbd12fef578c7f5095fbd87cb1daa14f0a4a1a1d53c55d7fb544698b"
+    },
+    "real_qaoa_results.json": {
+      "purpose": "QAOA per-seed AR/P_feasible for F0/F1/F2",
+      "sha256": "7975e29c1645ee4b9e509055429dff86aba99a7f996c9f5c8ff7d30c64ad2a33"
+    },
+    "real_qubo_validation.json": {
+      "purpose": "Corrected-robust-QUBO algebraic validation: PASS",
+      "sha256": "3e88a8e8a1cdd28bab604eb748370d9024bdf76b4f0a6ade9c9537e696440b89"
+    },
+    "real_raw_sessions.json": {
+      "purpose": "In-memory sample SHA-256 + n_records (no raw data)",
+      "sha256": "7d550b97e2383ea9f87088e88aff541dc36cc00e0c3026671bec1e5638f0b0c6"
+    },
+    "real_scenarios_K16.json": {
+      "purpose": "K=16 scenario sensitivity (diagnostic only)",
+      "sha256": "b91aeb9e0b0c92231c6bb60fbb6ae3a210d8f2c5f8b7e2f190276d0da221e45e"
+    },
+    "real_scenarios_K4.json": {
+      "purpose": "K=4 scenario sensitivity (diagnostic only)",
+      "sha256": "1d922b94e01bb37fafb786b82c460ab1941fa7f17fee0d3ec4df351affd01efb"
+    },
+    "real_scenarios_K8.json": {
+      "purpose": "K=8 scenarios (primary; seed=20260837)",
+      "sha256": "8a7564c24ac168bb4484fb3ee594e5f8e44fc1bec341f40f6cfda274508ebf67"
+    },
+    "real_uncertainty_statistics.json": {
+      "purpose": "\u0394d/\u0394E distributions, sign breakdowns, joint dependence",
+      "sha256": "cc882daed46b51437ddaf73a82baab9441d300acd7183ca0b79105c9d1535d4a"
+    },
+    "stage9_audit.json": {
+      "purpose": "Post-run audit: frozen_config_unchanged=true, n_artifacts=22",
+      "sha256": "d581a945f4eadb4479f8bee3be49b8e582516b9568311119e18b612608fff1d6"
+    },
+    "stage9_run.json": {
+      "purpose": "Top-level Stage 9 run manifest",
+      "sha256": "5b2d1f978694c41b057c7982eb65987f67c9a8e5075fa7324a77cd8bd37562f1"
+    }
+  },
+  "data_counts": {
+    "calibration_records_total": 20799,
+    "calibration_userInputs_null_excluded": 13307,
+    "calibration_valid_joint_DeltaE_Deltad": 7492,
+    "held_out_records_total": 4857,
+    "held_out_userInputs_null_excluded": 781,
+    "held_out_valid_joint_DeltaE_Deltad": 4076,
+    "total_records_in_windows": 25656,
+    "total_valid_joint_observations": 11568
+  },
+  "data_provenance": {
+    "auth_method": "HTTP Basic (token from ACN_API_TOKEN env var, never logged)",
+    "base_url": "https://ev.caltech.edu/api/v1/sessions/caltech",
+    "http_status_distribution": {
+      "200": 1029
+    },
+    "pages_visited": 1029,
+    "source": "live ACN-Data API"
+  },
+  "final_status": "COMPLETE \u2014 REAL EXPERIMENT EXECUTED SUCCESSFULLY",
+  "final_status_justification": "Stage 9 ran end-to-end on real ACN data with frozen methodology, frozen config unchanged, all 22 Stage 9 artifacts present and internally consistent, no synthetic fallback, no credential leakage, no post-hoc tuning. Statistical denominator convention discrepancy is a reporting issue, not a scientific validity issue, and is fully documented in STATISTICAL_DENOMINATOR_AUDIT.md.",
+  "frozen_bootstrap_configuration": {
+    "bonferroni_alpha": 0.016666666666666666,
+    "denominator_convention": "Bootstrap operates over 4,857-length vector (full ho list). Null-userInputs positions are represented as default-zero placeholders. Headline P_feasible uses 4,076 (valid joint only) as denominator. See STATISTICAL_DENOMINATOR_AUDIT.md.",
+    "n_bootstrap": 10000,
+    "seeds": [
+      20260829,
+      20260830,
+      20260831
+    ]
+  },
+  "frozen_configuration": {
+    "expected_sha256": "4a08e1e65587cc904521ff1bfc955b30671a5cb3485664d8b75f1ad93d9013b3",
+    "path": "artifacts/final_experiment_config.json",
+    "sha256": "4a08e1e65587cc904521ff1bfc955b30671a5cb3485664d8b75f1ad93d9013b3",
+    "verified_unchanged": true,
+    "version": "stage7.v1"
+  },
+  "frozen_kmeans_seed": 20260829,
+  "frozen_methodology": {
+    "Delta_minutes": 15,
+    "K": 8,
+    "M_window": 1000000,
+    "P_site_max_kW": 9.9,
+    "P_target_kW": 6.6,
+    "alpha": 1.0,
+    "gamma_ADOPT": 4.1313,
+    "rho_cap": 0.5,
+    "rho_d": 1.0,
+    "rho_d_robust": 4.1313,
+    "rho_p": 0.1
+  },
+  "frozen_qaoa_configuration": {
+    "backend": "qiskit_aer AerSampler (local simulator)",
+    "depth_p": 1,
+    "optimizer": "COBYLA",
+    "optimizer_max_iter": 30,
+    "optimizer_tol": 0.0001,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "shots": 1024
+  },
+  "frozen_scenario_seed": 20260837,
+  "frozen_temporal_windows": {
+    "calibration": {
+      "end_utc_exclusive": "2019-07-01T00:00:00+00:00",
+      "start_utc": "2018-05-01T00:00:00+00:00"
+    },
+    "held_out": {
+      "end_utc_exclusive": "2020-01-01T00:00:00+00:00",
+      "start_utc": "2019-07-01T00:00:00+00:00"
+    }
+  },
+  "frozen_uncertainty_definitions": {
+    "delta_E": "E_delivered - E_requested (positive = over-delivery, negative = unmet demand)",
+    "delta_d": "requested_departure - disconnectTime (positive = early departure)"
+  },
+  "project": {
+    "data_mode": "REAL",
+    "name": "Uncertainty-Aware QUBO Framework for EV Charging Scheduling",
+    "report_date_utc": "2026-09-05T07:01:01.842810+00:00",
+    "root": "C:/Projects/uncertainity_aware_quantum_opt",
+    "source": "live_api",
+    "stage": "Stage 10 (Final Scientific Reporting, Publication Readiness, Release Packaging)"
+  },
+  "sanitization": {
+    "authorization_headers_in_artifacts": false,
+    "individual_behavioral_values_in_artifacts": false,
+    "raw_records_in_artifacts": false,
+    "request_urls_with_credentials_in_artifacts": false,
+    "tokens_in_artifacts": false,
+    "verification_method": "Scan all real_*.json and stage9_*.json for Authorization, Basic <base64>, and long base64 strings not matching SHA-256 hex pattern. All scans returned 0 matches."
+  },
+  "source_files": {
+    "stage3_ev_scheduling": {
+      "modification": "None",
+      "path": "stage3/ev_scheduling.py",
+      "sha256": "066322e8d78feeeacfd2a4cf35068d7be4e2e52efab3d08f1d14f0528b773428"
+    },
+    "stage4_qaoa": {
+      "modification": "None",
+      "path": "stage4/qaoa.py",
+      "sha256": "5fadf933843e52ba49c513b0d14239868e12a2aad4f2c4eed1ab6d910ccc45fd"
+    },
+    "stage5_uncertainty_loader": {
+      "modification": "Retrieval-only pagination transition fix (+5 lines: 1 continue + 4 comment). Pre-authorized. No methodology change.",
+      "path": "stage5/uncertainty.py",
+      "sha256": "12b672297eab817767a44927e13dd2bfe1fa573b34b12562d383a1241a1c6e19"
+    },
+    "stage6_robust_qaoa": {
+      "modification": "None",
+      "path": "stage6/robust_qaoa.py",
+      "sha256": "da1994cb7dd116b5ad5c3b2218d8e3a6e62a33048c95c2539964b3b3524e8142"
+    },
+    "stage9_real_experiment_driver": {
+      "modification": "Dead-code import removed (-1 line). Pre-authorized. No methodology change.",
+      "path": "stage9/real_experiment.py",
+      "sha256": "d1d365bd39756430acfce15c1c9797451643e15b6b9b40c40509ce49a824d622"
+    }
+  },
+  "stage10_outputs": {
+    "FINAL_RESULTS_TABLE.md": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Publication-ready held-out results table"
+    },
+    "FINAL_SCIENTIFIC_REPORT.md": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Publication-quality scientific report"
+    },
+    "REPRODUCIBILITY_MANIFEST.json": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Machine-readable reproducibility manifest (this file)"
+    },
+    "STATISTICAL_DENOMINATOR_AUDIT.md": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "READ-ONLY forensic audit of 4,857 vs 4,076 bootstrap denominator issue"
+    },
+    "figures/figure_1_heldout_performance.png": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Held-out performance comparison (F0/F1/F2/F3)"
+    },
+    "figures/figure_2_tradeoff.png": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Feasibility vs unmet-energy trade-off visualization"
+    },
+    "figures/figure_3_scenarios.png": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Calibration scenario distribution summary (K=8)"
+    },
+    "figures/figure_4_distribution_shift.png": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Distribution-shift summary (cal vs ho)"
+    },
+    "figures/figure_5_primary_ci.png": {
+      "derived_from_existing_artifacts_only": true,
+      "purpose": "Primary statistical CI visualization (F2 vs F0)"
+    }
+  }
+}

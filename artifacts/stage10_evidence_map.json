@@ -1,0 +1,327 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Authoritative evidence map for the paper. Distinguishes mathematical / implementation / synthetic / placeholder / real-data / literature claims.",
+  "categories": {
+    "A_mathematical_claims": [
+      {
+        "claim": "Decision variables x[i,t] in {0,1}; variable set = union of available windows.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 1-2",
+        "source_artifact": "stage3/ev_scheduling.py::Instance.var_index()",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (Stage 3, 4, 6, 7, 8 all validate this)"
+      },
+      {
+        "claim": "n_qubits = n_vars = sum of available windows per EV; headline toy_B_3x4 -> 11 qubits.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 9.4",
+        "source_artifact": "stage3/ev_scheduling.py::Instance.n_vars; stage4/qa determinism check",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      },
+      {
+        "claim": "Deterministic QUBO objective F(x) = cost + rho_d * deadline^2 + rho_p * peak^2 + rho_cap * capacity^2.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 3; docs/STAGE_3_DETERMINISTIC.md sec 1.6",
+        "source_artifact": "stage3/ev_scheduling.py::build_qubo; artifacts/deterministic_qubo.json",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (Stage 3 validates F_QUBO = F_original + C)"
+      },
+      {
+        "claim": "Smooth two-sided capacity penalty (L - C)^2 is the frozen Stage 4 amendment.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 3.2 (amended); docs/STAGE_3_DETERMINISTIC.md sec 1.5; docs/STAGE_6_ROBUST_QAOA.md Part K",
+        "source_artifact": "stage3/ev_scheduling.py::build_qubo; stage6/robust_qaoa.py M_window_penalty",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (adopted; trade-off documented)"
+      },
+      {
+        "claim": "DeltaE = E_delivered - E_requested (correct sign convention: <0 unmet, =0 demand met, >0 over-delivery).",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 4.2; docs/STAGE_5_UNCERTAINTY.md sec 4 (corrected from flipped sign); docs/STAGE_6_ROBUST_QAOA.md Part A",
+        "source_artifact": "stage6/robust_qaoa.py::DELTA_E_SIGN_DOC; stage5/uncertainty.py::UncertaintySample",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (Stage 6 Part A corrected the Stage 5 prose flip)"
+      },
+      {
+        "claim": "Delta d = d_requested - d_actual (positive = early).",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 4.2",
+        "source_artifact": "stage5/uncertainty.py::UncertaintySample",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      },
+      {
+        "claim": "Stage 5 indirect Delta d transformation (R_i only) was incorrect; replaced by Stage 6 corrected transformation (variable-set fixed + M_window diagonal penalty on out-of-window slots + R_i modified by DeltaE).",
+        "source_doc": "docs/STAGE_6_ROBUST_QAOA.md Part B-D; docs/STAGE_7_STRESS_TEST.md sec 3",
+        "source_artifact": "stage6/robust_qaoa.py::corrected_scenario_aware_instance, scenario_aware_qubo",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (Part C test confirms F_B optimum matches F_A direct)"
+      },
+      {
+        "claim": "QUBO is pure quadratic: no auxiliary variables, no slack variables, no higher-order terms.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 2.3",
+        "source_artifact": "stage3/ev_scheduling.py::build_qubo (quadratic in x)",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      },
+      {
+        "claim": "ADOPT: gamma = 1 + alpha * mean(sigma_i / R_bar_i); rho_d^ADOPT = gamma * rho_d; single-solve, no online feedback.",
+        "source_doc": "docs/STAGE_1_SPEC.md sec 12; docs/STAGE_5_UNCERTAINTY.md sec 4.4-4.5",
+        "source_artifact": "stage5/uncertainty.py::compute_robust_rho_d; stage6/robust_qaoa.py::build_f2_adopt",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (alpha=1.0 pre-registered)"
+      }
+    ],
+    "B_implementation_validation_claims": [
+      {
+        "claim": "Stage 3 QUBO = original objective + C (algebraic identity).",
+        "source_doc": "docs/STAGE_3_DETERMINISTIC.md sec 10; artifacts/qubo_validation.json",
+        "source_artifact": "stage3/ev_scheduling.py::validate_qubo_vs_original",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (max dev 6.32e-14 across 32768 bitstrings)"
+      },
+      {
+        "claim": "Stage 4 QUBO -> Ising conversion is exact (x_i = (1-z_i)/2).",
+        "source_doc": "docs/STAGE_4_QAOA.md sec 3",
+        "source_artifact": "stage4/qa.py::qubo_to_ising; artifacts/ising_validation.json",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (max dev 5.68e-14 on 11-qubit instance)"
+      },
+      {
+        "claim": "Stage 6 corrected robust QUBO passes exhaustive algebraic validation on K=4, K=8, K=16.",
+        "source_doc": "docs/STAGE_6_ROBUST_QAOA.md sec 9; artifacts/robust_qubo_revalidation.json",
+        "source_artifact": "stage6/robust_qaoa.py::validate_corrected_robust_qubo",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (K=4: 5.21e-14; K=8: 4.24e-10; K=16: 2.35e-10)"
+      },
+      {
+        "claim": "Stage 6 direct-vs-indirect Part C test: Model A (direct window) and Model B (corrected) optima agree (149.388); Model C (Stage 5 indirect) is wrong (102.410).",
+        "source_doc": "docs/STAGE_6_ROBUST_QAOA.md sec 3",
+        "source_artifact": "stage6/robust_qaoa.py::test_direct_vs_indirect_mapping",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      }
+    ],
+    "C_synthetic_stress_test_claims": [
+      {
+        "claim": "F0/F1/F2 are directionally correct on synthetic controls: increasing early-departure risk, unmet-energy risk, and uncertainty magnitude each produce the expected QUBO response.",
+        "source_doc": "docs/STAGE_7_STRESS_TEST.md sec 6; artifacts/directionality_tests.json",
+        "source_artifact": "stage7/stress_test.py::directionality_test",
+        "experimentally_demonstrated": true,
+        "synthetic_only": true,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS (synthetic only; real-data directionality is a Stage 9 question, not yet answered)"
+      },
+      {
+        "claim": "Synthetic recovery S1 (no uncertainty): F0 = F1 exactly (30.84).",
+        "source_doc": "docs/STAGE_7_STRESS_TEST.md sec 5; artifacts/synthetic_recovery_tests.json",
+        "source_artifact": "stage7/stress_test.py::run_synthetic_recovery_test",
+        "experimentally_demonstrated": true,
+        "synthetic_only": true,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      },
+      {
+        "claim": "Synthetic distribution-shift A (same dist): F0/F1/F2 identical (10 slots, 0 unmet).",
+        "source_doc": "docs/STAGE_7_STRESS_TEST.md sec 8; artifacts/distribution_shift_tests.json",
+        "source_artifact": "stage7/stress_test.py::distribution_shift_diagnostic",
+        "experimentally_demonstrated": true,
+        "synthetic_only": true,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      },
+      {
+        "claim": "QAOA exact-vs-QAOA gap on F0 toy_B_3x4: AR=1.0 (best sample = exact optimum).",
+        "source_doc": "docs/STAGE_4_QAOA.md sec 11; docs/STAGE_7_STRESS_TEST.md sec 9; artifacts/qaoa_gap_decomposition.json",
+        "source_artifact": "stage4/qa.py::run_qaoa; stage7/stress_test.py::part_q_gap",
+        "experimentally_demonstrated": true,
+        "synthetic_only": true,
+        "placeholder_only": false,
+        "real_data_required": false,
+        "status": "PASS"
+      }
+    ],
+    "D_placeholder_data_claims": [
+      {
+        "claim": "On the Stage 5/6 placeholder, F0 deterministic achieves held-out P(feasible)=0.9483 with mean unmet 0.156 kWh.",
+        "source_doc": "docs/STAGE_6_ROBUST_QAOA.md sec 13; artifacts/heldout_robustness.json",
+        "source_artifact": "stage6/robust_qaoa.py::run_stage6",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": true,
+        "real_data_required": false,
+        "status": "PLACEHOLDER ONLY; this is NOT a real ACN-Data result"
+      },
+      {
+        "claim": "On the placeholder, F1 robust achieves held-out P(feasible)=0.1106; F2 ADOPT also 0.1106. This is NOT a real-data result.",
+        "source_doc": "docs/STAGE_6_ROBUST_QAOA.md sec 13; docs/STAGE_7_STRESS_TEST.md sec 0",
+        "source_artifact": "stage6/robust_qaoa.py::run_stage6",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": true,
+        "real_data_required": false,
+        "status": "PLACEHOLDER ONLY. Mechanism: smooth two-sided capacity penalty rewards under-utilization given the placeholder's k=8 cluster distribution."
+      },
+      {
+        "claim": "ADOPT gamma on placeholder = 1.6414.",
+        "source_doc": "docs/STAGE_5_UNCERTAINTY.md sec 8; docs/STAGE_6_ROBUST_QAOA.md sec 8",
+        "source_artifact": "stage5/uncertainty.py::compute_robust_rho_d; artifacts/adopt_calibration.json",
+        "experimentally_demonstrated": true,
+        "synthetic_only": false,
+        "placeholder_only": true,
+        "real_data_required": false,
+        "status": "PLACEHOLDER ONLY; alpha=1.0 is FROZEN; gamma will be re-computed on real calibration"
+      }
+    ],
+    "E_real_data_claims": [
+      {
+        "claim": "Real ACN-Data experiment has not been executed.",
+        "source_doc": "docs/STAGE_9_REAL_EXPERIMENT.md",
+        "source_artifact": "artifacts/stage9_experiment_start.json",
+        "experimentally_demonstrated": false,
+        "synthetic_only": false,
+        "placeholder_only": false,
+        "real_data_required": true,
+        "status": "BLOCKED on ACN_API_TOKEN"
+      },
+      {
+        "claim": "Empirical DeltaE distribution from real ACN-Data: PENDING.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      },
+      {
+        "claim": "Empirical Delta d distribution from real ACN-Data: PENDING.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      },
+      {
+        "claim": "Real calibration K=8 scenario centroids: PENDING.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      },
+      {
+        "claim": "Real gamma: PENDING (will be computed from real calibration joint, frozen before held-out use).",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      },
+      {
+        "claim": "Held-out real-data F0/F1/F2/F3 results: PENDING.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      },
+      {
+        "claim": "Primary statistical result (F2 vs F0 on P(feasible)): PENDING.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": true,
+        "status": "PENDING"
+      }
+    ],
+    "F_literature_supported_claims": [
+      {
+        "claim": "QAOA (Farhi, Goldstone, Gutmann 2014) is the standard variational quantum optimizer for combinatorial problems.",
+        "source_doc": "n/a (citation verification required at submission)",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": false,
+        "status": "CITATION VERIFICATION REQUIRED"
+      },
+      {
+        "claim": "CVaR-QAOA (Barkoutsos et al. 2020) and other risk-aware QAOA variants have prior art.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": false,
+        "status": "CITATION VERIFICATION REQUIRED"
+      },
+      {
+        "claim": "ACN-Data (Lee, Li, Low 2019) is the standard public EV charging dataset used in this work.",
+        "source_doc": "docs/STAGE_2_DATA_AUDIT.md sec 1",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": false,
+        "status": "CITATION VERIFICATION REQUIRED"
+      },
+      {
+        "claim": "Adaptive penalty ideas in Lagrangian relaxation and ALUgQ literature have prior art; ADOPT is the specific single-scalar instance used here.",
+        "source_doc": "n/a",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": false,
+        "status": "CITATION VERIFICATION REQUIRED"
+      },
+      {
+        "claim": "PG&E EV2-A tariff is the external controlled assumption.",
+        "source_doc": "docs/tou_tariff_decision.md",
+        "source_artifact": "n/a",
+        "experimentally_demonstrated": false,
+        "real_data_required": false,
+        "status": "CITATION VERIFICATION REQUIRED (PG&E tariff filings)"
+      }
+    ]
+  },
+  "category_separation_check": "Categories D (placeholder) and E (real-data) are explicitly NOT mixed. No synthetic value has been substituted for a real-data value.",
+  "what_must_NOT_be_cited_as_real_data": [
+    "F0 P(feasible)=0.9483 (placeholder)",
+    "F1 P(feasible)=0.1106 (placeholder)",
+    "F2 P(feasible)=0.1106 (placeholder)",
+    "F3 oracle upper bound (placeholder)",
+    "ADOPT gamma=1.6414 (placeholder)",
+    "Mean unmet 0.156 / 1.305 kWh (placeholder)",
+    "Capacity penalty 88.7% share (placeholder)"
+  ]
+}

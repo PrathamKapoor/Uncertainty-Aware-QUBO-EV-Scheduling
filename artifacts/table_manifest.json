@@ -1,0 +1,39 @@
+{
+  "tables": [
+    {
+      "id": 1,
+      "title": "Dataset statistics",
+      "source": "artifacts/uncertainty_calibration.json"
+    },
+    {
+      "id": 2,
+      "title": "Scenario statistics",
+      "source": "artifacts/scenarios_K8.json"
+    },
+    {
+      "id": 3,
+      "title": "QUBO size and penalty weights",
+      "source": "artifacts/deterministic_qubo.json + final_experiment_config.json"
+    },
+    {
+      "id": 4,
+      "title": "QAOA results (mean/median AR, P(opt), P(feasible))",
+      "source": "artifacts/qaoa_seed_results.json"
+    },
+    {
+      "id": 5,
+      "title": "Held-out reliability (P(feasible), mean unmet, P95 unmet)",
+      "source": "artifacts/heldout_robustness.json"
+    },
+    {
+      "id": 6,
+      "title": "Cost comparison (mean, P95, max)",
+      "source": "artifacts/heldout_robustness.json"
+    },
+    {
+      "id": 7,
+      "title": "Statistical comparisons (paired bootstrap, Bonferroni)",
+      "source": "artifacts/paired_statistics.json"
+    }
+  ]
+}

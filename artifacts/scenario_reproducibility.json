@@ -1,0 +1,17 @@
+{
+  "K4": {
+    "reproducible": true,
+    "max_centroid_diff": 0.0,
+    "max_weight_diff": 0.0
+  },
+  "K8": {
+    "reproducible": true,
+    "max_centroid_diff": 0.0,
+    "max_weight_diff": 0.0
+  },
+  "K16": {
+    "reproducible": true,
+    "max_centroid_diff": 0.0,
+    "max_weight_diff": 0.0
+  }
+}

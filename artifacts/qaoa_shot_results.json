@@ -1,0 +1,98 @@
+{
+  "toy_A_2x4": {
+    "p_1": {
+      "shots_256": {
+        "shots": 256,
+        "n_seeds": 3,
+        "P_opt_mean": 0.00390625,
+        "P_feasible_mean": 0.2565104166666667,
+        "AR_mean": 1.0000000000000004
+      },
+      "shots_1024": {
+        "shots": 1024,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0009765625,
+        "P_feasible_mean": 0.06770833333333333,
+        "AR_mean": 1.0000000000000004
+      },
+      "shots_4096": {
+        "shots": 4096,
+        "n_seeds": 3,
+        "P_opt_mean": 0.000244140625,
+        "P_feasible_mean": 0.018147786458333332,
+        "AR_mean": 1.0000000000000004
+      }
+    },
+    "p_2": {
+      "shots_256": {
+        "shots": 256,
+        "n_seeds": 3,
+        "P_opt_mean": 0.00390625,
+        "P_feasible_mean": 0.22135416666666666,
+        "AR_mean": 1.0000000000000004
+      },
+      "shots_1024": {
+        "shots": 1024,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0009765625,
+        "P_feasible_mean": 0.061848958333333336,
+        "AR_mean": 1.0000000000000004
+      },
+      "shots_4096": {
+        "shots": 4096,
+        "n_seeds": 3,
+        "P_opt_mean": 0.000244140625,
+        "P_feasible_mean": 0.015869140625,
+        "AR_mean": 1.0000000000000004
+      }
+    }
+  },
+  "toy_B_3x4": {
+    "p_1": {
+      "shots_256": {
+        "shots": 256,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0013020833333333333,
+        "P_feasible_mean": 0.6171875,
+        "AR_mean": 1.0093051908050434
+      },
+      "shots_1024": {
+        "shots": 1024,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0009765625,
+        "P_feasible_mean": 0.5071614583333334,
+        "AR_mean": 0.9999999999999988
+      },
+      "shots_4096": {
+        "shots": 4096,
+        "n_seeds": 3,
+        "P_opt_mean": 0.000244140625,
+        "P_feasible_mean": 0.18229166666666666,
+        "AR_mean": 0.9999999999999988
+      }
+    },
+    "p_2": {
+      "shots_256": {
+        "shots": 256,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0013020833333333333,
+        "P_feasible_mean": 0.6861979166666666,
+        "AR_mean": 1.0110884155237805
+      },
+      "shots_1024": {
+        "shots": 1024,
+        "n_seeds": 3,
+        "P_opt_mean": 0.0009765625,
+        "P_feasible_mean": 0.4544270833333333,
+        "AR_mean": 0.9999999999999988
+      },
+      "shots_4096": {
+        "shots": 4096,
+        "n_seeds": 3,
+        "P_opt_mean": 0.000244140625,
+        "P_feasible_mean": 0.14127604166666666,
+        "AR_mean": 0.9999999999999988
+      }
+    }
+  }
+}

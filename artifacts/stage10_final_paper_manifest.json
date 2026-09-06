@@ -1,0 +1,65 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30T05:11:11.892894+00:00",
+  "purpose": "List every document and artifact produced by Stage 10.",
+  "documents": [
+    {
+      "path": "docs/STAGE_10_PAPER.md",
+      "type": "main paper",
+      "size_bytes": 30944
+    },
+    {
+      "path": "docs/STAGE_10_PAPER_AUDIT.md",
+      "type": "audit document",
+      "size_bytes": 9707
+    },
+    {
+      "path": "docs/STAGE_10_REPRODUCIBILITY_APPENDIX.md",
+      "type": "appendix (reproducibility)",
+      "size_bytes": 9258
+    },
+    {
+      "path": "docs/STAGE_10_REAL_DATA_PROTOCOL.md",
+      "type": "appendix (real-data protocol)",
+      "size_bytes": 7104
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "artifacts/stage10_evidence_map.json",
+      "purpose": "Authoritative evidence map (math / implementation / synthetic / placeholder / real-data / literature categories)"
+    },
+    {
+      "path": "artifacts/stage10_number_audit.json",
+      "purpose": "Trace every numerical claim to source artifact / config / equation"
+    },
+    {
+      "path": "artifacts/stage10_terminology_audit.json",
+      "purpose": "Verify consistent sign conventions and forbidden phrases"
+    },
+    {
+      "path": "artifacts/stage10_claim_audit.json",
+      "purpose": "Verify no quantum-advantage or unsupported overclaim"
+    },
+    {
+      "path": "artifacts/stage10_literature_gaps.json",
+      "purpose": "List citations that require fresh verification before final submission"
+    },
+    {
+      "path": "artifacts/stage10_bibliography_plan.json",
+      "purpose": "Plan the bibliography without fabricating details"
+    },
+    {
+      "path": "artifacts/stage10_figure_manifest.json",
+      "purpose": "List figures now possible (synthetic) and pending (real-data)"
+    },
+    {
+      "path": "artifacts/stage10_table_manifest.json",
+      "purpose": "List tables now possible and pending real-data"
+    }
+  ],
+  "no_real_data_fabricated": true,
+  "no_quantum_advantage_claimed": true,
+  "frozen_methodology_preserved": true,
+  "configuration_hash_status": "preserved unchanged from Stage 8"
+}

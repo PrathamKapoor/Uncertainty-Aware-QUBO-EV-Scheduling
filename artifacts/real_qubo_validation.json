@@ -1,0 +1,8 @@
+{
+  "n_bitstrings": 2048,
+  "n_vars": 11,
+  "mean_offset": 4.014372168015257e-12,
+  "max_abs_deviation_from_mean": 2.368450158218849e-10,
+  "tolerance": 1e-07,
+  "passes": true
+}

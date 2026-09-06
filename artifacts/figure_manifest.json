@@ -1,0 +1,55 @@
+{
+  "figures": [
+    {
+      "id": 1,
+      "title": "Methodology pipeline overview",
+      "source": "static diagram"
+    },
+    {
+      "id": 2,
+      "title": "\u0394d distribution",
+      "source": "artifacts/uncertainty_distributions.json"
+    },
+    {
+      "id": 3,
+      "title": "\u0394E distribution",
+      "source": "artifacts/uncertainty_distributions.json"
+    },
+    {
+      "id": 4,
+      "title": "Joint \u0394d\u2013\u0394E distribution",
+      "source": "artifacts/uncertainty_distributions.json"
+    },
+    {
+      "id": 5,
+      "title": "Scenario centroids for K=4/8/16",
+      "source": "artifacts/scenarios_K{4,8,16}.json"
+    },
+    {
+      "id": 6,
+      "title": "Deterministic vs robust vs ADOPT objective decomposition",
+      "source": "artifacts/robust_qubo.json + robust_qubo_validation.json"
+    },
+    {
+      "id": 7,
+      "title": "Held-out feasibility comparison (F0/F1/F2/F3)",
+      "source": "artifacts/heldout_robustness.json"
+    },
+    {
+      "id": 8,
+      "title": "Unmet-energy distribution (per method)",
+      "source": "artifacts/heldout_robustness.json"
+    },
+    {
+      "id": 9,
+      "title": "Cost vs reliability trade-off",
+      "source": "artifacts/heldout_robustness.json + paired_statistics.json"
+    },
+    {
+      "id": 10,
+      "title": "QAOA approximation ratio and P(opt) by seed/shots/depth",
+      "source": "artifacts/qaoa_*.json"
+    }
+  ],
+  "status": "SYNTHETIC data only; AWAITING REAL ACN-DATA figures"
+}

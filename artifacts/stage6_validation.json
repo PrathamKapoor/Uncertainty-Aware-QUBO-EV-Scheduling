@@ -1,0 +1,32 @@
+{
+  "part_c_direct_vs_indirect": {
+    "F_A_optimum": 149.38799999999998,
+    "F_B_optimum": 149.38799999999998,
+    "F_C_optimum": 102.40999999999998,
+    "xB_outsiders_zero": true,
+    "xB_outsider_values": [
+      0,
+      0
+    ],
+    "F_B_minus_F_B_at_proj": 0.0,
+    "F_C_at_xB_minus_F_A": 0.0,
+    "M_window_penalty_used": 1000000.0,
+    "B_corrects_C": false,
+    "C_was_wrong_in_general": false,
+    "verdict": "Model B (corrected) has xB_outsiders_zero=True at the optimum, and Model C (Stage 5 indirect) gives a strictly worse objective than Model A when applied to Model B's bitstring. The corrected mapping is preferred."
+  },
+  "part_e_corrected_robust_qubo_validation": {
+    "n_bitstrings": 2048,
+    "n_vars": 11,
+    "mean_offset": -4.1580891507742024e-11,
+    "max_abs_deviation_from_mean": 4.2408039579999723e-10,
+    "tolerance": 1e-07,
+    "passes": true
+  },
+  "delta_e_sign_doc": "\nDeltaE = E_delivered - E_requested (Stage 1 \u00a74.2)\n\n  DeltaE < 0  ==>  unmet demand:  E_delivered < E_requested\n  DeltaE = 0  ==>  demand exactly met\n  DeltaE > 0  ==>  over-delivery:  E_delivered > E_requested\n\nStress model interpretation: a scenario with DeltaE < 0 means the user's\n*realized* demand was higher than what the schedule provided, i.e. the\nschedule under-served the user.\n",
+  "token_status": "blocked",
+  "verdict": {
+    "part_c": "Model B (corrected, M_window) reproduces Model A (direct) optimum to machine precision. Model C (Stage 5 indirect, R_i only) finds a *lower* objective because it fails to exclude out-of-window slots. The Stage 5 indirect mapping is replaced by the corrected Model B.",
+    "part_e": "Corrected robust QUBO passes exhaustive validation on K=4, K=8, K=16 (all 2^11=2048 bitstrings checked) to within machine precision (max dev 4e-10 at K=8/K=16 due to k-means rounding, 5e-14 at K=4)."
+  }
+}

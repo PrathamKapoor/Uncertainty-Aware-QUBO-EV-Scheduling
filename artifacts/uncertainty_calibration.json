@@ -1,0 +1,40 @@
+{
+  "load_status": {
+    "source": "placeholder",
+    "n_records": 5000,
+    "n_valid": 4752,
+    "reason": "SYNTHETIC PLACEHOLDER for infrastructure validation only. Not the Stage 1 uncertainty model. Replace with the live API output when ACN_API_TOKEN is supplied.",
+    "seed": 20260829,
+    "acquired_at_utc": "2026-08-29T18:02:12.913750+00:00"
+  },
+  "n_total": 5000,
+  "n_calibration": 3546,
+  "n_held_out": 1454,
+  "missing_data": {
+    "n_total": 5000,
+    "n_calibration": 3546,
+    "n_held_out": 1454,
+    "missing_dep_requested_pct": 4.959999999999997,
+    "missing_kwh_requested_pct": 4.959999999999997,
+    "missing_disc_actual_pct": 0.0,
+    "missing_kwh_delivered_pct": 0.0,
+    "missing_delta_d_pct": 4.959999999999997,
+    "missing_delta_e_pct": 4.959999999999997,
+    "n_valid_both": 4752
+  },
+  "missing_data_calibration": {
+    "n_total": 3546,
+    "n_calibration": 3546,
+    "n_held_out": 0,
+    "missing_dep_requested_pct": 4.737732656514382,
+    "missing_kwh_requested_pct": 4.737732656514382,
+    "missing_disc_actual_pct": 0.0,
+    "missing_kwh_delivered_pct": 0.0,
+    "missing_delta_d_pct": 4.737732656514382,
+    "missing_delta_e_pct": 4.737732656514382,
+    "n_valid_both": 3378
+  },
+  "calibration_window_utc": "2018-05-01T00:00:00+00:00 to 2019-07-01T00:00:00+00:00 (exclusive end)",
+  "held_out_window_utc": "2019-07-01T00:00:00+00:00 to 2020-01-01T00:00:00+00:00 (exclusive end)",
+  "leakage_rule": "All uncertainty distributions, scenarios, K, and ADOPT parameters were fitted on calibration data only. The held-out set is reserved for downstream evaluation and has not been touched by any fitting step."
+}

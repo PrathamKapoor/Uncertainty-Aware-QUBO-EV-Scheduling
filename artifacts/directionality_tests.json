@@ -1,0 +1,77 @@
+{
+  "early_departure_directionality": {
+    "deltas_d_min": [
+      0,
+      15,
+      30,
+      45,
+      60
+    ],
+    "F1_charging_slots": [
+      10,
+      8,
+      5,
+      3,
+      3
+    ],
+    "F2_charging_slots": [
+      8,
+      7,
+      5,
+      3,
+      3
+    ],
+    "F1_monotonic_in_d": true,
+    "F2_monotonic_in_d": true
+  },
+  "unmet_energy_directionality": {
+    "deltas_e_kWh": [
+      0,
+      -1,
+      -2,
+      -3,
+      -5
+    ],
+    "F1_charging_slots": [
+      10,
+      8,
+      8,
+      8,
+      8
+    ],
+    "F2_charging_slots": [
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "F1_monotonic_more_neg_e_charges_more": false,
+    "F2_monotonic_more_neg_e_charges_more": true
+  },
+  "magnitude_directionality": {
+    "scales": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "F1_optima": [
+      30.84299999999996,
+      71.10899999999995,
+      116.40099999999998,
+      137.19099999999997,
+      137.19099999999997
+    ],
+    "F2_optima": [
+      36.248399999999975,
+      73.72919999999996,
+      117.04239999999999,
+      137.83239999999998,
+      137.83239999999998
+    ],
+    "F1_optimum_changes_with_magnitude": true,
+    "F2_optimum_changes_with_magnitude": true
+  }
+}

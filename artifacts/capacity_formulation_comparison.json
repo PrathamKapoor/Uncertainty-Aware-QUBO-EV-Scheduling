@@ -1,0 +1,13 @@
+{
+  "toy_A_2x4": {
+    "n_two_sided_optima": 1,
+    "n_two_sided_optima_operationally_feasible_under_one_sided_cap": 1,
+    "fraction_operationally_feasible": 1.0
+  },
+  "toy_B_3x4": {
+    "n_two_sided_optima": 1,
+    "n_two_sided_optima_operationally_feasible_under_one_sided_cap": 1,
+    "fraction_operationally_feasible": 1.0
+  },
+  "disclosure": "The smooth two-sided capacity formulation is the OFFICIAL methodology adopted in Stage 4 Part A. The paper must explicitly disclose the use of the smooth two-sided form and the trade-off: under-utilization is penalized to keep the QUBO pure (no auxiliary variables)."
+}

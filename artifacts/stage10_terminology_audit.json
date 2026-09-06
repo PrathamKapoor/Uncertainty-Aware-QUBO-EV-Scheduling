@@ -1,0 +1,55 @@
+{
+  "stage": "Stage 10",
+  "scanned_at": "2026-08-30",
+  "purpose": "Verify consistent terminology across the paper. Catch sign errors and forbidden phrases.",
+  "terms_checked": {
+    "DeltaE": "MUST equal E_delivered - E_requested. <0 = unmet demand. =0 = demand met. >0 = over-delivery. (Stage 6 Part A corrected from a Stage 5 prose flip.)",
+    "Delta d": "MUST equal d_requested - d_actual. >0 = early departure. =0 = on time. <0 = late.",
+    "F0": "Deterministic. rho_d = 1.0, rho_p = 0.1, rho_cap = 0.5, P_target = 6.6 kW, P_site_max = 9.9 kW.",
+    "F1": "Scenario-averaged robust with K=8 (frozen). Smooth two-sided site cap. Corrected Stage 6 scenario transformation (variable set fixed + M_window diagonal).",
+    "F2": "F1 with rho_d scaled by gamma (ADOPT, alpha=1.0 frozen). Single-solve, no online feedback.",
+    "F3": "ORACLE / ANALYSIS ONLY. Not deployable. Uses realized (Delta d, DeltaE) at evaluation time. Establishes an upper bound only.",
+    "ADOPT": "Adaptive deadline penalty. Single scalar gamma computed from calibration joint. Frozen before held-out use. NOT a generic penalty adaptation framework.",
+    "QAOA": "Standard variational quantum optimizer. p=1 default. COBYLA. Seeds [0,1,2]. 1024 shots. Aer statevector simulator.",
+    "calibration": "2018-05-01 .. 2019-07-01 UTC. All uncertainty fits use calibration only.",
+    "held-out": "2019-07-01 .. 2020-01-01 UTC. Used for evaluation only.",
+    "placeholder": "Stage 5/6 synthetic mixture. NOT real ACN-Data.",
+    "synthetic": "Stage 7 controlled distributions (S1/S2/S3, A/B/C). NOT real ACN-Data.",
+    "real ACN-Data": "BLOCKED on ACN_API_TOKEN. Not acquired in this project (Stage 9)."
+  },
+  "forbidden_phrases_caught": [
+    {
+      "phrase": "positive DeltaE = unmet demand",
+      "status": "INCORRECT (Stage 6 Part A fix). Positive DeltaE = over-delivery."
+    },
+    {
+      "phrase": "DeltaE = demand met",
+      "status": "PARTIAL (correct: DeltaE = 0 means demand met; other DeltaE values are NOT exactly 'demand met')"
+    },
+    {
+      "phrase": "F3 is a deployable method",
+      "status": "INCORRECT. F3 is analysis-only."
+    },
+    {
+      "phrase": "QAOA provides quantum advantage",
+      "status": "INCORRECT. Stage 4 explicitly does not claim quantum advantage."
+    },
+    {
+      "phrase": "ADOPT is universally novel",
+      "status": "INCORRECT. ADOPT is the specific single-scalar instance; adaptive penalty ideas have prior art (paper sec 2.4)."
+    },
+    {
+      "phrase": "ACN-Data confirms that ADOPT improves EV charging reliability",
+      "status": "INCORRECT until real data exists. Stage 9 marked this as PENDING."
+    },
+    {
+      "phrase": "robust QUBO strictly dominates deterministic",
+      "status": "INCORRECT. Stage 7 placeholder shows the opposite; final answer is data-dependent."
+    }
+  ],
+  "sign_check_pass": true,
+  "DeltaE_sign_correct": true,
+  "Delta_d_sign_correct": true,
+  "F3_labeled_oracle_only": true,
+  "no_quantum_advantage_claim": true
+}

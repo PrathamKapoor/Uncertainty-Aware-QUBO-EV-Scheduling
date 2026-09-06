@@ -1,0 +1,11 @@
+{
+  "Delta_d_cal_mean": -98.72670626445988,
+  "Delta_d_ho_mean": -103.07560925744194,
+  "Delta_e_cal_mean": -9.376553046945023,
+  "Delta_e_ho_mean": -9.499646445324824,
+  "Delta_d_cal_std": 360.0270645414965,
+  "Delta_d_ho_std": 290.34492070688606,
+  "Delta_e_cal_std": 12.840312544927432,
+  "Delta_e_ho_std": 11.557718937066793,
+  "case_label": "A_mild"
+}

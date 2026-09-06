@@ -1,0 +1,10 @@
+{
+  "DATA_MODE_provided_in_env": "SYNTHETIC",
+  "switch_principle": "DATA_MODE = SYNTHETIC -> use placeholder_uncertainty; DATA_MODE = REAL -> use load_real_uncertainty (requires ACN_API_TOKEN). The downstream pipeline is identical.",
+  "code_locations": {
+    "data_loader": "stage5/uncertainty.py::load_real_uncertainty",
+    "data_fallback": "stage5/uncertainty.py::placeholder_uncertainty",
+    "switch_logic": "stage7/stress_test.py::run_stage7 (and stage5/uncertainty.py::run_stage5)"
+  },
+  "verification": "Running the same instance with placeholder data and with real data (once token arrives) must produce the same downstream artifacts, differing only in the source data and the resulting numerical values."
+}

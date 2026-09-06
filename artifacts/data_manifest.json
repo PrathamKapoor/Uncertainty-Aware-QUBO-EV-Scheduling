@@ -1,0 +1,51 @@
+{
+  "_status": "STAGE_2_BLOCKED_PENDING_USER_DECISION",
+  "acquisition": {
+    "source_primary": "https://ev.caltech.edu/api/v1/",
+    "source_secondary": "https://github.com/tongxin-li/ACN-Data-Static",
+    "acquired_at": "2026-08-29",
+    "live_api_status": "HTTP 401 UNAUTHORIZED - token required",
+    "static_snapshot_status": "available but session-level metadata empty (caltech_sessions.json is 2 bytes)",
+    "credential_status": "BLOCKED - token issuance is human-mediated; no credentials fabricated or reused",
+    "static_snapshot_files_probed": 1,
+    "static_snapshot_schema_columns": [
+      "timestamp (ISO8601 UTC, sample index)",
+      "Charging Current (A)",
+      "Actual Pilot (A)",
+      "Voltage (V)",
+      "Charging State",
+      "Energy Delivered (kWh) [cumulative]",
+      "Power (kW)"
+    ],
+    "static_snapshot_filename_pattern": "{siteId}-{stationId}-{clusterId}-{evseId}-{connectionTime}.csv.gz",
+    "static_snapshot_filename_extracts": ["siteId", "stationId", "connectionTime"],
+    "static_snapshot_filename_missing": ["disconnectTime", "kWhRequested", "userInputs", "userID", "sessionID", "siteID-textual"]
+  },
+  "stage1_uncertainty_field_status": {
+    "kWhDelivered": {
+      "available": true,
+      "source": "last row of cumulative 'Energy Delivered (kWh)' column in time-series CSV"
+    },
+    "kWhRequested": {
+      "available": false,
+      "source_required": "userInputs[*].kWhRequested",
+      "source_actual": "NOT in static snapshot; only in token-gated live API",
+      "blocker": true
+    },
+    "connectionTime": {
+      "available": "partial",
+      "source": "filename encoding",
+      "timezone": "local site time, must be converted using site timezone metadata"
+    },
+    "disconnectTime": {
+      "available": "derivable",
+      "source": "last timestamp in time-series file + small grace window"
+    },
+    "userInputs": {
+      "available": false,
+      "blocker": true,
+      "notes": "All userInputs fields (kWhRequested, requestedDeparture, minutesAvailable, WhPerMile, milesRequested) are absent from the static snapshot."
+    }
+  },
+  "blocker_summary": "Stage 1 uncertainty variable DeltaE = kWhDelivered - kWhRequested cannot be computed from publicly accessible data alone. kWhRequested is only present in the session-level JSON returned by the live ACN API, which is gated by a registered token whose issuance is human-mediated. Until the user supplies a token or approves a Stage 1 amendment, no further Stage 2 work (cleaning, splits, uncertainty distributions, scenario generation) can proceed."
+}

@@ -1,0 +1,255 @@
+{
+  "diagnostic": [
+    {
+      "n_per_arm": 100,
+      "p_baseline": 0.5,
+      "p_treatment": 0.55,
+      "effect_size": 0.050000000000000044,
+      "se": 0.07053367989832943,
+      "ci_lower": -0.08824601260072562,
+      "ci_upper": 0.1882460126007257,
+      "significant": false
+    },
+    {
+      "n_per_arm": 100,
+      "p_baseline": 0.5,
+      "p_treatment": 0.6,
+      "effect_size": 0.09999999999999998,
+      "se": 0.06999999999999999,
+      "ci_lower": -0.03720000000000001,
+      "ci_upper": 0.23719999999999997,
+      "significant": false
+    },
+    {
+      "n_per_arm": 100,
+      "p_baseline": 0.5,
+      "p_treatment": 0.7,
+      "effect_size": 0.19999999999999996,
+      "se": 0.06782329983125268,
+      "ci_lower": 0.06706633233074472,
+      "ci_upper": 0.3329336676692552,
+      "significant": true
+    },
+    {
+      "n_per_arm": 100,
+      "p_baseline": 0.5,
+      "p_treatment": 0.8,
+      "effect_size": 0.30000000000000004,
+      "se": 0.06403124237432849,
+      "ci_lower": 0.17449876494631622,
+      "ci_upper": 0.42550123505368387,
+      "significant": true
+    },
+    {
+      "n_per_arm": 100,
+      "p_baseline": 0.5,
+      "p_treatment": 0.9,
+      "effect_size": 0.4,
+      "se": 0.058309518948453,
+      "ci_lower": 0.2857133428610321,
+      "ci_upper": 0.5142866571389679,
+      "significant": true
+    },
+    {
+      "n_per_arm": 500,
+      "p_baseline": 0.5,
+      "p_treatment": 0.55,
+      "effect_size": 0.050000000000000044,
+      "se": 0.031543620591175006,
+      "ci_lower": -0.011825496358702968,
+      "ci_upper": 0.11182549635870306,
+      "significant": false
+    },
+    {
+      "n_per_arm": 500,
+      "p_baseline": 0.5,
+      "p_treatment": 0.6,
+      "effect_size": 0.09999999999999998,
+      "se": 0.03130495168499706,
+      "ci_lower": 0.038642294697405745,
+      "ci_upper": 0.16135770530259422,
+      "significant": true
+    },
+    {
+      "n_per_arm": 500,
+      "p_baseline": 0.5,
+      "p_treatment": 0.7,
+      "effect_size": 0.19999999999999996,
+      "se": 0.030331501776206204,
+      "ci_lower": 0.14055025651863579,
+      "ci_upper": 0.2594497434813641,
+      "significant": true
+    },
+    {
+      "n_per_arm": 500,
+      "p_baseline": 0.5,
+      "p_treatment": 0.8,
+      "effect_size": 0.30000000000000004,
+      "se": 0.028635642126552705,
+      "ci_lower": 0.24387414143195674,
+      "ci_upper": 0.35612585856804335,
+      "significant": true
+    },
+    {
+      "n_per_arm": 500,
+      "p_baseline": 0.5,
+      "p_treatment": 0.9,
+      "effect_size": 0.4,
+      "se": 0.026076809620810593,
+      "ci_lower": 0.34888945314321124,
+      "ci_upper": 0.4511105468567888,
+      "significant": true
+    },
+    {
+      "n_per_arm": 1000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.55,
+      "effect_size": 0.050000000000000044,
+      "se": 0.022304708023195462,
+      "ci_lower": 0.006282772274536941,
+      "ci_upper": 0.09371722772546315,
+      "significant": true
+    },
+    {
+      "n_per_arm": 1000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.6,
+      "effect_size": 0.09999999999999998,
+      "se": 0.022135943621178655,
+      "ci_lower": 0.05661355050248981,
+      "ci_upper": 0.14338644949751014,
+      "significant": true
+    },
+    {
+      "n_per_arm": 1000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.7,
+      "effect_size": 0.19999999999999996,
+      "se": 0.021447610589527218,
+      "ci_lower": 0.1579626832445266,
+      "ci_upper": 0.2420373167554733,
+      "significant": true
+    },
+    {
+      "n_per_arm": 1000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.8,
+      "effect_size": 0.30000000000000004,
+      "se": 0.020248456731316585,
+      "ci_lower": 0.26031302480661955,
+      "ci_upper": 0.33968697519338054,
+      "significant": true
+    },
+    {
+      "n_per_arm": 1000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.9,
+      "effect_size": 0.4,
+      "se": 0.018439088914585774,
+      "ci_lower": 0.3638593857274119,
+      "ci_upper": 0.43614061427258816,
+      "significant": true
+    },
+    {
+      "n_per_arm": 5000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.55,
+      "effect_size": 0.050000000000000044,
+      "se": 0.009974968671630002,
+      "ci_lower": 0.03044906140360524,
+      "ci_upper": 0.06955093859639486,
+      "significant": true
+    },
+    {
+      "n_per_arm": 5000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.6,
+      "effect_size": 0.09999999999999998,
+      "se": 0.009899494936611665,
+      "ci_lower": 0.08059698992424111,
+      "ci_upper": 0.11940301007575885,
+      "significant": true
+    },
+    {
+      "n_per_arm": 5000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.7,
+      "effect_size": 0.19999999999999996,
+      "se": 0.00959166304662544,
+      "ci_lower": 0.1812003404286141,
+      "ci_upper": 0.2187996595713858,
+      "significant": true
+    },
+    {
+      "n_per_arm": 5000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.8,
+      "effect_size": 0.30000000000000004,
+      "se": 0.009055385138137417,
+      "ci_lower": 0.2822514451292507,
+      "ci_upper": 0.3177485548707494,
+      "significant": true
+    },
+    {
+      "n_per_arm": 5000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.9,
+      "effect_size": 0.4,
+      "se": 0.00824621125123532,
+      "ci_lower": 0.3838374259475788,
+      "ci_upper": 0.41616257405242124,
+      "significant": true
+    },
+    {
+      "n_per_arm": 10000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.55,
+      "effect_size": 0.050000000000000044,
+      "se": 0.007053367989832943,
+      "ci_lower": 0.03617539873992748,
+      "ci_upper": 0.06382460126007261,
+      "significant": true
+    },
+    {
+      "n_per_arm": 10000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.6,
+      "effect_size": 0.09999999999999998,
+      "se": 0.007,
+      "ci_lower": 0.08627999999999998,
+      "ci_upper": 0.11371999999999997,
+      "significant": true
+    },
+    {
+      "n_per_arm": 10000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.7,
+      "effect_size": 0.19999999999999996,
+      "se": 0.006782329983125268,
+      "ci_lower": 0.18670663323307443,
+      "ci_upper": 0.21329336676692548,
+      "significant": true
+    },
+    {
+      "n_per_arm": 10000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.8,
+      "effect_size": 0.30000000000000004,
+      "se": 0.006403124237432849,
+      "ci_lower": 0.28744987649463166,
+      "ci_upper": 0.3125501235053684,
+      "significant": true
+    },
+    {
+      "n_per_arm": 10000,
+      "p_baseline": 0.5,
+      "p_treatment": 0.9,
+      "effect_size": 0.4,
+      "se": 0.0058309518948453,
+      "ci_lower": 0.38857133428610324,
+      "ci_upper": 0.4114286657138968,
+      "significant": true
+    }
+  ],
+  "note": "Hypothetical effect sizes. With n=10,000 (real-data estimate), a 5 pp difference is detectable; smaller effects need larger n."
+}

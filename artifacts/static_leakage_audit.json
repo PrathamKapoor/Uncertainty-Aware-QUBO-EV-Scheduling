@@ -1,0 +1,19 @@
+{
+  "n_findings": 26,
+  "n_potential_leakage": 2,
+  "leakage_paths": [
+    {
+      "file": "stage5\\build_artifacts.py",
+      "line": 45,
+      "term": "held-out",
+      "snippet": "\"parameters were fitted on calibration data only. The held-out \""
+    },
+    {
+      "file": "stage5\\build_artifacts.py",
+      "line": 137,
+      "term": "held-out",
+      "snippet": "\"leakage_check\": \"ADOPT parameters were fitted on the calibration set only. The held-out set has not been touched.\","
+    }
+  ],
+  "verdict": "REVIEW"
+}

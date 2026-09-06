@@ -1,0 +1,31 @@
+{
+  "n_runs": 3,
+  "tolerance": 1e-10,
+  "all_within_tolerance": false,
+  "max_diffs_per_pair": [
+    {
+      "run": 1,
+      "F0_diag_max_diff": 0.0,
+      "F1_diag_max_diff": 0.0,
+      "F2_diag_max_diff": 0.0,
+      "centroids_max_diff": 0.0,
+      "weights_max_diff": 0.0,
+      "F0_c_diff": 0.0,
+      "F1_c_diff": 0.0,
+      "F2_c_diff": 0.0,
+      "gamma_diff": 0.0
+    },
+    {
+      "run": 2,
+      "F0_diag_max_diff": 0.0,
+      "F1_diag_max_diff": 0.0,
+      "F2_diag_max_diff": 0.0,
+      "centroids_max_diff": 0.0,
+      "weights_max_diff": 0.0,
+      "F0_c_diff": 0.0,
+      "F1_c_diff": 0.0,
+      "F2_c_diff": 0.0,
+      "gamma_diff": 0.0
+    }
+  ]
+}

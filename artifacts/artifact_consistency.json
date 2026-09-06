@@ -1,0 +1,28 @@
+{
+  "n_findings": 4,
+  "findings": [
+    {
+      "check": "K_consistency",
+      "final_config_K": 8,
+      "preregistration_K": 8,
+      "match": true
+    },
+    {
+      "check": "alpha_consistency",
+      "final_config_alpha": 1.0,
+      "adopt_alpha": 1.0,
+      "match": true
+    },
+    {
+      "check": "M_window_consistency",
+      "final_config_M_window": 1000000.0,
+      "match": true
+    },
+    {
+      "check": "penalty_weights_consistency",
+      "final_config_rho_d": 1.0,
+      "match": true
+    }
+  ],
+  "all_match": true
+}

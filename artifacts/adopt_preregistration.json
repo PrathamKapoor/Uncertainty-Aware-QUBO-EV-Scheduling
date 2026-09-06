@@ -1,0 +1,12 @@
+{
+  "alpha": 1.0,
+  "formula": "gamma(omega) = 1 + alpha * mean_i( sigma_i / R_bar_i )",
+  "rationale": "sigma_i is the cross-sectional std of R_i(omega) over the calibration empirical (Delta_d, Delta_e) joint. R_bar_i is the corresponding mean. R_i(omega) is the scenario-s slot-count requirement: R_i = ceil((E_req + Delta_e) / (P_max * Delta)) clipped to the scenario-s window length. The aggregation is a uniform mean across EVs in the base instance. alpha is a dimensionless constant pre-registered BEFORE any held-out use.",
+  "calibration_period_utc": "2018-05-01T00:00:00+00:00 to 2019-07-01T00:00:00+00:00",
+  "variables_used": [
+    "delta_d_minutes",
+    "delta_e_kwh"
+  ],
+  "pre_registered_at_utc": "2026-08-29T18:02:13.295485Z",
+  "version": "stage5.v1"
+}

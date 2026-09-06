@@ -1,0 +1,1859 @@
+{
+  "stage": "Stage 7",
+  "instance": "toy_B_3x4",
+  "gamma": 1.6414,
+  "alpha": 1.0,
+  "K": 8,
+  "M_window": 1000000.0,
+  "part_a_under_service_trace": {
+    "schedules_x_lengths": {
+      "F0": 10,
+      "F1": 3,
+      "F2": 3
+    },
+    "slots_used_per_ev": {
+      "F0": {
+        "E1": 4,
+        "E2": 3,
+        "E3": 3
+      },
+      "F1": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1
+      },
+      "F2": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1
+      }
+    },
+    "total_energy_kWh": {
+      "F0": 8.25,
+      "F1": 2.4749999999999996,
+      "F2": 2.4749999999999996
+    },
+    "per_scenario_unmet": {
+      "F0": [
+        {
+          "scenario": 0,
+          "weight": 0.054470100651272946,
+          "omega": [
+            -6.957953286183336,
+            2.702642505620569
+          ],
+          "unmet_kWh": 3.157927516861707,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 1,
+          "weight": 0.027827116637063352,
+          "omega": [
+            -9.181436772562096,
+            -7.172993952613512
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 2,
+          "weight": 0.036116044997039666,
+          "omega": [
+            -208.0821142833891,
+            -0.21776520375053454
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 3,
+          "weight": 0.10864416814683245,
+          "omega": [
+            59.32541757982388,
+            -0.040249371848495724
+          ],
+          "unmet_kWh": 0.7847506281515042,
+          "unavailable_slots_per_ev": {
+            "E1": 3,
+            "E2": 2,
+            "E3": 2
+          },
+          "effective_departure_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 1
+          }
+        },
+        {
+          "scenario": 4,
+          "weight": 0.08318531675547661,
+          "omega": [
+            -119.3266067342423,
+            -0.010419400640133691
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 5,
+          "weight": 0.05891059798697454,
+          "omega": [
+            -7.599004845430457,
+            -3.024683458047118
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 6,
+          "weight": 0.4698046181172291,
+          "omega": [
+            2.164261827044079,
+            -0.01645625523796701
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 7,
+          "weight": 0.16104203670811132,
+          "omega": [
+            -44.7842248626187,
+            0.0022905234259872342
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        }
+      ],
+      "F1": [
+        {
+          "scenario": 0,
+          "weight": 0.054470100651272946,
+          "omega": [
+            -6.957953286183336,
+            2.702642505620569
+          ],
+          "unmet_kWh": 8.932927516861707,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 1,
+          "weight": 0.027827116637063352,
+          "omega": [
+            -9.181436772562096,
+            -7.172993952613512
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 2,
+          "weight": 0.036116044997039666,
+          "omega": [
+            -208.0821142833891,
+            -0.21776520375053454
+          ],
+          "unmet_kWh": 0.6072347962494653,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 3,
+          "weight": 0.10864416814683245,
+          "omega": [
+            59.32541757982388,
+            -0.040249371848495724
+          ],
+          "unmet_kWh": 0.7847506281515042,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 1
+          }
+        },
+        {
+          "scenario": 4,
+          "weight": 0.08318531675547661,
+          "omega": [
+            -119.3266067342423,
+            -0.010419400640133691
+          ],
+          "unmet_kWh": 0.8145805993598663,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 5,
+          "weight": 0.05891059798697454,
+          "omega": [
+            -7.599004845430457,
+            -3.024683458047118
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 6,
+          "weight": 0.4698046181172291,
+          "omega": [
+            2.164261827044079,
+            -0.01645625523796701
+          ],
+          "unmet_kWh": 0.808543744762033,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 7,
+          "weight": 0.16104203670811132,
+          "omega": [
+            -44.7842248626187,
+            0.0022905234259872342
+          ],
+          "unmet_kWh": 0.8318715702779618,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        }
+      ],
+      "F2": [
+        {
+          "scenario": 0,
+          "weight": 0.054470100651272946,
+          "omega": [
+            -6.957953286183336,
+            2.702642505620569
+          ],
+          "unmet_kWh": 8.932927516861707,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 1,
+          "weight": 0.027827116637063352,
+          "omega": [
+            -9.181436772562096,
+            -7.172993952613512
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 2,
+          "weight": 0.036116044997039666,
+          "omega": [
+            -208.0821142833891,
+            -0.21776520375053454
+          ],
+          "unmet_kWh": 0.6072347962494653,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 3,
+          "weight": 0.10864416814683245,
+          "omega": [
+            59.32541757982388,
+            -0.040249371848495724
+          ],
+          "unmet_kWh": 0.7847506281515042,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 1
+          }
+        },
+        {
+          "scenario": 4,
+          "weight": 0.08318531675547661,
+          "omega": [
+            -119.3266067342423,
+            -0.010419400640133691
+          ],
+          "unmet_kWh": 0.8145805993598663,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 5,
+          "weight": 0.05891059798697454,
+          "omega": [
+            -7.599004845430457,
+            -3.024683458047118
+          ],
+          "unmet_kWh": 0.0,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 6,
+          "weight": 0.4698046181172291,
+          "omega": [
+            2.164261827044079,
+            -0.01645625523796701
+          ],
+          "unmet_kWh": 0.808543744762033,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        },
+        {
+          "scenario": 7,
+          "weight": 0.16104203670811132,
+          "omega": [
+            -44.7842248626187,
+            0.0022905234259872342
+          ],
+          "unmet_kWh": 0.8318715702779618,
+          "unavailable_slots_per_ev": {
+            "E1": 0,
+            "E2": 0,
+            "E3": 0
+          },
+          "effective_departure_per_ev": {
+            "E1": 3,
+            "E2": 3,
+            "E3": 3
+          }
+        }
+      ]
+    },
+    "F0_decode": {
+      "cost": 5.775,
+      "peak_kW": 9.899999999999999,
+      "unmet_kWh": 0.0,
+      "load_per_slot_kW": [
+        6.6,
+        9.899999999999999,
+        9.899999999999999,
+        6.6
+      ],
+      "qubo_feasible": true,
+      "energy_feasible": true,
+      "site_feasible": true,
+      "deadline_feasible": true,
+      "feasible": true,
+      "per_ev": [
+        {
+          "ev_id": "E1",
+          "e_required_kWh": 1.65,
+          "e_delivered_kWh": 3.3,
+          "slots_used": 4,
+          "R_i_slots": 2,
+          "slot_deficit": 0,
+          "status": "OK"
+        },
+        {
+          "ev_id": "E2",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 2.4749999999999996,
+          "slots_used": 3,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        },
+        {
+          "ev_id": "E3",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 2.4749999999999996,
+          "slots_used": 3,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        }
+      ],
+      "site_cap_violations_one_sided": [],
+      "deadline_violations": [],
+      "site_cap_violations": []
+    },
+    "F1_decode": {
+      "cost": 1.155,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.825,
+      "load_per_slot_kW": [
+        6.6,
+        3.3,
+        0.0,
+        0.0
+      ],
+      "qubo_feasible": false,
+      "energy_feasible": false,
+      "site_feasible": true,
+      "deadline_feasible": false,
+      "feasible": false,
+      "per_ev": [
+        {
+          "ev_id": "E1",
+          "e_required_kWh": 1.65,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 2,
+          "slot_deficit": 1,
+          "status": "DEADLINE_VIOLATION"
+        },
+        {
+          "ev_id": "E2",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        },
+        {
+          "ev_id": "E3",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        }
+      ],
+      "site_cap_violations_one_sided": [],
+      "deadline_violations": [
+        {
+          "ev_id": "E1",
+          "e_required_kWh": 1.65,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 2,
+          "slot_deficit": 1,
+          "status": "DEADLINE_VIOLATION"
+        }
+      ],
+      "site_cap_violations": []
+    },
+    "F2_decode": {
+      "cost": 1.155,
+      "peak_kW": 6.6,
+      "unmet_kWh": 0.825,
+      "load_per_slot_kW": [
+        6.6,
+        3.3,
+        0.0,
+        0.0
+      ],
+      "qubo_feasible": false,
+      "energy_feasible": false,
+      "site_feasible": true,
+      "deadline_feasible": false,
+      "feasible": false,
+      "per_ev": [
+        {
+          "ev_id": "E1",
+          "e_required_kWh": 1.65,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 2,
+          "slot_deficit": 1,
+          "status": "DEADLINE_VIOLATION"
+        },
+        {
+          "ev_id": "E2",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        },
+        {
+          "ev_id": "E3",
+          "e_required_kWh": 0.825,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 1,
+          "slot_deficit": 0,
+          "status": "OK"
+        }
+      ],
+      "site_cap_violations_one_sided": [],
+      "deadline_violations": [
+        {
+          "ev_id": "E1",
+          "e_required_kWh": 1.65,
+          "e_delivered_kWh": 0.825,
+          "slots_used": 1,
+          "R_i_slots": 2,
+          "slot_deficit": 1,
+          "status": "DEADLINE_VIOLATION"
+        }
+      ],
+      "site_cap_violations": []
+    }
+  },
+  "part_b_objective_decomposition": {
+    "F0": {
+      "E_cost": 5.774999999999998,
+      "E_deadline_penalty": 11.263765541740671,
+      "E_peak_penalty": 2.177999999999998,
+      "E_capacity_penalty": 10.890000000000004,
+      "E_window_penalty": 760509.1770278272,
+      "E_unmet_kWh": 0.257271208891106,
+      "E_total_objective": 760539.283793369,
+      "rho_d_effective": 1.0
+    },
+    "F1": {
+      "E_cost": 1.1550000000000002,
+      "E_deadline_penalty": 5.029011249259918,
+      "E_peak_penalty": 9.801,
+      "E_capacity_penalty": 125.23500000000001,
+      "E_window_penalty": 0.0,
+      "E_unmet_kWh": 1.1753519817540765,
+      "E_total_objective": 141.22001124925993,
+      "rho_d_effective": 1.0
+    },
+    "F2": {
+      "E_cost": 1.1550000000000002,
+      "E_deadline_penalty": 8.254619064535229,
+      "E_peak_penalty": 9.801,
+      "E_capacity_penalty": 125.23500000000001,
+      "E_window_penalty": 0.0,
+      "E_unmet_kWh": 1.1753519817540765,
+      "E_total_objective": 144.44561906453524,
+      "rho_d_effective": 1.6414
+    }
+  },
+  "part_c_adopt_effect": {
+    "Q_F1_diagonal": [
+      -33.57289402013025,
+      108610.76025281232,
+      108610.92525281232,
+      108611.09025281231,
+      -31.746369449378328,
+      108612.58677738305,
+      108612.75177738306,
+      108612.91677738307,
+      -31.58136944937833,
+      108612.75177738306,
+      108612.91677738307
+    ],
+    "Q_F2_diagonal": [
+      -35.7606414446418,
+      108608.57250538781,
+      108608.73750538783,
+      108608.9025053878,
+      -32.762584014209594,
+      108611.57056281823,
+      108611.73556281823,
+      108611.90056281825,
+      -32.59758401420959,
+      108611.73556281823,
+      108611.90056281825
+    ],
+    "Q_F1_to_F2_diagonal_diff": [
+      -2.1877474245115494,
+      -2.187747424512054,
+      -2.18774742448295,
+      -2.187747424512054,
+      -1.016214564831266,
+      -1.0162145648209844,
+      -1.0162145648355363,
+      -1.0162145648209844,
+      -1.0162145648312588,
+      -1.0162145648355363,
+      -1.0162145648209844
+    ],
+    "Q_F1_off_diagonal_nonzero": 25,
+    "Q_F2_off_diagonal_nonzero": 25,
+    "Q_F1_to_F2_offdiag_n_cells_changed": 41,
+    "Q_F1_to_F2_c_diff": 7.44578436944937,
+    "f1_eigval_min": -39.25717433411329,
+    "f1_eigval_max": 108626.49130657261,
+    "f2_eigval_min": -40.96543555765491,
+    "f2_eigval_max": 108626.00149095584,
+    "f1_diag_min": -33.57289402013025,
+    "f1_diag_max": 108612.91677738307,
+    "f2_diag_min": -35.7606414446418,
+    "f2_diag_max": 108611.90056281825,
+    "f1_diag_range_ratio_max_over_min_abs": 3235.137152974032,
+    "f2_diag_range_ratio_max_over_min_abs": 3037.191061881585,
+    "f1_total_abs_Q_sum": 869154.2802782711,
+    "f2_total_abs_Q_sum": 869166.0981397278,
+    "cost_only_total_abs_Q_sum": 6.6000000000000005,
+    "f1_vs_cost_ratio": 131690.0424664047,
+    "f2_vs_cost_ratio": 131691.8330514739,
+    "f1_diag_fractions_explained": {
+      "cost_diag": 0.0032680161765060293,
+      "deadline_diag": 1.0032589011727169
+    },
+    "adopt_active": true,
+    "adopt_active_magnitude": 2.187747424512054
+  },
+  "part_d_synthetic_recovery": {
+    "S1": {
+      "scenario_name": "S1_no_uncertainty",
+      "deltas_d": [
+        0
+      ],
+      "deltas_e": [
+        0
+      ],
+      "scenarios": [
+        {
+          "cluster": 0,
+          "n_observations": 1,
+          "weight": 1.0,
+          "centroid_delta_d_minutes": 0.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": 0.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        }
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 30.84299999999996,
+      "F2_exact_optimum": 36.248399999999975,
+      "F0_schedule": {
+        "0,0": 1,
+        "0,1": 1,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 1,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F1_schedule": {
+        "0,0": 1,
+        "0,1": 1,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 1,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F2_schedule": {
+        "0,0": 1,
+        "0,1": 0,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 0,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 10,
+      "F2_charging_slots": 8,
+      "F0_unmet_on_scenarios": [
+        0.0
+      ],
+      "F1_unmet_on_scenarios": [
+        0.0
+      ],
+      "F2_unmet_on_scenarios": [
+        0.0
+      ]
+    },
+    "S2": {
+      "scenario_name": "S2_mild_uncertainty",
+      "deltas_d": [
+        10,
+        -5,
+        0,
+        5,
+        -2
+      ],
+      "deltas_e": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scenarios": [
+        {
+          "cluster": 0,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 10.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": 10.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 1,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": -5.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": -5.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 2,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 0.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": 0.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 3,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 5.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": 5.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 4,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": -2.0,
+          "centroid_delta_e_kwh": 0.0,
+          "mean_delta_d": -2.0,
+          "mean_delta_e": 0.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        }
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 30.84299999999999,
+      "F2_exact_optimum": 36.248399999999975,
+      "F0_schedule": {
+        "0,0": 1,
+        "0,1": 1,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 1,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F1_schedule": {
+        "0,0": 1,
+        "0,1": 1,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 1,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F2_schedule": {
+        "0,0": 1,
+        "0,1": 0,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 0,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 10,
+      "F2_charging_slots": 8,
+      "F0_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F1_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F2_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "S3": {
+      "scenario_name": "S3_severe_uncertainty",
+      "deltas_d": [
+        60,
+        30,
+        90,
+        45,
+        15
+      ],
+      "deltas_e": [
+        -3,
+        -1,
+        -4,
+        -2,
+        -0.5
+      ],
+      "scenarios": [
+        {
+          "cluster": 0,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 60.0,
+          "centroid_delta_e_kwh": -3.0,
+          "mean_delta_d": 60.0,
+          "mean_delta_e": -3.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 1,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 30.0,
+          "centroid_delta_e_kwh": -1.0,
+          "mean_delta_d": 30.0,
+          "mean_delta_e": -1.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 2,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 90.0,
+          "centroid_delta_e_kwh": -4.0,
+          "mean_delta_d": 90.0,
+          "mean_delta_e": -4.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 3,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 45.0,
+          "centroid_delta_e_kwh": -2.0,
+          "mean_delta_d": 45.0,
+          "mean_delta_e": -2.0,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        },
+        {
+          "cluster": 4,
+          "n_observations": 1,
+          "weight": 0.2,
+          "centroid_delta_d_minutes": 15.0,
+          "centroid_delta_e_kwh": -0.5,
+          "mean_delta_d": 15.0,
+          "mean_delta_e": -0.5,
+          "std_delta_d": 0.0,
+          "std_delta_e": 0.0
+        }
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 138.591,
+      "F2_exact_optimum": 140.13036,
+      "F0_schedule": {
+        "0,0": 1,
+        "0,1": 1,
+        "0,2": 1,
+        "0,3": 1,
+        "1,0": 1,
+        "1,1": 1,
+        "1,2": 1,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 1,
+        "2,3": 1
+      },
+      "F1_schedule": {
+        "0,0": 1,
+        "0,1": 0,
+        "0,2": 0,
+        "0,3": 0,
+        "1,0": 1,
+        "1,1": 0,
+        "1,2": 0,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 0,
+        "2,3": 0
+      },
+      "F2_schedule": {
+        "0,0": 1,
+        "0,1": 0,
+        "0,2": 0,
+        "0,3": 0,
+        "1,0": 1,
+        "1,1": 0,
+        "1,2": 0,
+        "1,3": 0,
+        "2,1": 1,
+        "2,2": 0,
+        "2,3": 0
+      },
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 3,
+      "F2_charging_slots": 3,
+      "F0_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F1_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32499999999999996
+      ],
+      "F2_unmet_on_scenarios": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32499999999999996
+      ]
+    }
+  },
+  "part_e_directionality": {
+    "early_departure_directionality": {
+      "deltas_d_min": [
+        0,
+        15,
+        30,
+        45,
+        60
+      ],
+      "F1_charging_slots": [
+        10,
+        8,
+        5,
+        3,
+        3
+      ],
+      "F2_charging_slots": [
+        8,
+        7,
+        5,
+        3,
+        3
+      ],
+      "F1_monotonic_in_d": true,
+      "F2_monotonic_in_d": true
+    },
+    "unmet_energy_directionality": {
+      "deltas_e_kWh": [
+        0,
+        -1,
+        -2,
+        -3,
+        -5
+      ],
+      "F1_charging_slots": [
+        10,
+        8,
+        8,
+        8,
+        8
+      ],
+      "F2_charging_slots": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "F1_monotonic_more_neg_e_charges_more": false,
+      "F2_monotonic_more_neg_e_charges_more": true
+    },
+    "magnitude_directionality": {
+      "scales": [
+        0.0,
+        0.5,
+        1.0,
+        2.0,
+        4.0
+      ],
+      "F1_optima": [
+        30.84299999999996,
+        71.10899999999995,
+        116.40099999999998,
+        137.19099999999997,
+        137.19099999999997
+      ],
+      "F2_optima": [
+        36.248399999999975,
+        73.72919999999996,
+        117.04239999999999,
+        137.83239999999998,
+        137.83239999999998
+      ],
+      "F1_optimum_changes_with_magnitude": true,
+      "F2_optimum_changes_with_magnitude": true
+    }
+  },
+  "part_f_penalty_scale": {
+    "M_window": 1000000.0,
+    "rho_d": 1.0,
+    "rho_p": 0.1,
+    "rho_cap": 0.5,
+    "gamma": 1.6414,
+    "cost_diag_max": 0.825,
+    "peak_diag_max": 4.356,
+    "cap_diag_max": 32.67,
+    "deadline_diag_max_F1": 4.0,
+    "deadline_diag_max_F2": 6.5656,
+    "M_window_diag_sum_F1": 869230.4850124333,
+    "F1_diag_max_abs": 108612.91677738307,
+    "F2_diag_max_abs": 108611.90056281825,
+    "c_F1": 225.05264416814686,
+    "c_F2": 232.49842853759623,
+    "ratio_M_window_over_cost_diag": 1212121.2121212122,
+    "ratio_M_window_over_deadline_F1": 250000.0,
+    "ratio_M_window_over_deadline_F2": 152309.00450834652,
+    "verdict": "M_window = 1e6 is 5-6 orders of magnitude larger than ordinary objective terms. It is not a tuned hyperparameter; it is a structural constant chosen to be effectively infinite for any feasible operating regime. The verifier in Part C checks that M_window is large enough to force out-of-window slots to 0 at the optimum."
+  },
+  "part_g_exact_vs_qaoa": {
+    "S1": {
+      "F0_exact": 30.843,
+      "F1_exact": 30.84299999999996,
+      "F2_exact": 36.248399999999975,
+      "F0_QAOA": {
+        "method": "S1_F0",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 30.843,
+        "AR_median": 0.9999999999999988,
+        "AR_mean": 0.9999999999999988,
+        "P_feasible_mean": 0.49755859375,
+        "P_feasible_std": 0.01220703125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4853515625,
+            "P_qubo_feasible": 0.4853515625,
+            "P_energy_feasible": 0.4853515625,
+            "P_site_feasible": 0.599609375,
+            "P_deadline_feasible": 0.4853515625
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.509765625,
+            "P_qubo_feasible": 0.509765625,
+            "P_energy_feasible": 0.509765625,
+            "P_site_feasible": 0.6943359375,
+            "P_deadline_feasible": 0.509765625
+          }
+        ]
+      },
+      "F1_QAOA": {
+        "method": "S1_F1",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 30.84299999999996,
+        "AR_median": 1.0,
+        "AR_mean": 1.0,
+        "P_feasible_mean": 0.49755859375,
+        "P_feasible_std": 0.01220703125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.84299999999996,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4853515625,
+            "P_qubo_feasible": 0.4853515625,
+            "P_energy_feasible": 0.4853515625,
+            "P_site_feasible": 0.599609375,
+            "P_deadline_feasible": 0.4853515625
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.84299999999996,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.509765625,
+            "P_qubo_feasible": 0.509765625,
+            "P_energy_feasible": 0.509765625,
+            "P_site_feasible": 0.6943359375,
+            "P_deadline_feasible": 0.509765625
+          }
+        ]
+      },
+      "F2_QAOA": {
+        "method": "S1_F2",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 36.248399999999975,
+        "AR_median": 0.9999999999999992,
+        "AR_mean": 0.9999999999999992,
+        "P_feasible_mean": 0.4091796875,
+        "P_feasible_std": 0.021484375,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 36.24839999999995,
+            "qubo_optimum": 36.248399999999975,
+            "approximation_ratio": 0.9999999999999992,
+            "absolute_gap": -2.842170943040401e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 12,
+            "P_opt": 0.01171875,
+            "P_feasible": 0.4306640625,
+            "P_qubo_feasible": 0.4306640625,
+            "P_energy_feasible": 0.4306640625,
+            "P_site_feasible": 0.494140625,
+            "P_deadline_feasible": 0.4306640625
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 36.24839999999995,
+            "qubo_optimum": 36.248399999999975,
+            "approximation_ratio": 0.9999999999999992,
+            "absolute_gap": -2.842170943040401e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 12,
+            "P_opt": 0.01171875,
+            "P_feasible": 0.3876953125,
+            "P_qubo_feasible": 0.3876953125,
+            "P_energy_feasible": 0.3876953125,
+            "P_site_feasible": 0.4345703125,
+            "P_deadline_feasible": 0.3876953125
+          }
+        ]
+      }
+    },
+    "S2": {
+      "F0_exact": 30.843,
+      "F1_exact": 30.84299999999999,
+      "F2_exact": 36.248399999999975,
+      "F0_QAOA": {
+        "method": "S2_F0",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 30.843,
+        "AR_median": 0.9999999999999988,
+        "AR_mean": 0.9999999999999988,
+        "P_feasible_mean": 0.49755859375,
+        "P_feasible_std": 0.01220703125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4853515625,
+            "P_qubo_feasible": 0.4853515625,
+            "P_energy_feasible": 0.4853515625,
+            "P_site_feasible": 0.599609375,
+            "P_deadline_feasible": 0.4853515625
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.509765625,
+            "P_qubo_feasible": 0.509765625,
+            "P_energy_feasible": 0.509765625,
+            "P_site_feasible": 0.6943359375,
+            "P_deadline_feasible": 0.509765625
+          }
+        ]
+      },
+      "F1_QAOA": {
+        "method": "S2_F1",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 30.84299999999999,
+        "AR_median": 1.0,
+        "AR_mean": 1.0,
+        "P_feasible_mean": 0.494140625,
+        "P_feasible_std": 0.0126953125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 30.84299999999999,
+            "qubo_optimum": 30.84299999999999,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4814453125,
+            "P_qubo_feasible": 0.4814453125,
+            "P_energy_feasible": 0.4814453125,
+            "P_site_feasible": 0.60546875,
+            "P_deadline_feasible": 0.4814453125
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 30.84299999999999,
+            "qubo_optimum": 30.84299999999999,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.5068359375,
+            "P_qubo_feasible": 0.5068359375,
+            "P_energy_feasible": 0.5068359375,
+            "P_site_feasible": 0.6904296875,
+            "P_deadline_feasible": 0.5068359375
+          }
+        ]
+      },
+      "F2_QAOA": {
+        "method": "S2_F2",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 36.248399999999975,
+        "AR_median": 0.9999999999999992,
+        "AR_mean": 0.9999999999999992,
+        "P_feasible_mean": 0.41162109375,
+        "P_feasible_std": 0.02392578125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 36.24839999999995,
+            "qubo_optimum": 36.248399999999975,
+            "approximation_ratio": 0.9999999999999992,
+            "absolute_gap": -2.842170943040401e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 12,
+            "P_opt": 0.01171875,
+            "P_feasible": 0.435546875,
+            "P_qubo_feasible": 0.435546875,
+            "P_energy_feasible": 0.435546875,
+            "P_site_feasible": 0.5146484375,
+            "P_deadline_feasible": 0.435546875
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 36.24839999999995,
+            "qubo_optimum": 36.248399999999975,
+            "approximation_ratio": 0.9999999999999992,
+            "absolute_gap": -2.842170943040401e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 12,
+            "P_opt": 0.01171875,
+            "P_feasible": 0.3876953125,
+            "P_qubo_feasible": 0.3876953125,
+            "P_energy_feasible": 0.3876953125,
+            "P_site_feasible": 0.4345703125,
+            "P_deadline_feasible": 0.3876953125
+          }
+        ]
+      }
+    },
+    "S3": {
+      "F0_exact": 30.843,
+      "F1_exact": 138.591,
+      "F2_exact": 140.13036,
+      "F0_QAOA": {
+        "method": "S3_F0",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 30.843,
+        "AR_median": 0.9999999999999988,
+        "AR_mean": 0.9999999999999988,
+        "P_feasible_mean": 0.49755859375,
+        "P_feasible_std": 0.01220703125,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4853515625,
+            "P_qubo_feasible": 0.4853515625,
+            "P_energy_feasible": 0.4853515625,
+            "P_site_feasible": 0.599609375,
+            "P_deadline_feasible": 0.4853515625
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 30.84299999999996,
+            "qubo_optimum": 30.843,
+            "approximation_ratio": 0.9999999999999988,
+            "absolute_gap": -3.907985046680551e-14,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.509765625,
+            "P_qubo_feasible": 0.509765625,
+            "P_energy_feasible": 0.509765625,
+            "P_site_feasible": 0.6943359375,
+            "P_deadline_feasible": 0.509765625
+          }
+        ]
+      },
+      "F1_QAOA": {
+        "method": "S3_F1",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 138.591,
+        "AR_median": 1.059506028529991,
+        "AR_mean": 1.059506028529991,
+        "P_feasible_mean": 0.40478515625,
+        "P_feasible_std": 0.01708984375,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 138.591,
+            "qubo_optimum": 138.591,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.421875,
+            "P_qubo_feasible": 0.421875,
+            "P_energy_feasible": 0.421875,
+            "P_site_feasible": 0.771484375,
+            "P_deadline_feasible": 0.421875
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 155.08499999999998,
+            "qubo_optimum": 138.591,
+            "approximation_ratio": 1.119012057059982,
+            "absolute_gap": 16.49399999999997,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 0,
+            "P_opt": 0.0,
+            "P_feasible": 0.3876953125,
+            "P_qubo_feasible": 0.3876953125,
+            "P_energy_feasible": 0.3876953125,
+            "P_site_feasible": 0.7548828125,
+            "P_deadline_feasible": 0.3876953125
+          }
+        ]
+      },
+      "F2_QAOA": {
+        "method": "S3_F2",
+        "n_qubits": 11,
+        "p": 1,
+        "shots": 1024,
+        "classical_optimum": 140.13036,
+        "AR_median": 1.0,
+        "AR_mean": 1.0,
+        "P_feasible_mean": 0.423828125,
+        "P_feasible_std": 0.0166015625,
+        "per_seed": [
+          {
+            "seed": 0,
+            "best_qubo_energy": 140.13036,
+            "qubo_optimum": 140.13036,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4404296875,
+            "P_qubo_feasible": 0.4404296875,
+            "P_energy_feasible": 0.4404296875,
+            "P_site_feasible": 0.7802734375,
+            "P_deadline_feasible": 0.4404296875
+          },
+          {
+            "seed": 1,
+            "best_qubo_energy": 140.13036,
+            "qubo_optimum": 140.13036,
+            "approximation_ratio": 1.0,
+            "absolute_gap": 0.0,
+            "n_shots_total": 1024,
+            "n_optimum_samples": 1,
+            "P_opt": 0.0009765625,
+            "P_feasible": 0.4072265625,
+            "P_qubo_feasible": 0.4072265625,
+            "P_energy_feasible": 0.4072265625,
+            "P_site_feasible": 0.74609375,
+            "P_deadline_feasible": 0.4072265625
+          }
+        ]
+      }
+    }
+  },
+  "part_h_distribution_shift": {
+    "A_same": {
+      "cal_scenarios": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cal_e": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "test_scenarios": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 30.84299999999999,
+      "F2_exact_optimum": 36.248399999999975,
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 10,
+      "F2_charging_slots": 8,
+      "F0_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F1_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F2_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F0_mean_unmet": 0.0,
+      "F1_mean_unmet": 0.0,
+      "F2_mean_unmet": 0.0
+    },
+    "B_mild": {
+      "cal_scenarios": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cal_e": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "test_scenarios": [
+        [
+          10,
+          -0.5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          -5,
+          -0.3
+        ],
+        [
+          15,
+          -0.2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 30.84299999999999,
+      "F2_exact_optimum": 36.248399999999975,
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 10,
+      "F2_charging_slots": 8,
+      "F0_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F1_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F2_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "F0_mean_unmet": 0.0,
+      "F1_mean_unmet": 0.0,
+      "F2_mean_unmet": 0.0
+    },
+    "C_severe": {
+      "cal_scenarios": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cal_e": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "test_scenarios": [
+        [
+          60,
+          -3
+        ],
+        [
+          30,
+          -1
+        ],
+        [
+          -10,
+          -2
+        ],
+        [
+          90,
+          -4
+        ],
+        [
+          45,
+          -0.5
+        ]
+      ],
+      "F0_exact_optimum": 30.843,
+      "F1_exact_optimum": 30.84299999999999,
+      "F2_exact_optimum": 36.248399999999975,
+      "F0_charging_slots": 10,
+      "F1_charging_slots": 10,
+      "F2_charging_slots": 8,
+      "F0_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32499999999999996
+      ],
+      "F1_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32499999999999996
+      ],
+      "F2_unmet_per_scenario": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32499999999999996
+      ],
+      "F0_mean_unmet": 0.06499999999999999,
+      "F1_mean_unmet": 0.06499999999999999,
+      "F2_mean_unmet": 0.06499999999999999
+    }
+  },
+  "part_k_real_data_switch": {
+    "DATA_MODE_provided_in_env": "SYNTHETIC",
+    "switch_principle": "DATA_MODE = SYNTHETIC -> use placeholder_uncertainty; DATA_MODE = REAL -> use load_real_uncertainty (requires ACN_API_TOKEN). The downstream pipeline is identical.",
+    "code_locations": {
+      "data_loader": "stage5/uncertainty.py::load_real_uncertainty",
+      "data_fallback": "stage5/uncertainty.py::placeholder_uncertainty",
+      "switch_logic": "stage7/stress_test.py::run_stage7 (and stage5/uncertainty.py::run_stage5)"
+    },
+    "verification": "Running the same instance with placeholder data and with real data (once token arrives) must produce the same downstream artifacts, differing only in the source data and the resulting numerical values."
+  },
+  "part_l_token_arrival_procedure": {
+    "step_1": "Set the ACN_API_TOKEN environment variable (or ACNPORTAL_TOKEN).",
+    "step_2": "Verify token by GET https://ev.caltech.edu/api/v1/sessions/caltech?page=1 (expect 200 OK).",
+    "step_3": "The load_real_uncertainty() function in stage5/uncertainty.py is populated from the live API (or a pre-fetched JSON dump). The function structure is already in place.",
+    "step_4": "Run `python -m stage5.uncertainty --out artifacts/stage5_run.json` to produce real-data uncertainty distributions, scenarios, ADOPT gamma.",
+    "step_5": "Run `python -m stage6.robust_qaoa --out artifacts/stage6_run.json` to produce real-data F0/F1/F2/F3 results and held-out robustness.",
+    "step_6": "Run `python -m stage7.stress_test --out artifacts/stage7_run.json` to verify the methodology still passes the Part D directionality tests on the real data (S1/S2/S3 are independent of the real distribution).",
+    "step_7": "No code modifications are permitted. The pre-registered K, alpha, M_window, QAOA settings remain frozen.",
+    "step_8": "If the real data produces an unfavorable result, the result is reported as-is. No methodology modification is performed to make the result favorable."
+  },
+  "part_m_decision_tree": {
+    "Q1_real_data_supports_uncertainty_model": "Run planned experiment; report results.",
+    "Q2_uncertainty_exists_but_weak": "Run planned experiment; report weak uncertainty and the resulting F0/F1/F2 comparison.",
+    "Q3_F1_or_F2_outperform_F0_on_held_out": "Report the positive result.",
+    "Q4_F0_outperforms_F1_or_F2_on_held_out": "Report the negative result (this is the placeholder behavior).",
+    "Q5_F2_approx_F1": "Report that ADOPT contributes little beyond robustness on this data.",
+    "Q6_F2_differs_materially_from_F1": "Analyze whether the difference comes from the gamma-scaled rho_d.",
+    "Q7_uncertainty_model_cannot_be_constructed": "STOP and document the blocker (e.g., the API token remains unavailable after the project deadline).",
+    "decision_rule": "Once the result is observed, do not redesign the study. The methodology is frozen pre-registration."
+  }
+}

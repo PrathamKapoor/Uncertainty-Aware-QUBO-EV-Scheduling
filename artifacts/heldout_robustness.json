@@ -1,0 +1,54 @@
+{
+  "F0": {
+    "method": "F0_deterministic",
+    "n_held_out_total": 1374,
+    "n_feasible": 1303,
+    "P_feasible": 0.9483260553129549,
+    "mean_unmet_kWh": 0.15628327864496047,
+    "p95_unmet_kWh": 0.13534473926567445,
+    "max_unmet_kWh": 12.099372320816816,
+    "mean_peak_kW": 9.9,
+    "mean_cost": 5.774999999999999,
+    "deadline_violation_rate": 0.05167394468704512,
+    "site_violation_rate": 0.0
+  },
+  "F1": {
+    "method": "F1_robust",
+    "n_held_out_total": 1374,
+    "n_feasible": 152,
+    "P_feasible": 0.11062590975254731,
+    "mean_unmet_kWh": 1.3045830722887666,
+    "p95_unmet_kWh": 5.910344739265673,
+    "max_unmet_kWh": 17.874372320816814,
+    "mean_peak_kW": 6.6,
+    "mean_cost": 1.1549999999999998,
+    "deadline_violation_rate": 0.8893740902474527,
+    "site_violation_rate": 0.0
+  },
+  "F2": {
+    "method": "F2_adopt",
+    "n_held_out_total": 1374,
+    "n_feasible": 152,
+    "P_feasible": 0.11062590975254731,
+    "mean_unmet_kWh": 1.3045830722887666,
+    "p95_unmet_kWh": 5.910344739265673,
+    "max_unmet_kWh": 17.874372320816814,
+    "mean_peak_kW": 6.6,
+    "mean_cost": 1.1549999999999998,
+    "deadline_violation_rate": 0.8893740902474527,
+    "site_violation_rate": 0.0
+  },
+  "F3_oracle_analysis_only": {
+    "method": "F3_oracle_analysis_only",
+    "n_held_out_total": 1374,
+    "n_feasible": 1303,
+    "P_feasible": 0.9483260553129549,
+    "mean_unmet_kWh": 0.0,
+    "p95_unmet_kWh": 0.0,
+    "max_unmet_kWh": 0.0,
+    "mean_peak_kW": 0.0,
+    "mean_cost": 0.0,
+    "deadline_violation_rate": 0.0,
+    "site_violation_rate": 0.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fixture_size": 12,
+  "n_calibration": 8,
+  "n_held_out": 4,
+  "disjoint": true,
+  "n_valid_deltaE": 12,
+  "n_valid_deltaD": 12,
+  "verdict": "PASS"
+}
