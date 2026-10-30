@@ -1,0 +1,37 @@
+{
+  "version": "revised_v2_synthetic_pilot",
+  "scope": "exploratory",
+  "power_kW": [
+    1,
+    1
+  ],
+  "required_slots": [
+    1,
+    1
+  ],
+  "availability_masks": [
+    3,
+    3
+  ],
+  "capacity_kW": 1,
+  "price_per_kWh": [
+    0.5,
+    1.0
+  ],
+  "slot_hours": 1,
+  "energy_penalty": 5,
+  "capacity_penalty": 5,
+  "qaoa": {
+    "depths": [
+      1,
+      2
+    ],
+    "shots": 256,
+    "seeds": [
+      0,
+      1
+    ],
+    "optimizer": "COBYLA",
+    "maxiter": 20
+  }
+}

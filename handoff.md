@@ -1,5 +1,70 @@
 # handoff.md — Stage 9 / Stage 10 continuity pointer
 
+## 2026-10-29 research revision — incomplete
+
+### Public dataset and reliability-buffer update
+
+The public CC BY 4.0 Baek et al. charging-transactions CSV was downloaded to
+ignored `data/ChargingRecords.csv` and hashed. `docs/DATASET_VALIDATION.md`
+describes acquisition, fields and exclusions. `python -m stage9.public_dataset
+data/ChargingRecords.csv` generates `artifacts/revised_v2/public_duration_stress.json.gz`.
+The 72,268 eligible records include 50,185 calibration and 22,083 evaluation
+records. This is a single-EV counterfactual stress test, not a historical fleet
+reconstruction: requests, prices, nominal deadline and power are assumed.
+The nominal and 90% buffer QUBOs were run with QAOA and exact enumeration;
+see `docs/RESULTS_AND_LIMITATIONS.md`. A draft manuscript and literature
+review are in `docs/RESEARCH_PAPER_DRAFT.md` and
+`docs/LITERATURE_AND_NOVELTY_REVIEW.md`. Full suite: 32 passed, 14 dependency
+deprecation warnings. The paper is not submission-ready: multi-EV experiments,
+scenario QAOA, multiple quantum seeds for this experiment, duplicate and
+dependence sensitivity, requested-deadline data, final formatting and security
+review remain. No commit or push was made. The previously disclosed token's
+rotation remains unverified; do not publish an unsafe release.
+
+### Later integration update
+
+`stage9/revised_experiment.py` now runs a one-EV, two-slot fixture through
+calibration-only departure scenarios, scenario-specific slack recourse, exact
+F0/F1 schedules, realized evaluation, paired bootstrap and an Aer F0 run.
+Run `python -m stage9.revised_experiment --source fixture`. The fixture is
+synthetic, with three eligible evaluation records. The real-data option
+`--source live` could not run because neither supported ACN credential is in
+the environment. The revised loader selects timestamped user inputs at or
+before connection, but its eligibility rates and the resulting study have not
+been checked on live data. The real experiment, dependence analysis, F2/F3,
+manuscript, comprehensive credential scan and publication remain unfinished.
+`python -m pytest -q`: 26 passed, 14 dependency deprecation warnings. A pattern-limited scan found
+no GitHub/AWS/private-key patterns in tracked files, Git patch history, local
+Git configuration, or untracked files; the previously disclosed ACN token's
+unknown value could not be checked. Its revocation/rotation is not verified.
+
+The historical pipeline below is preserved, but its claims of readiness must
+not be relied on: see `docs/RESEARCH_REMEDIATION_PLAN.md` for verified defects.
+The revised work is exploratory and not yet an end-to-end replacement.
+
+* `stage3/ev_scheduling.py` supports an optional per-EV realized-departure
+  decoder; its historical behavior remains the default. The full experiment
+  still calls the historical evaluator.
+* `stage3/revised_qubo.py` provides a small integer-power slack QUBO and
+  explicit uniform/empirical weighting. It does not yet provide a complete
+  revised fleet experiment or prove penalties sufficient generally.
+* `stage4/qaoa.py` corrects the Ising constant offset. Historical artifacts
+  were not regenerated. `stage9/real_experiment.py` contains separate revised
+  per-session and paired-bootstrap helpers; the old driver still has known
+  flaws and must not be presented as corrected.
+* `python -m pytest -q`: 21 passed on 2026-10-29. The synthetic
+  six-qubit pilot can be regenerated with
+  `python scripts/run_revised_quantum_example.py`; outputs are in
+  `artifacts/revised_v2/`. It is not an ACN-data study.
+* Next: integrate the revised QUBO and decoder with calibrated per-EV data;
+  implement exact comparisons and robust statistical analysis; verify QAOA
+  across seeds and depths; produce the teacher guides and a source-supported
+  paper; scan secrets and history; review, commit, and verify publication.
+  No corrected held-out results have been produced and no publication claim
+  is supported. Preserve historical results.
+
+---
+
 **Date of this handoff:** 2026-08-30 (resumed session).
 **Authoritative continuity document:** [`docs/TOKEN_HANDOFF.md`](docs/TOKEN_HANDOFF.md).
 **Project root:** `C:/Projects/uncertainity_aware_quantum_opt`.

@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from stage5.uncertainty import load_real_uncertainty  # noqa: E402
+from uncertainty.uncertainty import load_real_uncertainty  # noqa: E402
 
 
 def main() -> None:

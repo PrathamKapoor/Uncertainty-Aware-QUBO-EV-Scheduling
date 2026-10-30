@@ -1,0 +1,7 @@
+# Architecture and current integration boundary
+
+The frozen historical path is ACN extraction in `uncertainty.uncertainty`, scenario construction in `robust.robust_qaoa`, and held-out evaluation in `experiments.real_experiment`. Its known defects are listed in `RESEARCH_REMEDIATION_PLAN.md`; its artifacts are preserved, not validated by the new pilot.
+
+The revised pilot is a separate path: synthetic parameters → `scheduling.revised_qubo.build_revised_qubo` → `quantum.qaoa.qubo_to_ising` → `_build_qaoa_ansatz` → `run_qaoa` → measured bitstrings → pilot feasibility checks. `scripts/run_revised_quantum_example.py` enumerates all 64 bitstrings and writes the configuration, circuits and results. `tests/test_revised_qubo.py` checks direct, QUBO and Ising energy equivalence and basis ordering.
+
+The exploratory `python -m experiments.revised_experiment --source fixture` path fits departure-only quantile scenarios on fixture calibration records, uses `scenario_qubo_with_recourse` for independent scenario slack registers, finds exact schedules, executes F0 on Aer, decodes both schedules with `evaluate_departures_v2`, and applies `paired_records_v2`. The same driver has a `--source live` path that asks `load_real_uncertainty(as_of_connection=True)` for only timestamped inputs available by connection. No live revised output has been generated: credentials were absent. Its one-EV synthetic stress test is not a reconstructed ACN fleet, and requires further scientific validation before research claims.

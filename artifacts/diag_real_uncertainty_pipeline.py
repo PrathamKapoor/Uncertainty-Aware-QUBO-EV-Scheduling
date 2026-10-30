@@ -57,7 +57,7 @@ from urllib.parse import urljoin
 REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-from stage5.uncertainty import _parse_api_timestamp as _parse_diagnostic_timestamp
+from uncertainty.uncertainty import _parse_api_timestamp as _parse_diagnostic_timestamp
 
 
 BASE_URL = "https://ev.caltech.edu/api/v1/sessions/caltech"

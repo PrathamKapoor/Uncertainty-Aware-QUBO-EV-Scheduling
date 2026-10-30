@@ -2,7 +2,7 @@
 
 This script is INTENDED TO BE RUN BY THE USER in their PowerShell session
 where ACN_API_TOKEN is set. It performs the minimum authenticated request
-needed to determine why stage5.uncertainty.load_real_uncertainty returns
+needed to determine why uncertainty.uncertainty.load_real_uncertainty returns
 zero samples in the user's environment.
 
 PRIVACY GUARANTEES (the script enforces them at runtime):

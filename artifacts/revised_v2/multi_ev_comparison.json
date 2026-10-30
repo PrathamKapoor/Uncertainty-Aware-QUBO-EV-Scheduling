@@ -1,0 +1,491 @@
+{
+  "description": "synthetic two-EV, two-slot, 1 kW site; equally weighted modeled scenarios, not historical schedules",
+  "scenario_masks": [
+    [
+      3,
+      3
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "methods": {
+    "F0": {
+      "decisions": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "mean_feasibility": 0.5,
+      "mean_unmet_kWh": 0.125,
+      "mean_cost": 0.3125,
+      "mean_delivered_kWh": 0.375,
+      "nominal_energy_cost": 0.375,
+      "nominal_site_feasible": true,
+      "exact_qubo_energy": 0.375
+    },
+    "F1": {
+      "decisions": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "mean_feasibility": 1.0,
+      "mean_unmet_kWh": 0.0,
+      "mean_cost": 0.375,
+      "mean_delivered_kWh": 0.5,
+      "nominal_energy_cost": 0.375,
+      "nominal_site_feasible": true,
+      "exact_qubo_energy": 0.375
+    },
+    "F_buffer": {
+      "decisions": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "mean_feasibility": 1.0,
+      "mean_unmet_kWh": 0.0,
+      "mean_cost": 0.375,
+      "mean_delivered_kWh": 0.5,
+      "nominal_energy_cost": 0.375,
+      "nominal_site_feasible": true,
+      "exact_qubo_energy": 0.375
+    },
+    "F_early": {
+      "decisions": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "mean_feasibility": 1.0,
+      "mean_unmet_kWh": 0.0,
+      "mean_cost": 0.375,
+      "mean_delivered_kWh": 0.5,
+      "nominal_energy_cost": 0.375,
+      "nominal_site_feasible": true,
+      "exact_qubo_energy": null
+    }
+  },
+  "quantum": {
+    "F0": {
+      "qubits": 6,
+      "decision_qubits": 4,
+      "slack_qubits": 2,
+      "classical_optimum": 0.375,
+      "runs": [
+        {
+          "p": 1,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.5537281036376953,
+          "p_optimal": 0.1640625,
+          "p_nominal_physical_feasible": 0.2890625,
+          "best_gap": 0.0,
+          "mean_energy": 8.0341796875,
+          "transpiled_depth": 22,
+          "cx": 16
+        },
+        {
+          "p": 1,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.5332551002502441,
+          "p_optimal": 0.046875,
+          "p_nominal_physical_feasible": 0.140625,
+          "best_gap": 0.0,
+          "mean_energy": 12.931640625,
+          "transpiled_depth": 22,
+          "cx": 16
+        },
+        {
+          "p": 1,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.5200686454772949,
+          "p_optimal": 0.03125,
+          "p_nominal_physical_feasible": 0.171875,
+          "best_gap": 0.0,
+          "mean_energy": 14.2734375,
+          "transpiled_depth": 22,
+          "cx": 16
+        },
+        {
+          "p": 1,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.42032885551452637,
+          "p_optimal": 0.109375,
+          "p_nominal_physical_feasible": 0.2734375,
+          "best_gap": 0.0,
+          "mean_energy": 7.19921875,
+          "transpiled_depth": 22,
+          "cx": 16
+        },
+        {
+          "p": 1,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.3967890739440918,
+          "p_optimal": 0.1171875,
+          "p_nominal_physical_feasible": 0.265625,
+          "best_gap": 0.0,
+          "mean_energy": 8.2265625,
+          "transpiled_depth": 22,
+          "cx": 16
+        },
+        {
+          "p": 2,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.4473552703857422,
+          "p_optimal": 0.1328125,
+          "p_nominal_physical_feasible": 0.234375,
+          "best_gap": 0.0,
+          "mean_energy": 9.9189453125,
+          "transpiled_depth": 37,
+          "cx": 32
+        },
+        {
+          "p": 2,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.4173405170440674,
+          "p_optimal": 0.2265625,
+          "p_nominal_physical_feasible": 0.34375,
+          "best_gap": 0.0,
+          "mean_energy": 6.70703125,
+          "transpiled_depth": 37,
+          "cx": 32
+        },
+        {
+          "p": 2,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.4230055809020996,
+          "p_optimal": 0.1328125,
+          "p_nominal_physical_feasible": 0.25,
+          "best_gap": 0.0,
+          "mean_energy": 10.1474609375,
+          "transpiled_depth": 37,
+          "cx": 32
+        },
+        {
+          "p": 2,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.43854498863220215,
+          "p_optimal": 0.0625,
+          "p_nominal_physical_feasible": 0.1796875,
+          "best_gap": 0.0,
+          "mean_energy": 12.705078125,
+          "transpiled_depth": 37,
+          "cx": 32
+        },
+        {
+          "p": 2,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.3916616439819336,
+          "p_optimal": 0.1328125,
+          "p_nominal_physical_feasible": 0.265625,
+          "best_gap": 0.0,
+          "mean_energy": 8.2373046875,
+          "transpiled_depth": 37,
+          "cx": 32
+        }
+      ]
+    },
+    "F1": {
+      "qubits": 8,
+      "decision_qubits": 4,
+      "slack_qubits": 4,
+      "classical_optimum": 0.375,
+      "runs": [
+        {
+          "p": 1,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7063167095184326,
+          "p_optimal": 0.0234375,
+          "p_nominal_physical_feasible": 0.359375,
+          "best_gap": 0.0,
+          "mean_energy": 7.7041015625,
+          "transpiled_depth": 25,
+          "cx": 22
+        },
+        {
+          "p": 1,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7402031421661377,
+          "p_optimal": 0.03125,
+          "p_nominal_physical_feasible": 0.3125,
+          "best_gap": 0.0,
+          "mean_energy": 8.7578125,
+          "transpiled_depth": 25,
+          "cx": 22
+        },
+        {
+          "p": 1,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.8092103004455566,
+          "p_optimal": 0.0,
+          "p_nominal_physical_feasible": 0.125,
+          "best_gap": 2.5,
+          "mean_energy": 13.6298828125,
+          "transpiled_depth": 25,
+          "cx": 22
+        },
+        {
+          "p": 1,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.6930673122406006,
+          "p_optimal": 0.0234375,
+          "p_nominal_physical_feasible": 0.234375,
+          "best_gap": 0.0,
+          "mean_energy": 9.7041015625,
+          "transpiled_depth": 25,
+          "cx": 22
+        },
+        {
+          "p": 1,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7204146385192871,
+          "p_optimal": 0.03125,
+          "p_nominal_physical_feasible": 0.2734375,
+          "best_gap": 0.0,
+          "mean_energy": 8.66748046875,
+          "transpiled_depth": 25,
+          "cx": 22
+        },
+        {
+          "p": 2,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.797102689743042,
+          "p_optimal": 0.03125,
+          "p_nominal_physical_feasible": 0.2578125,
+          "best_gap": 0.0,
+          "mean_energy": 9.20458984375,
+          "transpiled_depth": 43,
+          "cx": 44
+        },
+        {
+          "p": 2,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7909870147705078,
+          "p_optimal": 0.0234375,
+          "p_nominal_physical_feasible": 0.328125,
+          "best_gap": 0.0,
+          "mean_energy": 9.18310546875,
+          "transpiled_depth": 43,
+          "cx": 44
+        },
+        {
+          "p": 2,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.795029878616333,
+          "p_optimal": 0.0234375,
+          "p_nominal_physical_feasible": 0.2265625,
+          "best_gap": 0.0,
+          "mean_energy": 9.45751953125,
+          "transpiled_depth": 43,
+          "cx": 44
+        },
+        {
+          "p": 2,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7573156356811523,
+          "p_optimal": 0.0234375,
+          "p_nominal_physical_feasible": 0.328125,
+          "best_gap": 0.0,
+          "mean_energy": 8.59423828125,
+          "transpiled_depth": 43,
+          "cx": 44
+        },
+        {
+          "p": 2,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.7292807102203369,
+          "p_optimal": 0.03125,
+          "p_nominal_physical_feasible": 0.3203125,
+          "best_gap": 0.0,
+          "mean_energy": 8.4462890625,
+          "transpiled_depth": 43,
+          "cx": 44
+        }
+      ]
+    },
+    "F_buffer": {
+      "qubits": 6,
+      "decision_qubits": 4,
+      "slack_qubits": 2,
+      "classical_optimum": 0.375,
+      "runs": [
+        {
+          "p": 1,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.3105900287628174,
+          "p_optimal": 0.1171875,
+          "p_nominal_physical_feasible": 0.203125,
+          "best_gap": 0.0,
+          "mean_energy": 8.564453125,
+          "transpiled_depth": 19,
+          "cx": 10
+        },
+        {
+          "p": 1,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.2799949645996094,
+          "p_optimal": 0.109375,
+          "p_nominal_physical_feasible": 0.234375,
+          "best_gap": 0.0,
+          "mean_energy": 9.1337890625,
+          "transpiled_depth": 19,
+          "cx": 10
+        },
+        {
+          "p": 1,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.32127833366394043,
+          "p_optimal": 0.015625,
+          "p_nominal_physical_feasible": 0.171875,
+          "best_gap": 0.0,
+          "mean_energy": 14.4921875,
+          "transpiled_depth": 19,
+          "cx": 10
+        },
+        {
+          "p": 1,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.28856635093688965,
+          "p_optimal": 0.078125,
+          "p_nominal_physical_feasible": 0.1328125,
+          "best_gap": 0.0,
+          "mean_energy": 10.3310546875,
+          "transpiled_depth": 19,
+          "cx": 10
+        },
+        {
+          "p": 1,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.30562257766723633,
+          "p_optimal": 0.09375,
+          "p_nominal_physical_feasible": 0.21875,
+          "best_gap": 0.0,
+          "mean_energy": 9.541015625,
+          "transpiled_depth": 19,
+          "cx": 10
+        },
+        {
+          "p": 2,
+          "seed": 0,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.29700613021850586,
+          "p_optimal": 0.1328125,
+          "p_nominal_physical_feasible": 0.234375,
+          "best_gap": 0.0,
+          "mean_energy": 8.115234375,
+          "transpiled_depth": 34,
+          "cx": 20
+        },
+        {
+          "p": 2,
+          "seed": 1,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.3052184581756592,
+          "p_optimal": 0.0703125,
+          "p_nominal_physical_feasible": 0.21875,
+          "best_gap": 0.0,
+          "mean_energy": 10.90625,
+          "transpiled_depth": 34,
+          "cx": 20
+        },
+        {
+          "p": 2,
+          "seed": 2,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.32025647163391113,
+          "p_optimal": 0.1171875,
+          "p_nominal_physical_feasible": 0.21875,
+          "best_gap": 0.0,
+          "mean_energy": 9.6259765625,
+          "transpiled_depth": 34,
+          "cx": 20
+        },
+        {
+          "p": 2,
+          "seed": 3,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.31150269508361816,
+          "p_optimal": 0.0859375,
+          "p_nominal_physical_feasible": 0.2265625,
+          "best_gap": 0.0,
+          "mean_energy": 9.337890625,
+          "transpiled_depth": 34,
+          "cx": 20
+        },
+        {
+          "p": 2,
+          "seed": 4,
+          "shots": 128,
+          "evals": 12,
+          "runtime_s": 0.3052809238433838,
+          "p_optimal": 0.0625,
+          "p_nominal_physical_feasible": 0.1875,
+          "best_gap": 0.0,
+          "mean_energy": 10.5732421875,
+          "transpiled_depth": 34,
+          "cx": 20
+        }
+      ]
+    }
+  }
+}

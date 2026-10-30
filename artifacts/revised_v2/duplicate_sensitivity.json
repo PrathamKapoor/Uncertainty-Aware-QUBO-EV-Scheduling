@@ -1,0 +1,106 @@
+{
+  "all": {
+    "counts": {
+      "raw": 72856,
+      "invalid_duration": 547,
+      "calibration_crossing_split": 41,
+      "eligible": 72268,
+      "duplicate_rows": 13,
+      "min_start": "2021-09-30 17:14:00",
+      "max_start": "2022-09-30 23:11:00",
+      "split": "2022-07-01 00:00:00",
+      "timestamp_timezone": "not established; treated as naive local timestamps"
+    },
+    "buffer": 7.0,
+    "early_completion": 0.9356065751935878,
+    "late_completion": 0.8500656613684735,
+    "day_bootstrap": {
+      "difference": 0.08554091382511435,
+      "n_sessions": 22083,
+      "n_days": 92,
+      "ci_95": [
+        0.08203071115364251,
+        0.08912930536707184
+      ],
+      "method": "paired day-block percentile bootstrap",
+      "seed": 0,
+      "repetitions": 2000
+    },
+    "user_cluster": {
+      "difference": 0.11210172464191757,
+      "n_sessions": 13684,
+      "ci_95": [
+        0.0988337415655813,
+        0.12669987085775694
+      ],
+      "method": "paired user-cluster percentile bootstrap; excludes UserID 0",
+      "seed": 0,
+      "repetitions": 2000,
+      "n_clusters": 1254
+    },
+    "charger_cluster": {
+      "difference": 0.08554091382511435,
+      "n_sessions": 22083,
+      "ci_95": [
+        0.07775475525278426,
+        0.09447295533562677
+      ],
+      "method": "paired charger-cluster percentile bootstrap",
+      "seed": 0,
+      "repetitions": 2000,
+      "n_clusters": 1661
+    }
+  },
+  "deduplicated": {
+    "counts": {
+      "raw": 72843,
+      "invalid_duration": 547,
+      "calibration_crossing_split": 41,
+      "eligible": 72255,
+      "duplicate_rows": 0,
+      "min_start": "2021-09-30 17:14:00",
+      "max_start": "2022-09-30 23:11:00",
+      "split": "2022-07-01 00:00:00",
+      "timestamp_timezone": "not established; treated as naive local timestamps"
+    },
+    "buffer": 7.0,
+    "early_completion": 0.9356065751935878,
+    "late_completion": 0.8500656613684735,
+    "day_bootstrap": {
+      "difference": 0.08554091382511435,
+      "n_sessions": 22083,
+      "n_days": 92,
+      "ci_95": [
+        0.08203071115364251,
+        0.08912930536707184
+      ],
+      "method": "paired day-block percentile bootstrap",
+      "seed": 0,
+      "repetitions": 2000
+    },
+    "user_cluster": {
+      "difference": 0.11210172464191757,
+      "n_sessions": 13684,
+      "ci_95": [
+        0.0988337415655813,
+        0.12669987085775694
+      ],
+      "method": "paired user-cluster percentile bootstrap; excludes UserID 0",
+      "seed": 0,
+      "repetitions": 2000,
+      "n_clusters": 1254
+    },
+    "charger_cluster": {
+      "difference": 0.08554091382511435,
+      "n_sessions": 22083,
+      "ci_95": [
+        0.07775475525278426,
+        0.09447295533562677
+      ],
+      "method": "paired charger-cluster percentile bootstrap",
+      "seed": 0,
+      "repetitions": 2000,
+      "n_clusters": 1661
+    }
+  }
+}

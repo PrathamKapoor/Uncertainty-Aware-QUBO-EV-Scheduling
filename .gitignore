@@ -49,3 +49,12 @@ secrets.json
 # Local-only diagnostic state
 /local_state/
 /tmp/
+data/ChargingRecords.csv
+
+# Local document-rendering and layout-review intermediates
+docs/final/qa/
+docs/final/qa2/
+docs/final/qa3/
+docs/final/polish_qa/
+docs/final/revision_qa/
+docs/final/revision_qa_final/

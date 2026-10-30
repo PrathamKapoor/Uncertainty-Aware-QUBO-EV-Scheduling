@@ -1,0 +1,7 @@
+# Teacher explanation: current revision
+
+An EV scheduler chooses when vehicles charge, given their arrival, deadline, power and requested energy. Choices compete for limited site power and electricity prices vary. A binary variable says whether an EV charges in a slot. The revised pilot turns energy and capacity requirements into squared penalties, producing a quadratic unconstrained binary optimization (QUBO) objective. Capacity slack represents unused power and makes the capacity limit one-sided after slack is minimized. Penalty weights are not automatically hard constraints and need validation for each instance.
+
+Departure uncertainty means an EV can leave earlier or later than expected. The revised decoder uses a per-EV realized shift and counts only complete slots ending by departure. It does not reinterpret the observed difference between delivered and requested energy as the driver's unknown demand. The preliminary evaluator applies a historical shift to one explicitly chosen EV in a synthetic schedule; it is not a reconstruction of that historical session.
+
+The historical Caltech ACN pipeline and its data exclusions are described in the existing stage documentation, but its published evaluation has known defects described in `RESEARCH_REMEDIATION_PLAN.md`. The corrected ACN experiment has not been run. The current reproducible example is synthetic. See `MATHEMATICAL_WALKTHROUGH.md` for equations, `QUANTUM_COMPUTING_EXPLAINED.md` for the circuit and `handoff.md` for unfinished work.
